@@ -1,0 +1,35 @@
+# Dependências do Node.js
+node_modules
+npm-debug.log
+
+# Controle de versão
+.git
+.gitignore
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios de build e cache
+/dist
+/build
+/coverage
+.cache
+.parcel-cache
+
+# Logs
+*.log
+
+# IDEs e editores
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

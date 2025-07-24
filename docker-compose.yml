@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  webhook:
+    build:
+      context: .
+      # O target padrão é o último estágio definido no Dockerfile (produção)
+    container_name: clickup-webhook
+    env_file: .env
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    # Configuração de healthcheck para monitoramento
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    # Limites de recursos
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
