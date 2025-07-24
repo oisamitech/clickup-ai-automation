@@ -1,0 +1,4020 @@
+[
+  {
+    "id": "86aafuj3d",
+    "name": "Aplicar desconto e Liberar botão ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar desconto de 5% em 12 meses e liberar o botão de cobrança manual.\n56426465000163",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aafk9mq",
+    "name": "Gerar boleto - 44086306000188",
+    "status": "finalizado",
+    "description": "Não consigo gerar o boleto do primeiro pagamento, mostra mensagem de erro. \nPoderia gerar o boleto por favor?",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aafj6k1",
+    "name": "Cancelamento BKO 23/07/25",
+    "status": "finalizado",
+    "description": "Realizar cancelamento imediato com a descrição \"desligamento por inadimplência\".",
+    "tags": [
+      {
+        "name": "sustentação - cancelamento em lote",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aafgmka",
+    "name": "Urgente - Correção na vigência do membro",
+    "status": "finalizado",
+    "description": "Boa tarde, preciso por favor que ajuste a vigência desta membra para 01/08/2025, coloquei erroneamente de imediato. \nTALITA GEISE DA SILVA LIMA 5462100010001063868",
+    "tags": [
+      {
+        "name": "sustentação - alteração de vigência",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aafdk16",
+    "name": "Aplicar desconto 15% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 15% de desconto para o CNPJ 48359619000113? Cliente deseja pagar no crédito, plano Essencial.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaetj5v",
+    "name": "Aplicar desconto 5% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 58255346000110? Cliente deseja pagar no crédito, plano Orion.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaenbg4",
+    "name": "ADICIONAR DESCONTO DE 5%",
+    "status": "finalizado",
+    "description": "Favor incluir desconto de 5% por 12 meses no contrato a baixo: \n50726635000149 - 50.726.635 Adriano Iorio Teixeira",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaebmap",
+    "name": "Alteração de vigencia-Kamilly Campos Marques de Souza URGENTE",
+    "status": "finalizado",
+    "description": "Time, poderiam alterar a vigencia da membra Kamilly Campos Marques de Souza, para 11/08/2025?\n\nNão terá impacto no financeiro visto que a mensalidade 07/2025 foi paga, e contratante se nega pagar pro rata. \n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - alteração de vigência",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aae9dtc",
+    "name": "Alterar pagamento e incluir o desconto ",
+    "status": "finalizado",
+    "description": "Alterar o pagamento para CARTÃO (mantem o mesmo dia de vencimento) e incluir desconto de 5% por 12 meses \n51242272000139 - 51.242.272 Stephany Ramos Marins",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aae8jmj",
+    "name": "Adicionar cupom de desconto ",
+    "status": "finalizado",
+    "description": "Bom dia !! Por gentileza aplicar desconto de 5% em 12 meses no contrato abaixo \n21137985000171 - Renata Cristina Da Silva 21670078841",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aadhyry",
+    "name": "Alterar plano",
+    "status": "finalizado",
+    "description": "Por gentileza alterar plano do contrato abaixo, para gerarmos um novo pagamento \nAlterar para plano SAMI CORAL + RM COPAY FLEX",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aadhc92",
+    "name": "Plano cancelado e app ativo",
+    "status": "finalizado",
+    "description": "Contrato Marcelo Okamoto Antunes Venturi 45471582829 cancelado em 05/05/25 e conseguiu nos acionar via app. Por favor, deixar inativo o aplicativo. \nObrigada!",
+    "tags": [
+      {
+        "name": "sustentação - cancelamento bko",
+        "tag_fg": "#0388d1",
+        "tag_bg": "#0388d1",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aadh40j",
+    "name": "Reativação de contrato 27974151000105",
+    "status": "finalizado",
+    "description": "Contrato reativado no MV, por favor, reativar nos demais sistemas. \nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabrgue",
+    "name": "Urgente - Ajuste de vigência",
+    "status": "finalizado",
+    "description": "Boa tarde, inseri a inclusão com de imediato, preciso corrigir para 16/08 por favor. \nMARIA BEATRIZ SOUZA QUEIROZ 5462100010001063782",
+    "tags": [
+      {
+        "name": "sustentação - alteração de vigência",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aabr1gx",
+    "name": "aplicar desconto 5% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 29621404000184? Cliente deseja pagar no crédito, plano Coral.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabngaq",
+    "name": "aplicar desconto 5% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 49187128000103? Cliente deseja pagar no crédito, plano Orion.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabf7t8",
+    "name": "Link de pagamento ",
+    "status": "finalizado",
+    "description": "Olá, tudo bem? Preciso do link de pagamento para esse cliente, ele era boleto e optou por cartão... tem 5% de desconto. \n\nDesde já agradeço.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabethj",
+    "name": "Liberar botão para baixar boleto - hiring",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam liberar o botão de baixar o boleto da empresa 50424635000194? Subiu via hiring",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabekcz",
+    "name": "Aplicar desconto de 5% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 48562630000186? Cliente deseja pagar no crédito, plano Orion.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabeagz",
+    "name": "Retirar desconto de 12% e Aplicar desconto 5% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam retirar o desconto de 12% que entrou erroneamente nesse CNPJ 37512064000181 e aplicar apenas 5%, que é o percentual correto para o plano Orion? Obrigada!",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaaq2b6",
+    "name": "Liberar botão para baixar boleto",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam liberar o botão de baixar o boleto? Essa venda subiu via hiring.",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 1,
+      "option": {
+        "id": "1b0615c4-4706-4d32-80c7-b5578e0606a1",
+        "name": "backoffice-v2-web",
+        "color": "#1E6AE7",
+        "orderindex": 1
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aaafww9",
+    "name": "Pagamento não refletiu no BKO",
+    "status": "finalizado",
+    "description": "Cliente agendou o pagamento para dia 15/07/2025 via cartão de crédito com desconto de 5% em 12 meses.\nPlano ORION COPAR FLEX SEM OBST valor R$204,73\npoderiam gerar um novo pagamento para a data 20/07/2025",
+    "tags": [
+      {
+        "name": "sustentação - assinatura ativa recontratação",
+        "tag_fg": "#f57c01",
+        "tag_bg": "#f57c01",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aaaff7t",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar desconto de 10% em 12 meses no contrato abaixo.\nLiberar botão de cobrança manual.\n00844628000173",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaa9hqf",
+    "name": "Problema de Faturamento (Novos Contratos) - 16/07/2025",
+    "status": "finalizado",
+    "description": "Contrato não refletido no MV:\n55813006000170\t#N/D\t55.813.006 PAULO HENRIQUE LEITE DOS SANTOS",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aaa89ge",
+    "name": "Reativação de app -5462100010001013332",
+    "status": "finalizado",
+    "description": "Reativação de contrato devido liminar, favor reativar app do titular e dependente.\n5462100010001013332\n5462100010001013333\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9wd6p",
+    "name": "Falha ao faturar contrato de extensão",
+    "status": "finalizado",
+    "description": "Falta na tentativa e subir o faturamento do contrato de extensão para Vindi/membro\n25446 - DIEGO SANTOS PORTELA\nCPF 5142770170 ID 30268",
+    "tags": [
+      {
+        "name": "sustentação - update database",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa9t56c",
+    "name": "Retirar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza excluir desconto do contrato abaixo.\n51940973000141",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9rya5",
+    "name": "Ajuste do nome da mãe",
+    "status": "finalizado",
+    "description": "Por gentileza alterem o nome da mãe para:\n\nElisabeth D Alessio de Souza\n\nNão consegui alterar no BKO porque é abreviado",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 1,
+      "option": {
+        "id": "1b0615c4-4706-4d32-80c7-b5578e0606a1",
+        "name": "backoffice-v2-web",
+        "color": "#1E6AE7",
+        "orderindex": 1
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa9rqdj",
+    "name": "Nome errado nas bases",
+    "status": "finalizado",
+    "description": "Peço por gentileza que alterem o nome do segurado para:\nGuilherme Augusto do O Soares\n\nNão foi possível alterar via BKO pois a ferramenta não deixa alterar nomes abreviados. Lembrando que já foi informado quando podemos receber nomes assim. \nA alteração precisa ser feita em todas as bases.",
+    "tags": [
+      {
+        "name": "sustentação - update database",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 1,
+      "option": {
+        "id": "1b0615c4-4706-4d32-80c7-b5578e0606a1",
+        "name": "backoffice-v2-web",
+        "color": "#1E6AE7",
+        "orderindex": 1
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa9r2nf",
+    "name": "Reativação de contrato 48786695000105",
+    "status": "finalizado",
+    "description": "Reativação de contrato no MV, por favor, reativar nos demais sistemas.\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9ky1e",
+    "name": "Correção status de pagamento - 37789060000145",
+    "status": "finalizado",
+    "description": "Por favor, atualizar status para \"pago\" da mensalidade de 20/02/2024, no BKO e app. No MV consta a baixa. Obrigada!!\nPrint em anexo.",
+    "tags": [
+      {
+        "name": "sustentação - pagamentos",
+        "tag_fg": "#cddc39",
+        "tag_bg": "#cddc39",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9h92d",
+    "name": "Membra não refletiu no MV - Beatriz Miranda Queiroz",
+    "status": "finalizado",
+    "description": "Time, membra ficou abaixo de uma carteirinha cancelada, poderiam ajustar?\nBeatriz Miranda Queiroz-5462100010001063732\nVICTOR BILOTTO DE LIMA-5462100010001061181\n\nBilotto De Lima Consultoria Em Tecnologia Ltda-57061446000143",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa9gemh",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar desconto de 5% em 12 meses para o contrato abaixo.\n47125666000130",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa9an6k",
+    "name": "Valor incorreto no BKO",
+    "status": "finalizado",
+    "description": "Cliente fechou o plano Sami Orion RM Cpay Flex Enfermaria no valor de R$288,38 com 5% de desconto em 12 meses ficando o valor R$273,96\nMas no BKO apareceu o valor R$300,00 com 5% com o valor de R$285,00.\nVocê podem verificar porque refletiu o valor incorreto no BKO, o valor apresentado no BKO não consta em nenhuma tabela.\n57004781000100\nKevelin Camilo Servicos De Psicologia Ltda",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa8nacm",
+    "name": "Reativação de contrato - 52155432000175",
+    "status": "finalizado",
+    "description": "Contrato reativado no MV, por favor, reativar nos demais sistemas. \nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa8efud",
+    "name": "Liberar botão de cobrança manual ",
+    "status": "finalizado",
+    "description": "Liberar botão de cobrança manual  \n58884397000101",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa8edbm",
+    "name": "Liberar botão de cobrança manual ",
+    "status": "finalizado",
+    "description": "Liberar botão de cobrança manual \n 58707283000196",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa8e90x",
+    "name": "Botão de cobrança manual",
+    "status": "finalizado",
+    "description": "Liberar botão de cobrança manual.\n 53192171000126",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa8dtpx",
+    "name": "Botão de cobrança manual",
+    "status": "finalizado",
+    "description": "Liberar Botão de cobrança manual\n26680524000164",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa8cuxf",
+    "name": "DS esta como abandonada - EDILSON LEITE DE LIMA",
+    "status": "finalizado",
+    "description": "Time, boa tarde. \n\nA declaração do membro EDILSON LEITE DE LIMA, consta como abandonada, porém ele preencheui a DS 04/07. Poderiam ajustar o status para DS: em análise.\n\nRemedioweb Comercio E Distribuicao De Produtos Farmaceuticos Ltda-05312323000134",
+    "tags": [
+      {
+        "name": "sustentação - atualização painel auditoras",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa8cuwm",
+    "name": "Alteração de plano não refletiu no app - 5462100010001030500",
+    "status": "finalizado",
+    "description": "Alteração de plano efetivada em 21/04, membra relata que app consta plano anterior. Sirius também.\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa88qjp",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar o desconto de 5% em 12 meses para o contrato abaixo.\n47125666000130",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7mav0",
+    "name": "Boleto com valor errado",
+    "status": "finalizado",
+    "description": "Olá, tudo bem? Eu preciso de um boleto para esse cnpj com desconto de 9% em cima do valor de 393,77\n\nValor acordado dia 24/06 porém não continuaram com o pedido",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7j1p7",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Aplicar desconto de 10% em 12 meses no contrato abaixo.\n32837566000169",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa785hm",
+    "name": "Liberar botão para baixar boleto - hiring",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam liberar o botão para baixar o boleto? Venda subiu via hiring",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7806r",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar o desconto de 10% em 12 meses para o contrato abaixo.\n48444206000137",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa72gkh",
+    "name": "Botão de cobrança manual",
+    "status": "finalizado",
+    "description": "Liberar botão de cobrança manual.\n41797205000127",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa726jm",
+    "name": "Retirar CNPJ da Base ",
+    "status": "finalizado",
+    "description": "Estamos tentando subir uma recontratação mas o CNPJ ainda consta na base.\nVocês poderiam excluir o CNPJ da base para podermos subir a recontratação.\n50699272000108",
+    "tags": [
+      {
+        "name": "sustentação - hiring",
+        "tag_fg": "#B6A410",
+        "tag_bg": "#B6A410",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 9,
+      "option": {
+        "id": "28a88f7b-d631-440f-b2f4-42634fcb98bf",
+        "name": "notifyme-api",
+        "color": "#EFCE85",
+        "orderindex": 9
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa71yu8",
+    "name": "Urgente - Dependente cadastrada com titular - Correção no MV e BKO",
+    "status": "finalizado",
+    "description": "Boa tarde, dependente esta como titular e na verdade é menor de idade e dependente. \nANA CLARA SILVA LOPES 5462100010001061711 - Dependente \nALESSANDRA MARIA DA SILVA 5462100010001061708 - Titular",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa6zeju",
+    "name": "Plano errado no app",
+    "status": "finalizado",
+    "description": "Time, bom dia. \n\nMembra alterou o plano no dia 11/06, porém informa que no app aparece o plano anterior Sami Essencial Centro + Copar · APARTAMENTO ao invés do ORION + COPAR FLEX - ORION.\n\nPoderiam ajustar? Obrigada.",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa6zdxj",
+    "name": "Reativação de contrato - 50338835000124",
+    "status": "finalizado",
+    "description": "Contrato reativado no MV, por favor, reativar nos demais sistemas.\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5u37a",
+    "name": "Cadastro tabela Hiring",
+    "status": "finalizado",
+    "description": "Cadastro tabela no Hiring, Carrera",
+    "tags": [
+      {
+        "name": "sustentação - tabela de preços",
+        "tag_fg": "#D29648",
+        "tag_bg": "#D29648",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5u2gj",
+    "name": "Cadastrar tabela no Hiring",
+    "status": "finalizado",
+    "description": "Cadastrar tabela no Hiring, grupo Carrera",
+    "tags": [
+      {
+        "name": "sustentação - tabela de preços",
+        "tag_fg": "#D29648",
+        "tag_bg": "#D29648",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      },
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86aa5qbdr",
+    "name": "Boleto com desconto",
+    "status": "finalizado",
+    "description": "Boa tarde, tudo bem? Preciso do boleto com desconto de 10% para o dia 25/07\n\nObrigada",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5pgku",
+    "name": "Link para pagamento",
+    "status": "finalizado",
+    "description": "Olá gente, tudo bem? Eu preciso do link do cartão para esse CNPJ\nNo valor de R$ 434,76",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5f3rw",
+    "name": "Urgente - Ajuste de vigência",
+    "status": "finalizado",
+    "description": "Boa tarde, preciso que ajuste a vigência do membro de 16/08 para imediata, conforme solicitação do RH, os mesmos cientes da pró-rata. \n\nLUIGI DE NAPOLI MASUCCI 5462100010001063399",
+    "tags": [
+      {
+        "name": "sustentação - alteração de vigência",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa5ek4d",
+    "name": "Subir tabela de valores",
+    "status": "finalizado",
+    "description": "Olá, tudo bem? Precisamos dos valores da tabela da empresa MAPU na planium para que a gente consiga subir a empresa sub estipulante AIO",
+    "tags": [
+      {
+        "name": "sustentação - tabela de preços",
+        "tag_fg": "#D29648",
+        "tag_bg": "#D29648",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa5a69p",
+    "name": "Urgente - Ajustar status da empresa no painel da auditoria",
+    "status": "finalizado",
+    "description": "Bom dia, preciso que ajuste o status desta empresa para auditável, temos a DS de NIKOLAS AYSLAN PRISCO LANDIM respondida e sem analise. \nSafepill comercio varejista de medicamentos manipulados ltda\nCNPJ: 36839003000160",
+    "tags": [
+      {
+        "name": "sustentação - atualização painel auditoras",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5a19d",
+    "name": "Desconto no boleto",
+    "status": "finalizado",
+    "description": "Bom dia, tudo bem? Preciso do desconto de 10% no boleto. \n\nObrigada",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa59gdh",
+    "name": "Desconto no boleto",
+    "status": "finalizado",
+    "description": "Bom dia, tudo bem? Preciso do boleto com o desconto de 10% nesse boleto. \nDesde já agradeço.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4vu3x",
+    "name": "Botão de cobrança manual",
+    "status": "finalizado",
+    "description": "Liberar botão de cobrança manual.\n59946693000152",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4t588",
+    "name": "Colaboradores com acomodação divergente no app - ARL LIMA SETRANS",
+    "status": "finalizado",
+    "description": "Membros abaixo realizaram alteração de acomodação, mas no app continua com o antigo. Poderiam atualizar o plano no app? Obrigada!\n\nAMANDA SOARES DE MELO \nCart. 5462100010001061512 | CPF: 476.582.068-81\nPlano: ORION RM+ APARTAMENTO\n\nEDUARDO HENRIQUE BARBOSA DE SOUZA - \nCart. 5462100010001061532 | CPF: 113.793.744-05\nPlano: ORION RM+ APARTAMENTO\n\nMARIANA SOARES DE MELO\nCart. 5462100010001061542 | CPF:  476.582.518-36\nPlano: ORION RM+ APARTAMENTO\n\nALAN DA SILVA SANTOS\nCart. 5462100010001061511 | CPF: 037.750.945-04\nPlano: ORION RM+ APARTAMENTO",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4q5z9",
+    "name": "Desconto no boleto",
+    "status": "finalizado",
+    "description": "Olá, tudo bem? Estranhamente o boleto veio com valores redondos... o valor real do boleto precisa ser de R$ 840,61",
+    "tags": [
+      {
+        "name": "sustentação - pagamentos",
+        "tag_fg": "#cddc39",
+        "tag_bg": "#cddc39",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa4g12t",
+    "name": "Cadastrar tabela no Hiring, empresa substipulante do Grupo Carrera",
+    "status": "finalizado",
+    "description": "15 - Antares Apartamento: R$ 332,77\n14 - Antares Enfermaria: R$ 255,60\n16 - Coral: R$ 422,13\n20 - Orion apartamento: R$ 332,77\n21 - Orion enfermaria: R$ 255,60\n\nTodos com coparticipação",
+    "tags": [
+      {
+        "name": "sustentação - tabela de preços",
+        "tag_fg": "#D29648",
+        "tag_bg": "#D29648",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      },
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86aa4e8qh",
+    "name": "Colocar desconto no boleto",
+    "status": "finalizado",
+    "description": "Boleto da cliente veio sem o desconto de 10% do essencial zona norte\nPoderiam me ajudar? Obrigada",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa4cj43",
+    "name": "pagamento não refletiu no Bko",
+    "status": "finalizado",
+    "description": "Cliente agendou o primeiro pagamento com vencimento para o dia 10/07/2025 via cartão crédito, mas o pagamento não refletiu no BKO por conta da order anterior.\n46616156000100",
+    "tags": [
+      {
+        "name": "sustentação - assinatura ativa recontratação",
+        "tag_fg": "#f57c01",
+        "tag_bg": "#f57c01",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa3ye6e",
+    "name": "Dados do plano divergentes no app, Sirius e MV - 5462100010001029265",
+    "status": "finalizado",
+    "description": "Olá time!\nPlano da membra foi alterado para Orion RM Copar Flex, porém na carteirinha e no Sirius, ainda consta o plano Sami Essencial Zona Leste Copar · NURSERY, poderia verificar e ajustar por gentileza?",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa2ta8j",
+    "name": "Cadastrar desconto 5%",
+    "status": "finalizado",
+    "description": "Cadastrar desconto 5%",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa2hx14",
+    "name": "Aplicar desconto - 06009623000101",
+    "status": "finalizado",
+    "description": "Aplicar desconto de 5%, pois cliente alterou a forma de pagamento para cartão. \nPlano: Sami Celeste RM Copar Flex\t\nVidas: 01",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa29dau",
+    "name": "Urgente - Reativação no BKO",
+    "status": "finalizado",
+    "description": "Bom dia, preciso por favor que reative estes membros no BKO, exclui erroneamente. \nEmpresa: Sindicato Dos Empregados Em Empresas De Vigilancia, Seguranca E Similares De Sao Paulo\nCNPJ: 54200290000146\nFABIANO NUNES GONCALVES  CPF: 34208351837\nSIMARA REGINA BARBOSA CPF: 26347413833\nWALTRAUDI ORCHULHAK KAWAMOTO CPF: 03271337918",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa25dyp",
+    "name": "Ajuste cotador PJ ",
+    "status": "finalizado",
+    "description": "Cotado PJ está com erro, todos planos estão com o mesmo valor.",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86aa1pmpu",
+    "name": "Membro sumiu do BKO ",
+    "status": "finalizado",
+    "description": "Time, boa tarde. \n\nMembro está como abandonada no BKO, mas preencheu a declaração de saúde 11/06/2025, poderiam ajustar?\n\nStatus \"revisar vigência\"\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - atualização painel auditoras",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 6,
+      "option": {
+        "id": "aa771d3d-8195-4c88-bbe9-0af9ea989c0b",
+        "name": "health-declaration-api",
+        "color": "#04A9F4",
+        "orderindex": 6
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1phut",
+    "name": "Excluir desconto",
+    "status": "finalizado",
+    "description": "Excluir desconto",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1n828",
+    "name": "Corrigir Porte no BKO",
+    "status": "finalizado",
+    "description": "Por gentileza corrigir PORTE no BKO.\nEsse contrato foi aplicado o valor de porte 1 no BKO, onde deveria ser aplicado a Tabela de valores porte 2 (porque o contrato possui 3 vidas)\nValor de total de porte 2 R$749,81",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa1mrjd",
+    "name": "Cadastrar desconto 10%",
+    "status": "finalizado",
+    "description": "Cadastrar desconto 10%",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1mqh9",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar desconto de 5% em 12 meses para o CNPJ abaixo.\n54320394000194",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1hm0t",
+    "name": "Erro ao finalizar inclusão BKO- urgente ",
+    "status": "finalizado",
+    "description": "Time, boa tarde. \n\nNão estou conseguindo finalizar a inclusão do membro no BKO, por mais que eu clique em finalizar o processo de inclusão, ele não aparece na lista de membros ativos. \n\nPoderiam ajustar?\n\nObrigada",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1fdx3",
+    "name": "troca de boleto para cartao",
+    "status": "finalizado",
+    "description": "cliente deseja realizar o pagamento no cartão e nao mais em boleto",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1d7fd",
+    "name": "Ajuste de data de nascimento - 5462100010001055860",
+    "status": "finalizado",
+    "description": "Membra precisa do ajuste de sua data de nascimento porém ao tentar atualizar no BKO não é possível concluir devido a preenchimento do nome dela e da mãe que possem o nome D Alessandro, parece que a letra D separada do restante do nome não é reconhecido pelo sistema.\nPodem nos apoiar com o ajuste, mantendo a grafia do nome corretamente?",
+    "tags": [
+      {
+        "name": "sustentação - update database",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86aa16eyp",
+    "name": "Botão de cobrança manual",
+    "status": "finalizado",
+    "description": "Liberar Botão de cobrança manual\n54320394000194",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa125h6",
+    "name": "Empresa sumiu do painel de auditoria (BKO)",
+    "status": "finalizado",
+    "description": "Empresa sumiu do painel da auditoria, preciso deixar com status de auditável e que a DS de DIANA BERNARDO DA SILVA fique como respondida.\nAssociacao Hospitalar Filhas De Nossa Senhora Do Monte Calvario",
+    "tags": [
+      {
+        "name": "sustentação - atualização painel auditoras",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa10ydp",
+    "name": "Reativação do app - 5462100010001031907",
+    "status": "finalizado",
+    "description": "Cancelamento revertido, devido regularização do cnpj. Favor reativar app. Obrigada.",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa05t7y",
+    "name": "Aplicar desconto 15% ",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 15% de desconto para o CNPJ 45505571000116? Cliente deseja pagar no crédito, plano Essencial",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa04v5g",
+    "name": "Alteração de plano BKO",
+    "status": "finalizado",
+    "description": "Por favor agendar para 05/07 a alteração de plano de  Sami Essencial Zona Leste Copar\nPara: Sami Orion RM Copar Flex (enfermaria)\nJANE MEIRE SALOMAO DOS SANTOS\nLUAN SALOMAO BARBOSA",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa03m4p",
+    "name": "Aplicar 5% desconto - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 55429095000155? Cliente deseja pagar no crédito, plano Orion.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa01vm0",
+    "name": "Botão de cobrança manual",
+    "status": "finalizado",
+    "description": "Liberar botão de cobrança manual",
+    "tags": [
+      {
+        "name": "sustentação - trava bko",
+        "tag_fg": "#4466ff",
+        "tag_bg": "#4466ff",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9zyawc",
+    "name": "Aplicar 5% desconto - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 32005630000145? Cliente deseja pagar no crédito, plano Orion.",
+    "tags": [
+      {
+        "name": "sustentação - pagamentos",
+        "tag_fg": "#cddc39",
+        "tag_bg": "#cddc39",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9zvd87",
+    "name": "Aplicar 5% desconto - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 45127992000150? Cliente deseja pagar no crédito, plano Coral, vencimento será alterado para 10/08.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9zq66e",
+    "name": "Cadastrar desconto 5%",
+    "status": "finalizado",
+    "description": "Cadastrar desconto 5%",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9z75c8",
+    "name": "Cadastrar desconto 5%",
+    "status": "finalizado",
+    "description": "Cadastrar desconto 5%",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9z6z23",
+    "name": "Erro ao concluir o processo de inclusão",
+    "status": "finalizado",
+    "description": "Time, boa tarde. \n\nFoi feita a inclusão do membro Anderson Liano Reginato, porém ele permanece na tela de membros ativos na empresa, e não aparece em membros incluídos, mesmo apos finalizar o processo.\n\nPoderiam verificar?\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9z5r03",
+    "name": "Aplicar desconto 5% - crédito",
+    "status": "finalizado",
+    "description": "Pessoal, poderiam aplicar 5% de desconto para o CNPJ 47786773000109? Cliente deseja pagar no crédito, plano Orion.",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9z5kkh",
+    "name": "Aplicar desconto - 34054174000159",
+    "status": "finalizado",
+    "description": "Aplicar desconto de 5%. Cliente alterou a forma de pagamento para cartão. \nPlano: Sami Coral RM + Copar Flex\n1 vida\nVencimento 05/07",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9ywm0y",
+    "name": "Problema de Fat.",
+    "status": "finalizado",
+    "description": "Sem Contrato no MV\n56237476000103",
+    "tags": [
+      {
+        "name": "sustentação - pagamentos",
+        "tag_fg": "#cddc39",
+        "tag_bg": "#cddc39",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9yueyp",
+    "name": "Aplicar desconto 17%",
+    "status": "finalizado",
+    "description": "Aplicar desconto 17%",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9yb9wm",
+    "name": "Aplicar desconto ",
+    "status": "finalizado",
+    "description": "Por gentileza aplicar cupom de desconto de 10% em 12 meses.\n57591155000167",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9y7d0h",
+    "name": "Desconto no boleto",
+    "status": "finalizado",
+    "description": "O boleto que chegou para o cliente está sem o desconto devido do plano Essencial",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9y6747",
+    "name": "Cobrança não realizada para contrato de Extensão",
+    "status": "finalizado",
+    "description": "Desde o mês 06/2025 identificamos que as cobranças do Contrato de Extensão: 32380466831 - WESLEY DO ROSARIO DOMINGOS, não estão sendo refletidas a Vindi, pode me ajudar a identificar o motivo e seguir com a correção?",
+    "tags": [
+      {
+        "name": "sustentação - pagamentos",
+        "tag_fg": "#cddc39",
+        "tag_bg": "#cddc39",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9y610a",
+    "name": "Aplicar cupom ",
+    "status": "finalizado",
+    "description": "Aplicar cupom desconto de 10% de desconto em 12 meses.\n30193606000151",
+    "tags": [
+      {
+        "name": "sustentação - cupom desativado",
+        "tag_fg": "#622aea",
+        "tag_bg": "#622aea",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 0,
+      "option": {
+        "id": "67a9da9e-0f16-4262-ab01-d3a6df7bbf08",
+        "name": "backoffice-v2-api",
+        "color": "#0231E8",
+        "orderindex": 0
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9y507j",
+    "name": "Faturamento Recorrência - Problema na Atualização de Status BKO",
+    "status": "finalizado",
+    "description": "Informo que o contrato: 43014856000129 - Multipla filmes ltda\nEstá com divergência na atualização de status no BKO, preciso que seja alterada para Enviado",
+    "tags": [
+      {
+        "name": "sustentação - pagamentos",
+        "tag_fg": "#cddc39",
+        "tag_bg": "#cddc39",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 11,
+      "option": {
+        "id": "1a49f043-e947-4df8-b3cd-4c46e4af4223",
+        "name": "payments-api",
+        "color": "#f900ea",
+        "orderindex": 11
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  }
+]

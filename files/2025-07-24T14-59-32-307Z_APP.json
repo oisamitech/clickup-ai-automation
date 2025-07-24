@@ -1,0 +1,3696 @@
+[
+  {
+    "id": "86aaffaer",
+    "name": "Erro de Integração: Rede Incorreta ORION Apresentada para Membro ESSENCIAL CENTRO",
+    "status": "finalizado",
+    "description": "Pessoal, boa tarde!\n\nA membra 5462100010001031692 está cadastrada no sistema MV no plano Essencial Centro, porém, a rede apresentada em seu app/Sirius é a do Orion.\n\nA beneficiária foi até o parceiro Sepaco, mas recebeu negativa de atendimento, uma vez que o hospital não faz parte da rede do produto Essencial, embora esteja habilitado na rede Orion.\n(transação da guia 2507001224141)",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaez1af",
+    "name": "5462100010001063608 - ERRO PARA ACESSAR APP",
+    "status": "finalizado",
+    "description": "MEMBRA COM PLANO EM INICIO EM 14/07 AINDA SEM ACESSO AO APP SAMI,",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaeu938",
+    "name": "Troca de plano não refletiu no app - 5462100010001062867",
+    "status": "finalizado",
+    "description": "Troca de plano realizada em 21/07 e membra informa que não alterou a carteirinha no app;\n\nObrigada",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaek7d3",
+    "name": "5462100010001063826 - NÃO RECEBE COD PARA ACESSO AO APP",
+    "status": "finalizado",
+    "description": "MEMBRA NÃO RECEBE O CÓDIGO PARA ACESSAR O APP SAMI. CONFIRMADOS EMAIL E TELEFONE CADASTRADOS E ESTÃO CORRETOS",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aae3b1e",
+    "name": "Acesso ao app",
+    "status": "finalizado",
+    "description": "Cliente abaixo está ativo no MV, mas está sem acesso ao app, vocês podem ajustar por gentileza.\nMembro: MARIA EDUARDA PELLEGRINO PRADO PADILHA\nCarteirinha: 5462100010001063327\nCPF: 44736664843",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aae33ef",
+    "name": "5462100010001033632 Erro ao lançar a guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao solicitar guias prévias.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aacxegx",
+    "name": "Plano não refletido - App Sami Cart.: 5462100010001055985",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando que atualizou recentemente o seu plano para o Orion RM + - Apartamento, mas no aplicativo segue com o anterior: Sami Orion +.\n\nNo MV já consta o plano atualizado (Orion RM +),",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aacu3v0",
+    "name": "Erro no app Sami 5462100010001062208",
+    "status": "finalizado",
+    "description": "Membra sem acesso ao app Sami, fica na pagina da DS e não segue, podem ajudar?\nVigencia no dia 10/06/2025, mas sem acesso ao Sirius tambem",
+    "tags": [
+      {
+        "name": "sustentação - sem beneficiário",
+        "tag_fg": "#CDC7B5",
+        "tag_bg": "#CDC7B5",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aac7ktk",
+    "name": "Problema na solicitação de pré-análise /5462100010001024492",
+    "status": "finalizado",
+    "description": "Membro não consegue solicitar a pré-analise no app orque apresenta erro",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aac4qda",
+    "name": "5462100010001028512 - Erro para Abertura da guia Prévia ",
+    "status": "finalizado",
+    "description": "Membro com erro para abertura de guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aac2t3q",
+    "name": "Nome do plano errado no app da membra ",
+    "status": "finalizado",
+    "description": "App da membra com o nome do plano errado.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aab5znp",
+    "name": "App ativo/plano cancelado",
+    "status": "finalizado",
+    "description": "Contrato cancelado em 09/06/2025 e membro ainda está com acesso ao app da Sami, conseguiu nos acionar via chat. Por favor, deixar inativo o app. \nMuito obrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - cancelamento bko",
+        "tag_fg": "#0388d1",
+        "tag_bg": "#0388d1",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaanrm0",
+    "name": "Sem acesso ao app",
+    "status": "finalizado",
+    "description": "Cliente abaixo já está ativo no MV, mas está sem acesso ao app, vocês poderiam por gentileza liberar o acesso desse membro\nMembro: ADRIANA RAMOS PAGANO\nCPF: 39807985854\nCarteirinha: 5462100010001063329",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaac2f9",
+    "name": "Acesso ao app",
+    "status": "finalizado",
+    "description": "Cliente Abaixo já está ativo no MV, mas está sem acesso ao app, você podem ajustar o acesso desse cliente.\nMembro: VITOR ARAUJO TASSINE PENATTI\nCarterinha: 5462100010001063574\nCPF: 35872602812",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9v8ea",
+    "name": "Membro sem acesso ao app-DIEGO RODRIGO SILVA",
+    "status": "finalizado",
+    "description": "Time, empresa solicitou a reativação do membro DIEGO RODRIGO SILVA-5462100010001011452, porém o mesmo esta sem acesso ao app. Poderiam ajustar?\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9mrn2",
+    "name": "Erro Guia Prévia - Cart.: 5462100010001043007",
+    "status": "finalizado",
+    "description": "Membro nos contata relatando que não está conseguindo prosseguir com solicitação de autorização prévia.\n\nSaiu e entrou novamente no aplicativo, mas sem sucesso.\n\nVersão App: 3.69.2\niPhone",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9juy1",
+    "name": "Sem acesso ao app",
+    "status": "finalizado",
+    "description": "Cliente abaixo já está ativo no MV, mas não consegue acessar o app, você poderiam ajustar o acesso desse membro por gentileza?\nMembro: TAMIRES SANTOS SIQUEIRA\nCPF: 39174208802\nCarteirinha: 5462100010001063341",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa9f5vg",
+    "name": "Dependente não consta no App. Sami - Cart.: 5462100010001021872",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando que a dependente/filha BEATRIZ FERNANDES LUIZ, Cart.: 5462100010001021874, não está mais constando em seu aplicativo da Sami.\n\nEm MV consta com vínculo, mas ao buscar pela carteirinha (5462100010001021874), não há resultado, assim como no Sirius, \"Documento buscado não encontrado.\"",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa8qzqf",
+    "name": "Sem acesso ao app ",
+    "status": "finalizado",
+    "description": "Cliente já está ativo no MV mais está sem acesso ao app, vocês podem ajustar o acesso do membro por gentileza.\nMembro: RABECH PEREIRA DEODATO\nCarteirinha: 5462100010001063534\nCPF: 45566106803",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa8626e",
+    "name": "Membra  com erro ao emitir guia prévia 5462100010001017249",
+    "status": "finalizado",
+    "description": "Olá time bom dia. ,membra já desinstalou o app e reinstalou e continua com erro ao emitir sua guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa83jhk",
+    "name": "Sem acesso ao app",
+    "status": "finalizado",
+    "description": "Cliente abaixo fechou o plano via coletivo por adesão, mas está sem acesso ao app. O mesmo já consta como ativo no MV mas está sem acesso ao app.\nVocê podem ajustar por gentileza.\nNome: PAULA SCHUWENCK DE JESUS\nCPF: 30474791866\nCarteirinha: 5462100010001063460",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa80a7j",
+    "name": "Membra com erro ao emitir sua guia prévia no app 5462100010001060520",
+    "status": "finalizado",
+    "description": "Olá time, bom dia, membra já desinstalou o app e reinstalou, porém, o erro persiste ao emitir sua guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7wbdj",
+    "name": "Erro ao solicitar guia prévia no app - 5462100010001013546",
+    "status": "finalizado",
+    "description": "Membro não consegue solicitar guia prévia pelo app, aparece mensagem de erro.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7w5zr",
+    "name": "Erro ao solicitar guia prévia - 5462100010001003993",
+    "status": "finalizado",
+    "description": "Membra não consegue solicitar guia prévia pelo app, aparece mensagem de erro.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7t64d",
+    "name": "5462100010001012147 - ERRO NO APP PARA ABRIR GUIA PRÉVIA",
+    "status": "finalizado",
+    "description": "MEMBRA COM ERRO NO APP PARA ABERTURA DA GUIA PRÉVIA.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7rbng",
+    "name": "Qualicorp: Membro sem acesso ao APP Sami",
+    "status": "finalizado",
+    "description": "Membro esta com problemas em acessar o APP da SAMI.\n\nProposta: 44052288    \nTitular: HELENA MORAES JARDIM DE AZEVEDO\nCPF: 41019788836",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa7brec",
+    "name": "Erro no app Sami no iOS",
+    "status": "finalizado",
+    "description": "Time, estamos abrindo chamado no pontual, mas para ficar no radar, trago compilado de casos até o momento que recebemos, inclusive via Reclame Aqui, de membros que não estão conseguindo desde acessar o app a nos contatar via chat ou, ainda, solicitar a guia prévia.\nSeguem as carteirinhas:\n5462100010001018880\n5462100010001018881\n5462100010001035420\n5462100010001041678\n5462100010001055886\n5462100010001060797",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa7a021",
+    "name": "5462100010001058757 - ERRO PARA ABRIR A GUIA PRÉVIA NO APP",
+    "status": "finalizado",
+    "description": "MEMBRO COM ERRO PARA SOLICITAR A GUIA PRÉVIA NO APP SAMI.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa79qhk",
+    "name": "5462100010001058757 - ERRO NA ABERTURA DA GUIA PRÉVIA",
+    "status": "finalizado",
+    "description": "MEMBRO COM APP APRESENTANDO ERRO NA ABERTURA DA GUIA PRÉVIA.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa79deb",
+    "name": "5462100010001060797 Erro ao solicitar guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao solicitar guia prévia no aplicativo Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa781qw",
+    "name": "Erro Autorização Prévia - App Sami Cart.: 5462100010001035420",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando dificuldade/erro para emitir guia prévia, \"internal server error\".\n\niPhone17,1\nVersão App.: 3.69.2",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa77tpy",
+    "name": "Erro Autorização Prévia - App Sami Cart.: 5462100010001041678",
+    "status": "finalizado",
+    "description": "Membro nos contata relatando que não está conseguindo emitir autorização prévia via app, \"internal server error\".\n\niPhone17,1\nVersão App.: 3.69.2",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa6vv7e",
+    "name": "Membro continua com erro ao emitir sua guia prévia 5462100010001056688",
+    "status": "finalizado",
+    "description": "Olá time, bom dia, membro já desinstalou o app e reinstalou e continua com erro ao emitir sua guia prévia. Por gentileza poderiam nos apoiar? Obrigada!",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5zd1v",
+    "name": "Responsável sem acesso ao app - Cart.49016761000120",
+    "status": "finalizado",
+    "description": "Olá time, tudo bem?\n\nMembra cart. 5462100010001033581, nos aciona, pois está sem acesso às informações do menor cart. 5462100010001033584, pelo app.\n\nEstamos também sem visualização no Sirius, podem ajudar?\n\nObrigado!",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5vbr3",
+    "name": "Membro sem acesso ao app",
+    "status": "finalizado",
+    "description": "Time, a membra informa que não consegue ver a carteirinha do seu RN no app \n\nBenicio Araujo Lima Freitas-5462100010001063395\n\nEm anexo print",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5c69p",
+    "name": "Membra sem acesso ao app-URGENTE ",
+    "status": "finalizado",
+    "description": "Time, bom dia. \n\nFoi realizada a reativação da membra AMANDA MARIA NOGUEIRA TERRA-5462100010001058091, porém ela perdeu o acesso ao app, poderiam ajustar?\n\nBlack Zone Trade Ltda-30789836000188",
+    "tags": [
+      {
+        "name": "sustentação - aberto em duplicidade",
+        "tag_fg": "#157FF8",
+        "tag_bg": "#157FF8",
+        "creator": 49075005
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa57q54",
+    "name": "Sem Acesso ao App. Sami - Cart.: 5462100010001058091",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando que teve o cadastro cancelado indevidamente e agora não está conseguindo mais entrar no aplicativo, apesar de constar como ativo em MV/Zendesk após correção do cancelamento.\n\nQuando tenta entrar no aplicativo, aparece a mensagem de que não possui cadastro.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4ztt5",
+    "name": "5462100010001056688 - Erro para gerar Guia prévia de segundo exame do PM",
+    "status": "finalizado",
+    "description": "Membro com dois exames para abertura de guia prévia no Pedido médico, mas só conseguiu inserir um, o segundo apresenta o erro em anexo. Poderiam verificar?",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4m076",
+    "name": "AJUSTAR STATUS BKO - 52.801.666 BEATRIZ CONSERINO RAMOS - CNPJ: 52.801.666/0001-42",
+    "status": "finalizado",
+    "description": "Favor realizar o ajuste de status da empresa em questão no sistema BKO - 52.801.666 BEATRIZ CONSERINO RAMOS - CNPJ: 52801666000142.\nEmpresa já liberada, porém permanece na aba (Falta finalizar), apresentando erro ao tentar concluir.",
+    "tags": [
+      {
+        "name": "sustentação - atualização painel auditoras",
+        "tag_fg": "#827718",
+        "tag_bg": "#827718",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 6,
+      "option": {
+        "id": "aa771d3d-8195-4c88-bbe9-0af9ea989c0b",
+        "name": "health-declaration-api",
+        "color": "#04A9F4",
+        "orderindex": 6
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4dgby",
+    "name": "Alteração de plano não refletiu no app",
+    "status": "finalizado",
+    "description": "Alteração de plano efetivada, mas não refletiu no app\n5462100010001002645\n5462100010001002646\n5462100010001002647",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa461jk",
+    "name": "Erro App. Sami - Cart.: 5462100010001021286",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando erro ao tentar iniciar atendimento com o Relacionamento através do aplicativo.\n\nEm Sirius consta que está utilizando a versão mais recente do aplicativo: 3.69.2.\n\nNa loja de aplicativos de seu celular não há o botão de \"atualizar\", apenas abrir.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa3qryu",
+    "name": "Membra com erro para acessar o app. ",
+    "status": "finalizado",
+    "description": "Membra relata que não consegue acessar o app, abre e trava na tela do print que anexei, enviado por ela.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa2dyk5",
+    "name": "Membra relata não conseguir acessar o chat do Time de Relacionamento 5462100010001020206     .",
+    "status": "finalizado",
+    "description": "Membra relata não conseguir acessar o chat do Time de Relacionamento.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa2anzw",
+    "name": "Erro no link do push (interação TDS)",
+    "status": "finalizado",
+    "description": "Push de interações com o TDS está direcionando pra um link quebrado.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa1xq40",
+    "name": "Nome do plano não aparece na carteirinha - 5462100010001061507",
+    "status": "finalizado",
+    "description": "Olá time!\nMembra informa que o nome do plano não está aparecendo na carteirinha digital, poderia verificar por favor?\nObrigada!",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86aa1p1pr",
+    "name": "Sem acesso ao app - Cart. 5462100010001018261 APN",
+    "status": "finalizado",
+    "description": "Membro sem acesso ao app e site desde semana passada.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1f85f",
+    "name": "Erro para guia prévia - 5462100010001003333",
+    "status": "finalizado",
+    "description": "Membro relata erro ao solicitar guia pelo app, o mesmo está com o app atualizado.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa1d5u4",
+    "name": "Membra com erro ao emitir sua guia prévia 5462100010001055014",
+    "status": "finalizado",
+    "description": "Membra já desinstalou o app e reinstalou, e mesmo assim continua com erro ao emitir sua guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86aa1b82f",
+    "name": "5462100010001057679 Erro ao solicitar guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao solicitar guia prévia no app Sami.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86aa0v9mf",
+    "name": "Dados da dependente não estão disponíveis no app - 5462100010001036181",
+    "status": "finalizado",
+    "description": "Membra não consegue acessar cadastro de sua filha no app, também não localizo no Sirius, porém plano está ativo.\nCart Filha: 5462100010001036181\n\nEm atendimento via PS, membra não consegue acessar token para informar ao parceiro devido ao cadastro indisponível.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa0v66c",
+    "name": "Membro não recebe o código para acesso ao app - 5462100010001061529",
+    "status": "finalizado",
+    "description": "Membro está sem acesso ao app, devido estar sem telefone para receber o SMS, gostaria de receber por e-mail, poderia verificar por favor?",
+    "tags": [
+      {
+        "name": "sustentação - envio de token",
+        "tag_fg": "#A91181",
+        "tag_bg": "#A91181",
+        "creator": 49075005
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86aa006qx",
+    "name": "Membro com o nome do plano na carteirinha errado. - Leonardo Mengucci",
+    "status": "finalizado",
+    "description": "Membro realizou a troca de plano mas na carteirinha no app consta o nome do plano antigo, podem ajustar?",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9zhtzb",
+    "name": "Membra não consegue acionar TDR pelo chat - Cart. 5462100010001029372",
+    "status": "finalizado",
+    "description": "Olá time, tudo bem?\n\nMembra nos aciona, pois não está conseguindo acionar o time de relacionamento pelo chat, a mesma informa que o botão de (falar com um especialista) fica em vermelho e não consegue seguir, podem ajudar?\n\nObrigado!",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9ywk21",
+    "name": "Reativação de contrato - 44691611000107",
+    "status": "finalizado",
+    "description": "Contrato reativado no MV, por favor reativar o app e demais plataformas. \nMuito obrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9ymtar",
+    "name": "Erro geral chat online Sami",
+    "status": "finalizado",
+    "description": "Oi time, tudo bem?\n\nPodem ajudar? Estamos com erro no chat online, não cai atendimento online desde cedo, e fomos testar entrar no chat online e deu erro.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9yebwc",
+    "name": "Membra sem acesso ao app - 5462100010001061146",
+    "status": "finalizado",
+    "description": "Membra informa que ao tentar acessar o app, recebe o código por e-mail e após inserir, para na tela que informa \"Receba um aviso quando tiver mensagem nova\", e ao clicar em continuar, o app fecha.\n\nPoderia verificar por gentileza? Membra precisa agendar consulta.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9ya4vz",
+    "name": "5462100010001057679 - ERRO NA GUIA PREVIA ",
+    "status": "finalizado",
+    "description": "MEMBRA RELATA QUE AINDA PERMANECE COM ERRO PARA LANÇAR A GUIA PRÉVIA NO APP SAMI.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9xrm51",
+    "name": "Correção da carteirinha e informações sobre o plano - Carteirinha 5462100010001054877",
+    "status": "finalizado",
+    "description": "Pessoal, boa tarde!\nEsta membra realizou a troca de plano em março, saindo do plano CELESTE COPAY APARTAMENTO e indo para o plano CELESTE APARTAMENTO (SEM COPAY).\n\nApesar disso, tanto na carteirinha dela no app quanto no Sirius e Zendesk, o plano mostrado ainda é o plano antigo, com coparticipação.\n\nSeria possível realizar a mudança para o plano correto tanto no Zendesk quanto no Sirius e na carteirinha da membra no app?\n\nGrato pela ajuda!",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9xf2cu",
+    "name": "Reativação de app - 5462100010001031517",
+    "status": "finalizado",
+    "description": "Contrato reativado devido liminar. Solicito a gentileza de reativar o app\n5462100010001031517\n5462100010001031519\n5462100010001031520\nObrigada!",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9xeq54",
+    "name": "Erro de integração vidas BKO com Sirius - 5462100010001062205",
+    "status": "finalizado",
+    "description": "Oie equipe, tudo bem? \n\nNesse CNPJ de empresa cadastrada via Qualicorp tiveram algumas vidas que mesmo cadastradas no BKO, não apareciam no Sirius. Por conta disso não tinham acesso ao app. Ao ter acesso a essas vidas no BKO, eu entrei no cadastro e salvei de novo e assim o cadastro refletiu no Sirius. Eu olhie então carteirinha por carterinha e tiveram alguns casos semelhantes, então abri o chamdo para investigar o erro, se podemos entender o que houve para não acontecer mais ou se foi um erro do sistema muito pontual mesmo e seguimos só acompanhando.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9xe4ep",
+    "name": "5462100010001057756 Erro ao solicitar guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao lançar guia prévia no aplicativo Sami.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9x731c",
+    "name": "5462100010001061049 - ERRO PARA ACESSAR O TDS",
+    "status": "finalizado",
+    "description": "MEMBRA COM ERRO PARA ACESSAR O TDS E MARCAR CONSULTA PELO APP SAMI.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9wzwrf",
+    "name": "Reativação de app - 5462100010001031799",
+    "status": "finalizado",
+    "description": "Favor reativação o app. Contrato reativado decorrente de decisão liminar\n5462100010001031799\n5462100010001055278\n\nObrigada",
+    "tags": [
+      {
+        "name": "sustentação - reativação de contrato",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9wg74v",
+    "name": "Membra sem acesso ao app - 5462100010001061539",
+    "status": "finalizado",
+    "description": "Membra não recebe código para acesso ao app, mesmo com e-mail e telefone correto. Poderiam me apoiar no acesso? Obrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9w21vz",
+    "name": "Erro na autorização prévia - cart. 5462100010001032239",
+    "status": "finalizado",
+    "description": "Olá time, tudo bem?\n\nMembra nos aciona devido erro para emitir autorização prévia para exames, membra reinstalou o app no seu celular, mas o erro permanece, podem ajudar?\n\nObrigado!",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9vd82r",
+    "name": "Mudança de plano no app teste Sami",
+    "status": "finalizado",
+    "description": "Oiee, preciso por favor que mudem o plano do app teste para Órion RM. Conseguem me ajudar, por favor??",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 14,
+      "option": {
+        "id": "e7b77f3e-7764-4357-a5e9-02100f0eaaab",
+        "name": "portal_pme-api",
+        "color": "#f900ea",
+        "orderindex": 14
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9vck9d",
+    "name": "Contrato cancelado com acesso ao app",
+    "status": "finalizado",
+    "description": "Contratante e dependente cancelados em 13/06/24 e com acesso o app, conseguiram nos acionar via chat. \nPor favor, podem verificar o que ocorreu e cancelar o acesso. \nNo BKO está cancelado.\n\nAlexandre de Souza Francisco - 5462100010001044887 \nTamara Feitosa de Matos - 5462100010001044886\n\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - cancelamento bko",
+        "tag_fg": "#0388d1",
+        "tag_bg": "#0388d1",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 3,
+      "option": {
+        "id": "dc81936c-b340-413a-89b6-00046f205b3a",
+        "name": "Sustentação",
+        "color": null,
+        "orderindex": 3
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9v73b2",
+    "name": "Membra não consegue acesso ao app - 5462100010001062734",
+    "status": "finalizado",
+    "description": "Empresa me aciona informando que membra não recebe código no e-mail ou SMS para completar cadastro no app. Poderiam apoiá-la nessa solicitação? \n\nObrigada!\n\n5462100010001062734\nTHALITA PAZ DA SILVA",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9uc01f",
+    "name": "membra com erro para subir guias de autorização 5462100010001054016",
+    "status": "finalizado",
+    "description": "Membra com erro para subir guias de autorização",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9ub610",
+    "name": "Erro para emissão de guia prévia -  RENATA APARECIDA DOS SANTOS MARQUES",
+    "status": "finalizado",
+    "description": "Membra com erro para emissão de guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9txpw3",
+    "name": "Alteração de plano não refletiu no app - 5462100010001027905",
+    "status": "finalizado",
+    "description": "Alteração de plano realizada em 06/06/2025, mas não refletiu no app. Podem verificar, por favor? Obrigada.",
+    "tags": [
+      {
+        "name": "sustentação - ajuste de plano",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9tnfav",
+    "name": "Membros conseguindo acessar o PS Online após horário de funcionamento",
+    "status": "finalizado",
+    "description": "Time, bom dia!\nNa data de ontem realizamos um teste, visto que nosso enfermeiro Max do noturno, tem reparado que membros tem conseguido acessar o PS online após as 22:00;\nRealizei o teste onde iniciei o prenchimento da URA do PAD 21:58 e após uns 5 mintos já passando do horário terminei de realizar o preenchimento e mesmo assim consegui acesso ao PAD. \nContexto a um tempo atrás tivemos membros do PAD caindo no fora do horário acredito que seja a mesma questão. \nO ideal que o membro não consiga acessar o PAD após ás 22 horas visto o plantão já ter sido encerrado.",
+    "tags": [
+      {
+        "name": "sustentação - aberto em duplicidade",
+        "tag_fg": "#157FF8",
+        "tag_bg": "#157FF8",
+        "creator": 49075005
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9tcp5c",
+    "name": "Sem acesso a rede credenciada pelo app - cart. 5462100010001025283",
+    "status": "finalizado",
+    "description": "Olá time, tudo bem?\n\nMembro nos aciona, pois não está conseguindo buscar parceiros pelo app, podem ajudar?\n\nObrigado!",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9rwjjc",
+    "name": "App tudo em branco, parou de funcionar, membro ativo - cart. 5462100010001055915 RDDMA",
+    "status": "finalizado",
+    "description": "App do membro está tudo em branco, conforme prints, relata que do nada parou de funcionar.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9rrajy",
+    "name": "Plano não aparece no app - cart. 5462100010001054168 N.B.",
+    "status": "finalizado",
+    "description": "Plano não aparece no app da membra, conforme imagem em anexo.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9r3cu8",
+    "name": "Nome do plano não aparece na carteirinha da membra no app - 5462100010001059751",
+    "status": "finalizado",
+    "description": "Membra informa que está com dificuldade em agendar exames com o parceiro Femme, devido não aparecer o nome do plano na carteirinha digital, poderia verificar porque não aparece por favor.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9r113v",
+    "name": "Erro app Sami / troca de e-mail",
+    "status": "finalizado",
+    "description": "Time, membra CAROLINA SILVERIO DOS SANTO está liberada para o acesso do financeiro no app, mas não aparece para ela essa visualização, anexo video enviado pelo membro. \nPor favor, alterar o e-mail do contratante (não membro) para lizardo.douglas@gmail.com, quando tento trocar apresenta erro. \nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - update database",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9qwjhe",
+    "name": "Rede Credenciada no app - cart. 5462100010001058390 N.A.O.",
+    "status": "finalizado",
+    "description": "Membra relata que ao fazer busca de locais credenciados no app para Emergência em Clínica Médica, mostra apenas o mapa, não mostra a lista dos locais credenciados, conforme o print que ela nos enviou. Quando ela clica em 'lista' não aparece nada.\nPodem verificar esse caso por gentileza?\nMuito obrigada.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 2,
+      "option": {
+        "id": "db24b39e-c9cb-4562-9bbb-a0c869cba95b",
+        "name": "beneficiary-api",
+        "color": "#E020B4",
+        "orderindex": 2
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9qbk47",
+    "name": "Membra com erro ao acessar o aplicativo - 5462100010001062279",
+    "status": "finalizado",
+    "description": "Membra com plano recém contratado, informa que enviou a declaração de saúde pelo app e fez a consulta inicial, porém não consegue acessar o APP com CPF e senha, nem recuperar a senha.",
+    "tags": [
+      {
+        "name": "sustentação - app",
+        "tag_fg": "#ff897f",
+        "tag_bg": "#ff897f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q8mpc",
+    "name": "38329638000143\tP. M. PELOSINI TRANSPORTES LTDA",
+    "status": "finalizado",
+    "description": "eu cadastrei a carência errada PME III para o membro Edimar Custodio Da Rocha e o correto é PME II. \nTentei corrigir no proprio sistema mas não permitiu.",
+    "tags": [
+      {
+        "name": "sustentação - alteração de carência",
+        "tag_fg": "#02579b",
+        "tag_bg": "#02579b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 10,
+      "option": {
+        "id": "c02fc0c8-f565-4c00-9cfe-bf10ece4e172",
+        "name": "onboarding-api",
+        "color": "#FF4081",
+        "orderindex": 10
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q8g0y",
+    "name": "Server Internal Error - dificuldade em solicitar guia prévia - cart. 5462100010001058990 EMD",
+    "status": "finalizado",
+    "description": "Membro com dificuldade em solicitar guia prévia pelo app, aparece Internal Server Error.",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q7fpm",
+    "name": "Não cosegue solicitar guia prévia pelo app - cart. 5462100010001005883 GMDA",
+    "status": "finalizado",
+    "description": "Membro informa que ao tentar subir a guia prévia pelo app, o botão de 'solicitar guia prévia' fica travado, a guia prévia não é gerada e não aparece nenhum erro.\nRelata que já atualizou o app, reinstalou e o erro persiste.",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q72y3",
+    "name": "5462100010001011130 - ERRO NO APP PARA ABRIR GUIA PRÉVIA",
+    "status": "finalizado",
+    "description": "Membra com erro no app para lançar a guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q6e4x",
+    "name": "Membro não consegue subir guias no aplicativo 5462100010001061348",
+    "status": "finalizado",
+    "description": "Membro não consegue subir guias no aplicativo 5462100010001061348",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q5hkb",
+    "name": "5462100010001061032 - ERRO NO APP PARA ABRIR GUIA PRÉVIA",
+    "status": "finalizado",
+    "description": "Membro com erro no app para lançar a guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q0nt1",
+    "name": "5462100010001061269 - ERRO PARA GERAR GUIA PRÉVIA NO APP",
+    "status": "finalizado",
+    "description": "Membra com erro no app para lançar a guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pzrvu",
+    "name": "5462100010001002918 Erro ao lançar guia prévia",
+    "status": "finalizado",
+    "description": "Membro está enfrentando erro ao lançar guia prévia no app Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9pyu1j",
+    "name": "5462100010001059805 Erro ao lançar guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao lançar guia prévia no app Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9py5dh",
+    "name": "5462100010001009001 Erro ao solicitar guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao solicitar guia prévia no app Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9px8ec",
+    "name": "5462100010001018579 Erro ao lançar guia prévia ",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao lançar guia prévia no app Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a9pwm09",
+    "name": "5462100010001061858 Erro ao lançar guia prévia",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao lançar guia prévia no app Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pwh2z",
+    "name": "5462100010001061116 Erro ao lançar guia prévia no aplicativo",
+    "status": "finalizado",
+    "description": "Membra está enfrentando erro ao lançar guia prévia no app Sami.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pwdzr",
+    "name": "Membro com erro ao subir as guias no aplicativo 5462100010001006418",
+    "status": "finalizado",
+    "description": "Membro com erro ao subir as guias no aplicativo",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pn6kv",
+    "name": "5462100010001017871 Erro ao lançar guia prévia no aplicativo",
+    "status": "finalizado",
+    "description": "Membra enfrenta erro ao lançar guia prévia no app Sami",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pmwcq",
+    "name": "Membra com erro ao emitir sua guia prévia 5462100010001013291",
+    "status": "finalizado",
+    "description": "Olá time, membra já desinstalou o app reinstalou, e mesmo assim o erro continua ao tentar emitir sua guia prévia pelo app.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9phxxj",
+    "name": "Erro na emissão de autorização prévia - Cart. 5462100010001061739",
+    "status": "finalizado",
+    "description": "Olá time, tudo bem?\n\nMembra nos aciona devido erro para emitir autorização prévia pelo app, podem ajudar?\n\nObrigado!",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pgfn5",
+    "name": "5462100010001058828",
+    "status": "finalizado",
+    "description": "Membra com erro no app para lançar a guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pg9m4",
+    "name": "Erro ao solicitar guia prévia no app - 5462100010001022328",
+    "status": "finalizado",
+    "description": "Membro não consegue solicitar guia prévia no app devido mensagem de erro.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pg8m0",
+    "name": "5462100010001044987 - ERRO PARA GERAR A GUIA PRÉVIA NO APP",
+    "status": "finalizado",
+    "description": "Membra Sami com erro no app para lançar a guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pf8ae",
+    "name": "5462100010001042685 - ERRO PARA GERAR GUIA PRÉVIA NO APP",
+    "status": "finalizado",
+    "description": "Membro com erro no app para lançar a guia prévia.",
+    "tags": [
+      {
+        "name": "sustentação - direcionado a squad",
+        "tag_fg": "#5f7c8a",
+        "tag_bg": "#5f7c8a",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 1,
+      "option": {
+        "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
+        "name": "Sinistro",
+        "color": null,
+        "orderindex": 1
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  }
+]

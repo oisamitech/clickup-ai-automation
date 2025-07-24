@@ -1,0 +1,233 @@
+# Dependências
+/node_modules
+/.pnp
+.pnp.*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diretórios de build
+/dist
+/build
+/coverage
+
+# Cache
+.cache
+.parcel-cache
+.parcel-cache/
+.eslintcache
+
+# Editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Testes
+/coverage
+.nyc_output
+
+# Redis (se estiver usando dados locais)
+/dump.rdb
+/appendonly.aof
+
+# Arquivos temporários
+*.tmp
+*.tmp.*
+
+# Arquivos de configuração local
+config/local.*.json
+
+# Arquivos de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de ambiente de desenvolvimento
+.env.development
+.env.test
+.env.production
+
+# Arquivos de configuração do editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos gerados automaticamente
+build/
+dist/
+
+# Arquivos de usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de usuário do VS Code
+.history/
+*.vs/
+
+# Arquivos de usuário do Windows
+[Dd]esktop.ini
+
+# Arquivos de usuário do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de usuário do Linux
+*~
+.Trash-*
+.nfs*
+
+# Arquivos de usuário do Vim
+*.swp
+*.swo
+*~
+
+# Arquivos de usuário do Emacs
+*#
+*#.*
+*~
+.\#*
+
+# Arquivos de usuário do IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig.*
+
+# Arquivos de usuário do NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# Arquivos de usuário do Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos de usuário do Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de usuário do Atom
+.atom/
+.remote-sync.json
+
+# Arquivos de usuário do WebStorm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Arquivos de usuário do Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Arquivos de usuário do Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de usuário do PhpStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de usuário do PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de usuário do RubyMine
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de usuário do WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de usuário do Android Studio
+.idea/
+.gradle
+/local.properties
+/.idea/caches/build_file_checksums.ser
+
+# Arquivos de usuário do Xcode
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Arquivos de usuário do Visual Studio Code - Insiders
+.vscode-insiders/
+
+# Arquivos de usuário do Visual Studio Code - Remote
+.remote-containers/
+
+# Arquivos de usuário do Visual Studio Code - WSL
+.wslconfig
+
+# Arquivos de usuário do Visual Studio Code - Workspace
+*.code-workspace
+
+# Arquivos de usuário do Visual Studio Code - Extensões
+.vscode/extensions/
+
+# Arquivos de usuário do Visual Studio Code - Snippets
+.vscode/*.code-snippets
+
+# Arquivos de usuário do Visual Studio Code - Configurações
+.vscode/settings.json
+
+# Arquivos de usuário do Visual Studio Code - Tarefas
+.vscode/tasks.json
+
+# Arquivos de usuário do Visual Studio Code - Lançamento
+.vscode/launch.json
+
+# Arquivos de usuário do Visual Studio Code - Extensões
+.vscode/extensions.json

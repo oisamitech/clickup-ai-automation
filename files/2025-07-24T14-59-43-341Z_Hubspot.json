@@ -1,0 +1,3143 @@
+[
+  {
+    "id": "86aa71ezx",
+    "name": "Intabilidade para ligação ",
+    "status": "finalizado",
+    "description": "Bom dia, segue anexo com erro, os atendentes não estão conseguindo fazer ligação.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa2d12b",
+    "name": "Impossibilidade de envio de template de Whatsapp",
+    "status": "finalizado",
+    "description": "Consultores impossibilitados de enviar templates de WhatsApp. Simplesmente não abre as opções para fazer o envio.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9xrpqx",
+    "name": "Restrição de criação de leads via HubSpot",
+    "status": "finalizado",
+    "description": "Permitir a criação de leads no HubSpot somente para liderença, segue a lista de quem terá esse acesso:\n\nKarine Souza - karine.souza@samisaude.com\nTcharlles Soares - tcharlles.soares@samisaude.com\nErica Vieira - ericasantos.sami@adilisbr.com\nRicardo Campos (Fields) - ricardo.campos@samisaude.com\nVictor Moutinho - victor.moutinho@samisaude.com\nAnderson Braga - anderson.braga@samisaude.com\nJú Rebizzi - julia.rebizzi@samisaude.com\nAntonio Prado - antonio.prado@samisaude.com\nHugo Falcão - hugo.falcao@samisaude.com",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9q4090",
+    "name": "Hubspot não salva a observação ",
+    "status": "finalizado",
+    "description": "Boa tarde Pessoal, tudo bem?\nEstamos com uma instabilidade no Hubspot.\n\nQuando os consultores tentam salvar uma observação no manual de atividades a observação sobe vazia conforme print em anexo.\nVocês podem verificar por gentileza?",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9gk5ua",
+    "name": "Acesso aos fluxos de trabalho de roteador",
+    "status": "finalizado",
+    "description": "Precisamos liberar acesso aos fluxos de trabalho de roteador para a supervisora Erica Vieira (ericasantos.sami@adilisbr.com)\n\nSão os seguintes fluxos:\nhttps://app.hubspot.com/workflows/7798412/platform/flow/161739530/edit/actions/138/rotate-object\nhttps://app.hubspot.com/workflows/7798412/platform/flow/530787126/edit/actions/115/rotate-object",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a92d84h",
+    "name": "Lead subiu via Planium mas não consta no Hubspot",
+    "status": "finalizado",
+    "description": "Pessoal, o lead 43342570000172 subiu via Planium hoje, 30/05, mas não migrou para o Hubspot, poderiam verificar?",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8ru2dn",
+    "name": "Cadastrar empresa no HubSpot",
+    "status": "finalizado",
+    "description": "Cadastrar empresa no HubSpot. Obrigado\n\nLIVESTRONG - 11.113.389/0001-06\nleandro@livess.com.br",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8r8vj6",
+    "name": "Cadastrar corretora no Hubspot",
+    "status": "finalizado",
+    "description": "Cadastrar corretoras no Hubspot:\nFluir\n BRADU CORRETORA DE SEGUROS LTDA\nJR E MARTO BENEFICIOS CORRETORA DE SEGUROS LTDA\nLIFE E HEALTH CORRETORA DE SEGUROS E BENEFICIOS LTDA \nG.L.A. CORRETORA DE SEGUROS LTDA",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8q1tgh",
+    "name": "Lead nao movendo para etapa de \"Cotação Enviada\" automaticamente",
+    "status": "finalizado",
+    "description": "Tem alguns leads que por algum motivo não estão sendo movidos automaticamente para a etapa de \"Cotação Enviada\" quando realizamos uma cotação no cotador.\n\nhttps://app.hubspot.com/contacts/7798412/record/0-1/95053351\nhttps://app.hubspot.com/contacts/7798412/record/0-1/121483770000\nhttps://app.hubspot.com/contacts/7798412/record/0-3/36902010978\nhttps://app.hubspot.com/contacts/7798412/record/0-1/156141501",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a89t84v",
+    "name": "BUG na integração Take e Hub",
+    "status": "finalizado",
+    "description": "Gente,\n\nAlgumas propostas que estão em Beneficiario Cadastrado estão \"regredindo\" para a etapa de qualificado com contato quando voltam na take com o vendedor para tirar alguma dúvida.\n\nAntigamente nao era assim... propostas que estão em Contrato perdido, Qualificado Inativo devem ir para Qualificado com contato. Todas as outras não.\n\nConseguem me ajudar por favor?\nhttps://app.hubspot.com/contacts/7798412/record/0-3/32077181460",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a895wrr",
+    "name": "Equiparação acessos hubspot",
+    "status": "finalizado",
+    "description": "Olá\n\npreciso que os acessos da kimberlyfreitas.sami@adilisbr.com no hubspot sejam elevados para se equiparar os acessos que a moniquemartins.sami@adilisbr.com tem.\n\nEm resumo, Monique é uma analista de BKO e tem alguns acessos além dos vendedores normais.\nKimberly está assumindo hoje uma nova cadeira de analista BKO e com isso precisa ter seus acessos no Hubspot aumentados.\n\nObrigado",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a88cmzq",
+    "name": "Lead subiu via Planium mas não consta no Hubspot",
+    "status": "finalizado",
+    "description": "Pessoal, o lead 48637819000190 subiu via Planium em 25/04, consta em análise com o time de consultoria, mas não migrou para o Hubspot, poderiam verificar?",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a87w20t",
+    "name": "Proposta não gerou lead",
+    "status": "finalizado",
+    "description": "Proposta não gerou lead no Hubspot",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a85t0fk",
+    "name": "Hubspot sem opção para subir hiring",
+    "status": "finalizado",
+    "description": "Hubspot da consultora tatiana.rocha@samisaude.com não possui a sessão (print anexado) para subir contratos pelo hiring. Podem disponibilizar, por gentileza?",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a81vh7r",
+    "name": "Cadastrar corretoras",
+    "status": "finalizado",
+    "description": "Cadastrar corretoras no Zendesk e HubSpot\nHelp \nRazão social: HELP CONSULTORIA E CORRETAGEM DE SEGUROS LTDA\nCNPJ: 43.618.184/0001-60\nResponsável: Helder\nE-mail: helder@helpcorretora.com.br\n\nRrana\nRazão social: RRANA CORRETAGEM DE SEGUROS LTDA\nCNPJ: 20.945.087/0001-87\nResponsável: Thiago Rodrigues\nE-mail: thiagorodrigues@rrana.com.br\n\nViana do Castelo\nRazão social: VIANA DO CASTELO CONSULTORIA E CORRETORA DE SEGUROS LTDA\nCNPJ: 03.916.741/0001-05\nResponsável: Julio Cesar Campos\nE-mail: Juliocesar@vcseguro.com.br\n\nBUSINESS WAY\nRazão social: BW CORRETORA DE SEGUROS E INTERMEDIACOES DE NEGOCIOS LTDA\nCNPJ: 32.947.147/0001-80\nResponsável: Paulo Sergio Vidal\nE-mail: paulovidal@businessway.com.br\n\nIMPACTARE\nRazão social: IMPACTARE CONSULTORIA E CORRETAGEM DE SEGUROS LTDA\nCNPJ: 06.967.969/0001-12\nResponsável: Cibelle\nE-mail: cibelle@impactare.com.br",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a81hneq",
+    "name": "Acesso à relatórios do HubSpot",
+    "status": "finalizado",
+    "description": "Oi, solicito acesso à este relatório do HubSpot:\n\nhttps://app.hubspot.com/reports-dashboard/7798412/view/8553966",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7z58mm",
+    "name": "Hubspot com problema para completar chamadas",
+    "status": "finalizado",
+    "description": "Estamos passando por problemas ao realizar ligações pelo hubspot. Desde quinta-feira o time tem relatado que as ligações parecem que estão sendo atendidas, mas não escutam o cliente e vice-versa.\n\nEm um teste que fiz ligando para mim mesmo, do número nacional foi direto para spam e meu cell nem chamou (aconteceu o mesmo relatada acima - parece que atendi e não escutava o outro lado, mas na vdd meu cell nem tocou). Dos outros números, deu certo, mas o time está relatando que mesmo dos demais números está acontecendo o mesmo problema.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7vygha",
+    "name": "Acesso para editar o campo de indica sami dentro do lead ",
+    "status": "finalizado",
+    "description": "Estou sem permissão para editar o campo de campanha",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7vy8yq",
+    "name": "Liberar campo de visualização indica sami ",
+    "status": "finalizado",
+    "description": "Alguns consultores estão sem visualização do campo que mostra se o cliente é indica sami, segue nome e email dos mesmos para liberação de acesso.\n\nJoel Cocnceiçã - joelconceicao.sami@adilisbr.com\nEdenilson Junior - edenilsonjunior.sami@adilisbr.com\nBruna Almeida- brunaalmeida.sami@adilisbr.com\nEwerton Santana - ewertonsantana.sami@adilisbr.com\nDaiane de Paula - daianepaula.sami@adilisbr.com\nGabriel Virginio - gabrielalves.sami@adilisbr.com\nIsabel Dib - isabeldib.sami@adilisbr.com",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a7u8z4d",
+    "name": "Empresa subiu pela Planium mas não consta no Hubspot",
+    "status": "finalizado",
+    "description": "Pessoal, esse CNPJ 56979457000144 subiu via Planium, mas não constou o lead no Hubspot, poderiam verificar? Segue anexos.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7rft25",
+    "name": "Liberar permissão para alterar campo hubspot - Só formalizando",
+    "status": "finalizado",
+    "description": "Permissão para alterar campo de qualificação do lead. Já foi resolvido. Abrindo só para formalizar",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7pukz2",
+    "name": "Habilitar campo de contratação pelo hiring (Hubspot)",
+    "status": "finalizado",
+    "description": "Habilitar o campo para iniciar a contratação pelo hiring para tatiana.rocha@samisaude.com e karine.souza@samisaude.com",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7ptr3q",
+    "name": "Criar acesso no HubSpot",
+    "status": "finalizado",
+    "description": "Olá! Preciso de um acesso à ferramenta HubSpot",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7pdvj5",
+    "name": "Cadastrar corretora",
+    "status": "finalizado",
+    "description": "Cadastrar corretora no HubSpot.\nCorretora: CONNECT PLUS\nRazão social: CONNECT PLUS CORRETORA DE SEGUROS LTDA\nCNPJ: 09.174.592/0001-32\nResponsável: Samuel - Telefone: 11 - 94973388\nE-mail: s.miranda@zentrixseguros.com.br",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7p8n1r",
+    "name": "Permissão para alterar campo no hubspot",
+    "status": "finalizado",
+    "description": "Permissão para alterar o campo \"status do lead\" no hubspot.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7hkg1j",
+    "name": "Integração TMZ",
+    "status": "finalizado",
+    "description": "Precisamos liberar um token para realizar a integração com nossa parceira de geração de leads a TMZ. O time de sustentação vai criar um app integrador e liberar o token de acesso ao hubspot",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7gt69h",
+    "name": "Correção nas permições e acessos após alteração de equipe no hubspot",
+    "status": "finalizado",
+    "description": "Após um ajuste de equipes no hubspot, acabou impactando em algumas permissões de alguns acessos. Aline já ajudou e resolvemos.\n\nChamado aberto apenas para formalização.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7efc73",
+    "name": "Melhoria fluxo pipeline B2B",
+    "status": "finalizado",
+    "description": "Olá, equipe, tudo bem?\n\nPreciso de ajuda para aprimorar o fluxo do HubSpot no pipeline B2B. Atualmente, contratos de 30 a 99 vidas são automaticamente movidos para a fase \"Aceite por escrito\", sendo contabilizados como venda de forma equivocada.\n\nPara garantir mais precisão no registro das vendas, seria necessário criar uma etapa intermediária entre \"Cadastro da solicitação\" e \"Aceite por escrito\", denominada \"Proposta Enviada\".\n\nPodem me apoiar com essa alteração? Obrigado(a)!",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7eakab",
+    "name": "Ajuste fluxo hubspot",
+    "status": "finalizado",
+    "description": "Olá, equipe, tudo bem?\n\nPreciso de ajuda para aprimorar o fluxo do HubSpot no pipeline B2B. Atualmente, contratos de 30 a 99 vidas são automaticamente movidos para a fase \"Aceite por escrito\", sendo contabilizados como venda de forma equivocada.\n\nPara garantir mais precisão no registro das vendas, seria necessário criar uma etapa intermediária entre \"Cadastro da solicitação\" e \"Aceite por escrito\", denominada \"Proposta Enviada\".\n\nPodem me apoiar com essa alteração? Obrigada",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7ce3nw",
+    "name": "Acesso Hubspot",
+    "status": "finalizado",
+    "description": "Preciso de acesso a parte de pontuação de leads no hubspot para criarmos um lead scoring para os vendedores.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7905j8",
+    "name": "Integração Cotador e Hubspot",
+    "status": "finalizado",
+    "description": "Parece que a integração que antes populava as variáveis de \"Quantidade de vidas\" dentro do hubspot quando uma cotação é feita não está mais funcionando.\n\nColoquei no anexo um print que mostra um exemplo de cotações geradas agora em Março para um vendedor X.\nConseguimos ver que a propriedade de produto cotado está sendo populada certinho\nporém, a propriedade que deveria vir o volume de vidas não.\n\nvou deixar algum dos links aqui de exemplo\nhttps://app.hubspot.com/contacts/7798412/record/0-3/21051871144\nhttps://app.hubspot.com/contacts/7798412/record/0-3/28295401796\nhttps://app.hubspot.com/contacts/7798412/record/0-3/15209893206\nhttps://app.hubspot.com/contacts/7798412/record/0-3/16167791905\nhttps://app.hubspot.com/contacts/7798412/record/0-3/34633787921\n\nNome das propriedades:\nProduto cotado\n[All] Quantidade de vidas",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a74je8y",
+    "name": "CADASTRO DE CORRETORA/ LEAD",
+    "status": "finalizado",
+    "description": "Solicito por favor cadastro corretora : THERACORRETORA \nContato Bruno de Amorim\nemail: bruno@thecorretora.com",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a74hynv",
+    "name": "LIBERAÇÃO PARA MOVER CARD  CADASTRO DE CORRETORAS",
+    "status": "finalizado",
+    "description": "Solicito liberação para mover card quando necessário, bem como cadastrar corretoras quando necessário, para otimizar o processo, evitando abertura de chamado sempre que for necessário realizar esses procedimentos.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a7495yb",
+    "name": "Hubspot não completando ligação",
+    "status": "finalizado",
+    "description": "Husbpot não completa chamada. Ao iniciar a ligação, desliga sozinho logo em seguida. Problema acontecendo com todos.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a73kg89",
+    "name": "Permissão de editar campo no hubspot ",
+    "status": "finalizado",
+    "description": "Preciso acesso para editar informação de proprietário do lead e cadastro de indica sami, ambos no hubspot",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a70y0jz",
+    "name": "Cadastrar corretora no HubSpot",
+    "status": "finalizado",
+    "description": "Cadastrar corretora no HubSpot:\n30.798.747/0001-06 - TEXAS SP CORRETORA DE SEGUROS LTDA\nricardo@texasseguros.com\nTelefone: 71988562688\nCEP: 01404901 - EDIFICIO VELOSO DE CASTRO, 433, JARDIM PAULISTA - SP\nProprietário: Ricardo - CPF 24253316549\nGestor: Filipe",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6yjp3a",
+    "name": "Manutenção fluxo tarefas HubSpot",
+    "status": "finalizado",
+    "description": "Olá pessoal,\n\nPreciso de ajuda para entender se houve alguma mudança no fluxo de tarefas porque no HubSpot elas estão apresentando erro e não estão sendo associadas a contato/lead.\n\n\nObrigada",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6xmnee",
+    "name": "CADASTRO DE CORRETORA PARA ABERTURA DE LEAD",
+    "status": "finalizado",
+    "description": "Por favor, solicito cadastro da corretora abaixo:\n\nW3G CONSULTORIA\nContato: Guilherme Pereira \ntelefone 11 4810-5444\nemail: guilherme.pereira@w3gconsultoria.com.br",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6xapdd",
+    "name": "BKO mostra que pagamento foi realizado mas cliente recebeu e-mail dizendo que não",
+    "status": "finalizado",
+    "description": "Cliente pediu alteração do pagamento de boleto pra cartão e no dia 20/02 recebeu o link pra cadastrar o cartão e já efetuou o pagamento... No sistema BKO consta como mensalidade PAGA no dia 20/02, porém no dia de hoje (24/02) a cliente recebeu um email alegando que o cartão foi recusado!! Favor verificar o caso.\n\n45618145000199",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6x5yt0",
+    "name": "Melhoria automatização HubSpot | Canal Direto",
+    "status": "finalizado",
+    "description": "Olá pessoal, bom dia!\nPor gentileza, preciso de ajuda para melhorar a automatização do HubSpot do pipeline do canal de vendas direto (Inside Sales)\n\nNa semana passada fui acionada para melhorar o fluxo do canal depois dessa ocorrência: o lead estava em Pagamento Agendado e após a cliente responder uma mensagem automática na Take, foi para Qualificado Com Contato.\n\nNa prática, isso não deveria acontecer quando o lead está nas fases de Doc Solicitada, BC, Pag Agendado e Contratado.\n\nPor favor, conseguem me apoiar nessa melhoria?\n\n\nExemplo de caso: https://app.hubspot.com/contacts/7798412/record/0-1/92319832904\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6w6eft",
+    "name": "CADASTRO DE CORRETORA NO HUBSPOT ",
+    "status": "finalizado",
+    "description": "Solicito por favor o cadastro da corretora abaixo para gerar lead \n\nGALLAGHER BRASIL\nemail: Paulo_Franco@ajg.com\ncontato: Paulo Franco \ntel 11 98410-0591",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6w6b9u",
+    "name": "CADASTRO DE CORRETORA NO HUBSPOT",
+    "status": "finalizado",
+    "description": "Solicito por favor o cadastro da corretora a seguir no Husbspot para abertura de Lead\n\nNOVA CDC CORPORATE \nContato: Tayná Alves\nEmail: posvendas2@novacasadocorretor.com.br\ntelefone 11-2244-3333",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6vpq02",
+    "name": "Check out do cliente não veio com datas disponíveis para fevereiro",
+    "status": "finalizado",
+    "description": "Estou abrindo o ticket por que aconteceu duas vezes..\ncom esse CNPJ que está no chamado e este aqui também 51216183000118\n\ntentaram agendar para fevereiro mas nao tinha data liberada\n\nO checkout do primeiro CNPJ é esse aqui:\nhttps://checkout.samisaude.com.br/hxXmOKJZ",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6ve8z3",
+    "name": "PROPOSTA NÃO SUBIU NO HUBSPOT",
+    "status": "finalizado",
+    "description": "PREENCHI O FORMS COM OS DAODS DO LEAD E NÃO SUBIU PARA O HUBSPOT. APÓS 30 MINUTOS, FIZ O MESMO PRECEDIMENTO E NAO SUBIU NOVAMENTE. O CARD DEVERIA TER ENTRADO EM SOLICITAÇÃO DE CADASTRO E APÓS IR AUTOMATICAMENTE PARA PROPOSTA ENVIADA POR SER UMA REFERENCIA TARIFARIA. NOME DA EMPRESA: PAVONI TRATORPECAS COMERCIO, IMPORTACAO E EXPORTACAO LTDA",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6vdac5",
+    "name": "Ligações apresentando erro de número errado ou inexistente",
+    "status": "finalizado",
+    "description": "Estamos enfrentando um número considerável de ligações aonde informa que o número está incorreto ou inexistente, porém os telefones estão corretos.\n\nExemplos:\nhttps://app.hubspot.com/contacts/7798412/record/0-3/33737965223/ \nhttps://app.hubspot.com/contacts/7798412/record/0-3/33719539839/ \nhttps://app.hubspot.com/contacts/7798412/record/0-1/100422044034 \nhttps://app.hubspot.com/contacts/7798412/record/0-3/33738027781/",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6t3gar",
+    "name": "Report leads X propostas",
+    "status": "finalizado",
+    "description": "Precisamos de uma visão de quantos leads entram por dia no Hub X quantos geram propostas? Vamos aumentar o nº de leads e precisamos ficar encima pra acompanhar se temos algum gap, é bem urgente, pois alguns leads não estão criando propostas",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6r9qa9",
+    "name": "Não gerou lead no hubspot",
+    "status": "finalizado",
+    "description": "CNPJ 55251785000167\n\nContratação foi feita via Planium, porém, não gerou lead no hubspot.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6r8xdw",
+    "name": "Cadastrar corretoras no HubSpot",
+    "status": "finalizado",
+    "description": "Cadastrar corretoras no HubSpot:\n\n- G.L.A. CORRETORA DE SEGUROS LTDA \nCNPJ 08.538.363/0001-97\nAngela: Telefone 11983120078 - angelamaria@continentalservicos.com.br\nGestora: Erika\n\nPREVEM CORRETORA DE SEGUROS LTDA\nCNPJ 58.637.122/0001-73\nPaula: Telefone 143496-7954 - PAULA.DOTTA@HOTMAIL.COM\nGestora: Erika\n\nW ASSESSORIA DE SEGUROS LTDA\nCNPJ 36.325.607/0001-99\nCamila: Telefone 1998237-0271 - camila@wintage.com.br\nGestora: Erika",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6r7u8p",
+    "name": "Painel de cadastro de corretores - Trade Marketing",
+    "status": "finalizado",
+    "description": "Contexto: temos algumas Landing Pages de captação de corretores e todas elas convergem em um painel no hubspot\n\nPainel: https://app.hubspot.com/reports-dashboard/7798412/view/11360912\n\nNotei que ao validar os leds cadastrados na Lading Page do Essencial Centro, no painel tínhamos apenas 20 e poucos vindos desta origem. Porém, ao exportar os leads direto do Unbounce (que é onde o Hugo Falcão monta as LPs), havia um volume muito maior de cadastros.\n\nLista do Hugo: https://docs.google.com/spreadsheets/d/1mg8iW-BR6_cC_0uD8fYDnozmXp9r95jXeAO2Iq9p3Cg/edit?gid=97926171#gid=97926171\n\nAcredito que possamos ter muito mais corretores cadastrados que não estão contabilizando no painel.\nAnexo coloquei a lista de todas LPs que uso, mas sugiro iniciarmos a investigação pela LP do Essencial Centro.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6qd250",
+    "name": "acesso ao hubspot",
+    "status": "finalizado",
+    "description": "GOSTARIA DE SOLICITAR O ACESSO PARA NOVA GESTORA luisa.ventura@samisaude.com, NO HUBSPOT IGUAL AO DA ERIKA MARTIM.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6nbbxk",
+    "name": "Cadastro de empresa nao esta subindo no Hubspot",
+    "status": "finalizado",
+    "description": "Fiz o preenchimento do formulario de cadastro da empresa por duas vezes,  com (espaço de tempo) e os cadastro nao subiram para o Hubspot. Atualizei a pagina por diversas vezes e nada.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6n494z",
+    "name": "Correção de Status do Membro AJN - HubSpot",
+    "status": "finalizado",
+    "description": "O membro em questão, aparentemente, apresentou falha na integração HubSpot Service - o que mudou o contrato para o status \"Cancelado\", impedindo-o de receber a comunicação de Reajuste. \n\nO caso está em acompanhamento com o jurídico, mas precisamos fazer essa correção para o status ativo.",
+    "tags": [
+      {
+        "name": "sustentação - integrações parceiros",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6hw5re",
+    "name": "Reprocessar contato Hubspot-Service and Zendesk-Service",
+    "status": "finalizado",
+    "description": "Ola, o contato abaixo não integrado corretamente nas bases Hubspot MKT e Zendesk.\nPoderiam por favor reprocessar as integrações?\n\nEsta pendente associação da empresa, carteirinha, entre outros dados...\n\nCPF: 14616666865\nCNPJ: 08138998000105\nE-MAIL: BUGALU8537@GMAIL.COM",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6hpnz0",
+    "name": "Hubspot com falta de informação na visão da consultora",
+    "status": "finalizado",
+    "description": "Na visualização do lead no perfil da consultora Tatiana Rocha, não aparece a página de Negócios (conforme prints). Está impactando no tratamento dos leads",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6h5nqz",
+    "name": "Não gerou lead",
+    "status": "finalizado",
+    "description": "Venda na Planium, não gerou lead no hubspot",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6fnth1",
+    "name": "Integração de dados de Demandas Jurídicas (Zendesk <> Hubspot)",
+    "status": "finalizado",
+    "description": "Oi, bom dia!\n\nSolicito, por gentileza a integração dos dados de demandas jurídicas do zendesk para o hubspot.\n\nAcredito que possamos seguir nesse modelo:\nAcionamento Judicial: Status\nAcionamento Judicial: Data do último acionamento\n\nQualquer dúvida, fico à disposição :)",
+    "tags": [],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6dzu26",
+    "name": "Bug: Integração de planos",
+    "status": "finalizado",
+    "description": "Os planos de beneficiários qualicorp não estão integragados no Hubspot e Zendesk.\n\nPlano contrato\nPlano escolhido\n\nAnexo parte do código no hubspot-service e zendesk-service sem atualização do plano.\nObs. provalvemente demais membros tmb estão com problemas.\n\nExemplo:\n\nCPF: 21338099884\nE-MAIL: tati.mancini15@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6axkmk",
+    "name": "Corrigir integração",
+    "status": "finalizado",
+    "description": "O negócio está sendo movido para um pipeline desativado via integração. O negócio deve permanecer no pipeline B2B.",
+    "tags": [
+      {
+        "name": "sustentação - planium",
+        "tag_fg": "#536cfe",
+        "tag_bg": "#536cfe",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6aqab1",
+    "name": "Cosnultores não estão conseguindo ligar ",
+    "status": "finalizado",
+    "description": "Cosnultores não estão conseguindo ligar para alguns clientes, segue abaixo print do erro no hubspot",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6a6d2f",
+    "name": "Visualização de atividades no hubspot",
+    "status": "finalizado",
+    "description": "No meu usuário não está sendo exibida na lista de atividades do lead, o envio da mensagem por whatsapp, assim como é exibido no usuário da Julia Rebizzi, por exemplo.\nSolicito liberação desta visualização.\n\nLead exemplo: https://app.hubspot.com/contacts/7798412/record/0-1/8933101\n\nEm anexo, segue print do meu usuário (arquivo final 654.png), onde é exibido apenas o envio do mail marketing, no segundo print (arquivo final 156.png), da Julia Rebizzi, mostra o mail mkt e o envio de whatsapp",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a662gmg",
+    "name": "Liberação dos E-mails de Marketing no Hubspot",
+    "status": "finalizado",
+    "description": "Olá, pessoal! Preciso da liberação de acesso para visualizar as mensagens enviadas por CRM nos e-mails de Marketing no Hubspot, seja de cancelamento, reajuste ou outras notificações, exemplo em anexo. Podem liberar a visualização de todos os contatos, por gentileza? Utilizamos no jurídico para defesa de processos judiciais e extrajudiciais.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a65k1hc",
+    "name": "Falta de integração Planium x HUB - pagamento agendado",
+    "status": "finalizado",
+    "description": "Pessoal, há uma falta de integração quando os clientes assinam os contratos no novo fluxo, não está sendo movido automaticamente para 'pagamento agendado' no Hubspot, estamos movendo manualmente um por um, abaixo os CNPJ'S de exemplos que foram necessário mover manualmente.\n52344639000198/57445293000138/41399117000177\nPoderiam verificar?",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a65f9vc",
+    "name": "Código de autenticação Hubspot não chega",
+    "status": "finalizado",
+    "description": "A consultora isabelbrito.sami@adilisbr.com precisou resetar a senha de acesso e o hubspot envia um código de autenticação por SMS, porém ela não está recebendo.",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 48759926,
+        "username": "Vinicius Henrique"
+      },
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a64wcg8",
+    "name": "Acesso ao hubspot",
+    "status": "finalizado",
+    "description": "Acesso ao hubspot",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 48759926,
+        "username": "Vinicius Henrique"
+      }
+    ]
+  },
+  {
+    "id": "86a64vzpv",
+    "name": "Acesso ao Hubspot",
+    "status": "finalizado",
+    "description": "Sou desenvolvedor e prreciso de acesso ao hubspot com um perfil de conta para poder criar deals e contatos para simular novas features para  o hubspot.",
+    "tags": [
+      {
+        "name": "sustentação - suporte técnico",
+        "tag_fg": "#59E28C",
+        "tag_bg": "#59E28C",
+        "creator": 82018148
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 48759926,
+        "username": "Vinicius Henrique"
+      }
+    ]
+  },
+  {
+    "id": "86a63q2b0",
+    "name": "Permissões de acesso consultores",
+    "status": "finalizado",
+    "description": "Consultor está conseguindo atuar em leads em que não são os proprietários. Solicito ajuste para que os consultores não consiga acessar e nem visualizar leads em que não estão como proprietários.\n\nConsultores Sami e Adilis",
+    "tags": [
+      {
+        "name": "sustentação - hubspot",
+        "tag_fg": "#e16b16",
+        "tag_bg": "#e16b16",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a60af7q",
+    "name": "Autorização de acesso no Hubspot",
+    "status": "finalizado",
+    "description": "Por gentileza, liberar com a máxima brevidade possível a tela de \"view marketing emails\" no Hubspot para o meu usuário. Preciso acesso os conteúdos de marketing para resolução das demandas do Jurídico.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a5tux7z",
+    "name": "Templates manuais Não funcionam",
+    "status": "finalizado",
+    "description": "Os templates manuais voltaram a dar problemas e não enviar",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5rgx0t",
+    "name": "Integração Take e Hubspot",
+    "status": "finalizado",
+    "description": "Até o momento não foi normalizado o envio de templates manuais de wpp pelo Hubspot. E o histórico dos leads na take blip também não está aparecendo para os consultores",
+    "tags": [
+      {
+        "name": "support team - integrações parceiros",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a5rggu2",
+    "name": "Lead sem Negócio",
+    "status": "finalizado",
+    "description": "Lead entrou apenas com Contato. Não possui Negócio\nhttps://app.hubspot.com/contacts/7798412/record/0-1/81716912034",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5qkhym",
+    "name": "Falha no envio de template manual no Hubspot",
+    "status": "finalizado",
+    "description": "O tcharles trouxe que os templates manuais não estão sendo enviados.\n\nExemplos, https://app.hubspot.com/contacts/7798412/record/0-1/74288380178\nhttps://app.hubspot.com/contacts/7798412/record/0-1/80528199276\nhttps://app.hubspot.com/contacts/7798412/record/0-1/80328932260\nhttps://app.hubspot.com/contacts/7798412/record/0-1/80313034315",
+    "tags": [
+      {
+        "name": "support team - integrações parceiros",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a5q8x2a",
+    "name": "TAG HUBSPOT",
+    "status": "finalizado",
+    "description": "Preciso que seja criada uma nova tag dentro do negócio no hubspot de vendas baseada na propriedade canal de vendas",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a5nk7pz",
+    "name": "Cadastrar número nacional no hubspot",
+    "status": "finalizado",
+    "description": "Hubspot sem número de telefone nacional para realizar ligação.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5kh2fe",
+    "name": "(Interno) CRM - Report Análise de Embarque 06/11 a 12/11 ",
+    "status": "finalizado",
+    "description": "Oi, time!\n\nAbrindo esse chamado pra trazer os casos que indentifiquei ao analisar as vigências do dia 06/11 a 12/11:\n\n***Contatos que não itegraram ou integraram com falta de informações no Hubspot***\n\n- CPF 49945806858; contato: https://app.hubspot.com/contacts/8341620/record/0-1/74934630069 >> não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 55139919850 >> não integrou no Hubspot\n\n- CPF 40358986869; contato:: https://app.hubspot.com/contacts/8341620/record/0-1/73612508009 >> não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 32357248858; Contato: https://app.hubspot.com/contacts/8341620/record/0-1/73613503116 >> não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 27498712806 >> não integrou no Hubspot\n\n- CPF 47663919858; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73613378173 >>  não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 52492421899; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73631759514 >> não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 41567642810; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73612168071 >> não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 12916282823; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73633193267 >>  não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 11265724890; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73592597175 >>  não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 45600543808; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73600712766 >>  não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc.\n\n- CPF 52906631850; contato: https://app.hubspot.com/contacts/8341620/record/0-1/73612754461 >>  não tem data de vigência e outros campos preenchidos, como 'status do lead', 'tipo do contato', etc\n\n***Contatos que integraram no Hubspot, mas não constam no Metabase:***\n\n-CPF 24008045830; contato: https://app.hubspot.com/contacts/8341620/record/0-1/75571457889 \n\n-CPF 70471918440; contato: https://app.hubspot.com/contacts/8341620/record/0-1/75560640032 \n\n________\nEstou anexando aqui a planilha que exportei do Metabase caso ajude, tá bom?\n\nObrigada!",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5k70cz",
+    "name": "Alteração Idioma Hubspot 16x para 20x",
+    "status": "finalizado",
+    "description": "Alteração Idioma Hubspot 16x para 20x",
+    "tags": [],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      },
+      {
+        "id": 81903747,
+        "username": "Thaís Rodeiro"
+      }
+    ]
+  },
+  {
+    "id": "86a5k5n6e",
+    "name": "Contato com informações incorretas",
+    "status": "finalizado",
+    "description": "Abrindo esse chamado para pedir a correção de um contato no Hubspot.\nO Time de Pós-vendas solicitou que seja enviada a comunicação de reajuste para um contato específico, pois a pessoa não recebeu. Quando fomos analisar, percebemos que a membra consta como cancelada em 11/2/2023 e por isso não recebeu automaticamente. \nAlém disso, tem uma segunda empresa associada ao contato dela também (WALL JOBS TECNOLOGIA LTDA, CNPJ 23251141000182), mas a correta é a Ellem karoline ramos de sousa 46107119825. \nPor favor, podem apoiar com a correção do contato como um todo, incluindo o status?\nLink do contato: https://app.hubspot.com/contacts/8341620/record/0-1/2672651?eschref=%2Fcontacts%2F8341620%2Frecord%2F0-2%2F9967396016",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5k5n33",
+    "name": "Cadastrar número de telefone para consultora",
+    "status": "finalizado",
+    "description": "Cadastrar número de telefone para consultora anacristovam.sami@adilisbr.com",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5jrxye",
+    "name": "Criar campanha Abril Kross",
+    "status": "finalizado",
+    "description": "Criar \"campanha\" e \"origem do lead\" Abril Kross para todos os leads que entrarem como primeira conversão = LP Sami_Growth_AbrilKross: Qualificação - LP Sami Unbounce",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5jrwup",
+    "name": "Ajuste Fluxo de Inativo ConsultAI",
+    "status": "finalizado",
+    "description": "Mensagem de qualificado inativo que foi criada especificamente para leads da Campanha ConsultAI não está chegando e isso está gerando confusão nesses leads. Acredito que o problema esteja em alguma regra do fluxo.\nPrecisamos de ajuda para ajustar o fluxo e garantir que o lead receba a mensagem no timing correto para não prejudicar a conversão.\nFluxo da mensagem: https://app.hubspot.com/workflows/7798412/platform/flow/192732344/edit",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5j0z4z",
+    "name": "Cpfs inexistestes no hubspot",
+    "status": "finalizado",
+    "description": "25524799878 - 38113950000103 - 5462100010001021487 - OK\n21751082873 - 14069185000103 - 5462100010001020594 - OK\n28573158808 - 43882346000173 - 5462100010001045020 - OK\n17121164876 - 61970505000173 - 5462100010001053142 - Filho mesmo email, resolver email do filho\n29704608829 - 46470707000162 - 5462100010001022734 - OK\n13176265832 - 18180008000142 - 5462100010001029333 - Conjuge mesmo email, resolver email do conjuge\n27734832865 - 18180008000142 - 5462100010001029362 - Conjuge mesmo email, resolver email do conjuge\n32524549801 - 18180008000142 - 5462100010001029429 - Conjuge mesmo email, resolver email do conjuge",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5hv978",
+    "name": "Cadastrar número de telefone no hubspot",
+    "status": "finalizado",
+    "description": "Cadastrar número de telefone no hubspot para os novos consultores abaixo:\n\nfabianasilva.sami@adilisbr.com\njenifferleite.sami@adilisbr.com\nkellysuzart.sami@adilisbr.com\nlarissafeliciano.sami@adilisbr.com\nsabrinaalencar.sami@adilsbr.com\ntalitaferreira.sami@adilisbr.com",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5hn1xp",
+    "name": "Comunicação de reajuste anual",
+    "status": "finalizado",
+    "description": "Não localizamos o envio da comunicação de renovação do plano/reajuste anual do contrato Ellem Karoline Ramos De Sousa 46107119825. Por favor, podem verificar se realmente não foi encaminhado e por qual motivo? Muito obrigada!!",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5hdker",
+    "name": "(Interno) CRM - Report Análise de Embarque 30/10 a 07/11 ",
+    "status": "finalizado",
+    "description": "Abrindo esse chamado pra trazer as inconsistências de vigência no Hubspot que encontrei na análise de hoje. Segue abaixo:\n- CPF 22664128841; contato Hubspot: https://app.hubspot.com/contacts/8341620/record/0-1/74328947530 >> o contato tem somente CPF, mas nenhuma informação adicional foi integrada\n- CPF: 42186890836 >> não teve contato criado\n- CPF 36133117800 >> não teve contato criado\"",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5g6pkj",
+    "name": "Trocar dispositivo de autenticação hubspot consultora Laissa",
+    "status": "finalizado",
+    "description": "A consultora Laissa Pinheiro trocou de telefone e precisa trocar o número no hubspot, pois está enviando um código para o número antigo e com isso não está conseguindo logar no sistema.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5g4y0r",
+    "name": "Comunicação de reajuste anual ",
+    "status": "finalizado",
+    "description": "Não localizamos o envio do e-mail de reajuste anual para a titular Amanda Muller, por favor, poderiam confirmar se realmente não foi feito o envio e qual seria o motivo?! Muito obrigada!!",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5fdh19",
+    "name": "Membros que não aparecem no hubspot",
+    "status": "finalizado",
+    "description": "Por algum erro no cadastro desses cpfs, eles não aparecem no hubspot:\n43619470820\n37523099890\n03752337176\n31433916851\n06676885875\n32876109883\n19857422845\n44223728822\n37074778869\n28622745856\n26547367843\n07948707670\nConversando com o Tony, ele me informou que cada cpf precisa ser visto, pois os problemas podem ser diversos.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5f7w7f",
+    "name": "Link do lead quebrado",
+    "status": "finalizado",
+    "description": "Cliente não identificado no hubspot\n\nLead na take entrou quebrado \nhttps://app.hubspot.com/contacts/7798412/contact/undefined\n\nDados do cliente:\naltamiro.gusmao@conceitualcont.com\n+55 11974390515",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5eutd3",
+    "name": "API_KEY Hubspot",
+    "status": "finalizado",
+    "description": "Tenho uma planilha no google sheets já integrada via webhook com o Slack. \nA planilha recebe dados do Hubspot através de um relatório personalizado que eu criei. \nNo entanto, a movimentação desses dados do relatório para o google sheets estão sendo feitos via export para gmail.\nQuero uma API_KEY para poder bater direto no hub via javascript e copiar os dados para a planilha.\nPelo o que falei com o Vini essa opção deveria aparecer para mim ali na parte de integrações mas não tem.. deve ser algo de acesso.",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 48943633,
+        "username": "Tony Koiti Kato"
+      },
+      {
+        "id": 81903747,
+        "username": "Thaís Rodeiro"
+      }
+    ]
+  },
+  {
+    "id": "86a5e90th",
+    "name": "Lead mostra ticket aberto, mas sem chat na take",
+    "status": "finalizado",
+    "description": "Não encontrei chat aberto na take, mas no lead mostra que está\n\nhttps://app.hubspot.com/contacts/7798412/record/0-1/50867925612",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5e7h1x",
+    "name": "Correção no fluxo de trabalho ",
+    "status": "finalizado",
+    "description": "https://app.hubspot.com/workflows/7798412/platform/flow/571328422/edit\nAnexei uma imagem do erro",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a5dt044",
+    "name": "Criar aba de negócio no lead",
+    "status": "finalizado",
+    "description": "Lead sem negócio criado\nhttps://app.hubspot.com/contacts/7798412/record/0-1/174738553",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5ctwuc",
+    "name": "Cadastrar novos números de telefone",
+    "status": "finalizado",
+    "description": "Estou apenas com números +1 (510) para fazer as ligações. Solicito inclusão de opções de números nacionais para aumento da taxa de contato com sucesso.",
+    "tags": [
+      {
+        "name": "tech support - suporte tecnico",
+        "tag_fg": "#2ECD6F",
+        "tag_bg": "#2ECD6F",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5ct0gt",
+    "name": "(Interno) CRM - Report Análise de Embarque 16/10 a 22/10 ",
+    "status": "finalizado",
+    "description": "Bom dia, pessoal!\n\nTrazendo aqui os casos de divergência entre Hubspot e Metabase da análise do Embarque de hoje (24/10). O período de vigências analisado é de 16/10 a 22/10. \n\nContatos com divergências entre Metabase e Hubspot:\n\n>> https://app.hubspot.com/contacts/8341620/record/0-1/66869072212 - CPF 29506295808 (integrado, mas sem info de vigência e outras)\n\n>> https://app.hubspot.com/contacts/8341620/record/0-1/69682862706 - CPF 33879992835 (integrado, mas sem info de vigência e outras)\n\n >> https://app.hubspot.com/contacts/8341620/record/0-1/66869072212 - CPF 52482688850 (mesmo email do contato acima, possivelmente inclusão com o mesmo contato)\n\n>> https://app.hubspot.com/contacts/8341620/record/0-1/66868801861 - CPF 43821166860 (integrado, mas sem info de vigência e outras)\n\n>> CPF 05856914872 - não integrou, mas tem o mesmo e-mail de um contato já criado (possivelmente inclusão) >> https://app.hubspot.com/contacts/8341620/record/0-1/8826351 \n>> CPF 05733671831 - não integrou, mas tem o mesmo e-mail de um contato já criado (possivelmente inclusão) >> https://app.hubspot.com/contacts/8341620/record/0-1/4187001 \n>> CPF 05979087885 - nana.lopes7@gmail.com - não integrou, mas tem o mesmo e-mail de um contato já criado (possivelmente inclusão) >> \nhttps://app.hubspot.com/contacts/8341620/record/0-1/12016901 \n\n>> CPF 05968175842 - não integrou, mas tem o mesmo e-mail de um contato já criado (possivelmente inclusão) >> https://app.hubspot.com/contacts/8341620/record/0-1/9531951 \n\n>> CPF 05873600899 - não integrou, mas tem o mesmo e-mail de um contato já criado (possivelmente inclusão) >>  \nhttps://app.hubspot.com/contacts/8341620/record/0-1/8409551 \n\n\nPor favor, podem apoiar com as correções?\n\nObrigada!",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5cgecm",
+    "name": "Problema no roteador de leads - B2C IS",
+    "status": "finalizado",
+    "description": "Estamos com problema na integração.\nA integração esta rodando para usuários desativados no hubspot.\nEx;https://app.hubspot.com/contacts/7798412/record/0-3/23386147953\nhttps://app.hubspot.com/contacts/7798412/record/0-3/28225215414",
+    "tags": [
+      {
+        "name": "tech support - suporte tecnico",
+        "tag_fg": "#2ECD6F",
+        "tag_bg": "#2ECD6F",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5bmpwh",
+    "name": "CRM (Urgente) - Membros não integrados no Hubspot (empresa B2B)",
+    "status": "finalizado",
+    "description": "Oi, pessoal!\n\nNos próximos dias faremos uma ação com os membros da empresa CAMARA MUNICIPAL DE TABOAO DA SERRA, CNPJ 60547841000145. \n\nNós recebemos uma planilha do time clínico com os contatos, que são 106. Porém, na lista de contatos atrelados à empresa que criamos no Hubspot. tem apenas 96.\n\nLink da lista do Hubspot: https://app.hubspot.com/contacts/8341620/lists/8836/filters\n\nPor favor, podem checar o motivo de nem todos terem integrado e ajustar os que estão incopletos ou faltando? \n\nVou listar abaixo os contatos sem empresa atrelada (nesses estão faltando outras informações também, como vigência e etc). Também tem dois CPFs sem contato criado:  \n\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62054022491\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62050242450\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62051479552\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62051347835\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62073519903\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62050628869\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62056038401\nhttps://app.hubspot.com/contacts/8341620/record/0-1/62045726333\n\nCPF: 69834032587 >> sem contato criado\nCPF 14504886847 >> sem contato criado\n\n\nObrigada.",
+    "tags": [
+      {
+        "name": "support team - hubspot",
+        "tag_fg": "#ffa727",
+        "tag_bg": "#ffa727",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a5ahghy",
+    "name": " (Interno) CRM - Report Análise de Embarque 09/10 a 15/10 ",
+    "status": "finalizado",
+    "description": "Abrindo esse chamado por conta da análise de vigências do dia 09/10 a 15/10. Identificamos dois cenários nessa leva. que possivelmente também estava acontecendo nas anteriores sem nosso conhecimento. Vou compartilhar abaixo:\n\n>>> CPFs de dependentes com mesmo e-mail do titular que não tiveram contato criado:\n50757971806 >> MELOELIS.EM@GMAIL.COM\n53932121864 >> MELOELIS.EM@GMAIL.COM\n52535535840 >> MELOELIS.EM@GMAIL.COM\n30238246817 >>  JUVILELA23@GMAIL.COM\n32028277823 >> MARCOMGZL@HOTMAIL.COM\n07304748877 >> lucy.correia.fujita@gmail.com\n\n>>> Contatos que entraram com vigência no Hubspot nesse período, mas não estão no Metabase:\nhttps://app.hubspot.com/contacts/8341620/record/0-1/52724111457 >> CPF 39172863862\nhttps://app.hubspot.com/contacts/8341620/record/0-1/52728077848 >> CPF 46024741871\nhttps://app.hubspot.com/contacts/8341620/record/0-1/52726859408 >> CPF 07673538890\n\nhttps://app.hubspot.com/contacts/8341620/record/0-1/51091932797 >> CPF 44900012823 (Tipo do contato está 'Cancelado')\n https://app.hubspot.com/contacts/8341620/record/0-1/63737694332 >> CPF 43588574859 (Tipo do contato está 'Cancelado')",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a5a4rwk",
+    "name": "Teste A/B cotação enviada",
+    "status": "finalizado",
+    "description": "Fiz um teste A/B na etapa de cotação enviada junto da Ana Araujo, em uma etapa do fluxo há o envio de 2 whatsApps.. primeiro envia o touch 1, 48hrs depois o touch 2, e no relatório reparei que apenas o segundo está sendo enviado, pode verificar se houve alguma falha na configuração do fluxo? \nhttps://app.hubspot.com/workflows/7798412/platform/flow/609495150/edit",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a5a02z9",
+    "name": "Analise divergencia e-mail de comunicação HubSpot",
+    "status": "finalizado",
+    "description": "Olá Igor como vai?\n\nContratante nos acionou informando que desconhece o e-mail cadastrado, no HubSpot para envio das comunicações automáticas da Sami. \n\nAtualmente o e-mail cadastrado (adrimeira@gmail.com) é de um dos membros e o e-mail do contratante é oi@bethbakery.com.br\n\nPode verificar por favor se este e-mail do membro foi mesmo cadastrado pelo contratante ou se pode ser algum comportamento incorreto da ferramenta que puxou esse e-mail do cadastro para disparo das comunicações? \n\nObrigada!",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a59336g",
+    "name": "Alteração de template",
+    "status": "finalizado",
+    "description": "Substituir o ID manual_recontratacao_cnpj por manual_recontratacao_cnpj_v2\nNão encontrei o fluxo dessa ID para trocar sozinha",
+    "tags": [
+      {
+        "name": "tech support - suporte tecnico",
+        "tag_fg": "#2ECD6F",
+        "tag_bg": "#2ECD6F",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  },
+  {
+    "id": "86a58yxz5",
+    "name": "Habilitar telefone do Hubspot",
+    "status": "finalizado",
+    "description": "A vendedora Luana Nogueira esta com o telefone desabilitado no hubspot.",
+    "tags": [
+      {
+        "name": "tech support - suporte tecnico",
+        "tag_fg": "#2ECD6F",
+        "tag_bg": "#2ECD6F",
+        "creator": 48943633
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49117445,
+        "username": "Allan Kelvin Pereira Hernandes"
+      }
+    ]
+  }
+]

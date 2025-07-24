@@ -1,0 +1,3742 @@
+[
+  {
+    "id": "86aaeh4me",
+    "name": "Alteraão de e-mail no Zendesk ",
+    "status": "finalizado",
+    "description": "Por favor, alterar o e-mail de um membro no Zendesk ?\nJOSE RIBAMAR ALVES FILHO 5462100010001052944\nE-mail: ribamaralves@hotmail.com",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aada7qg",
+    "name": "Nome não localizado no Zendesk",
+    "status": "finalizado",
+    "description": "Nome da membra não consta no Zendesk para abertura de solicitações, poderiam incluir por favor?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabr2hr",
+    "name": "Cadastrar corretoras no Hub e Zendesk",
+    "status": "finalizado",
+    "description": "Poderia cadastrar as corretoras abaixo no HubSpot e Zendesk por favor? \nBAER SEGUROS\t38013759000181\tRaquel Baer\traquel@baer.com.br\nMULTPLAN\t01164555000131\t Alexandre Sabino\talexandre.sabino@multplansaude.com.br\nTCS - TASSINARI\t44506393000185\tFilipi Simao \tfilipi.tcs@gmail.com\nTWENTY\t17056620000145\tLuisa Dellamanha\tluisa@twentyseguros.com\nMONTE CRISTO\t09586682000130\tPaulo Alberto\tpaulo.ramos@montecristocorretora.com.br\nBIELTHA\t18865789000109\tJaime Gomes\tjaime.gomes@bielthaseguros.com.br\nNUDGE\t56966859000104\tArthur Junqueira\tarthur@nudgeconsult.com.br\nC&S CORRETORA\t69097673000108\tAntônio Soares\tantoniomatos@matosmonteiro.com.br\nREED-C\t58263731000100\tLeonardo Fernandes\tlfernandes@reedc.com.br\nABFT\t59160047000165\tAdriana Galhardo\tadriana.barrichello@humacorretora.com.br\nZALC\t58488453000199\tMilton Zalcberg\tzalc@hoyt.com.br\nCAMOLESI\t13890185000107\tVinicius Camolesi\tcamolesi.seguros@gmail.com\nPLANECORP\t45777970000136\tMariana Zap\tmari@planecorp.com.br\nITUACU\t41466674000163\tAlexandre Aguiar\talexandreaguiar@assistenciamedicasp.com\nObrigado.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabkrxa",
+    "name": "Acesso zendesk",
+    "status": "finalizado",
+    "description": "Nao estou conseguindo ver alguns dash que preciso visualizar na zendesk. Segue print do dash que gostaria de acessar",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aabfvvr",
+    "name": "Criação de perfil",
+    "status": "finalizado",
+    "description": "Membra e contratante MARINA PEREIRA DE MOURA está sem o perfil no zendesk, por favor, poderiam criar? Obrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aaap2mt",
+    "name": "Cadastrar na Zendesk",
+    "status": "finalizado",
+    "description": "Time boa tarde tudo bem?\nMembra não possui cadastro na Zendesk há possibilidade de cadastrar por favor?\nMuito obrigada!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa73910",
+    "name": "Novo Motivo de Acionamento - Formulário \"Time Cadastro\"",
+    "status": "finalizado",
+    "description": "Olá, Aline, boa tarde!\n\nSolicito, por favor, a inclusão de um novo motivo de acionamento no formulário \"Time Cadastro\".\n\nMotivo de acionamento: Cadastro de Corpo Clínico.\n\nAgradeço a atenção.\n\nAtenciosamente,",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5vqnz",
+    "name": "Inclusão Membro 5462100010001061131 - Zendesk ",
+    "status": "finalizado",
+    "description": "Olá!\nPodem por favor realizar a inclusão dos dados do membro na Zendesk?\nMuito obrigada!\nPerfil Hubspot https://app.hubspot.com/contacts/8341620/record/0-1/123561241891",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa5d0bz",
+    "name": " Time Cadastro: Inclusão Motivos de acionamento Zendesk",
+    "status": "finalizado",
+    "description": "Aline, bom dia!\n\nSolicito a inclusão dos seguintes motivos de acionamento no formulário \"Time Cadastro\":\n\nLocal: Procedimento – Atualização Simpro/Brasíndice\n\nLocal: Regra – Tabela Sami",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa59p6b",
+    "name": "Liberação para pipe de PROCON, Ouvidoria e Consumidor.gov",
+    "status": "finalizado",
+    "description": "Bom dia Time, como estão?\n\nEntrarei de férias e a Manoelle Carvalho, seguirá com as atividades que eu realizo hoje, e ela precisa do acesso á pipe de Ouvidoria, Consumidor e PROCON, na zendesk, poderiam nos auxiliar, por gentileza? \n\nDesde já agradecemos pelo apoio!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa4u2eq",
+    "name": "Canal de Contato - Formulário: Time Cadastro",
+    "status": "finalizado",
+    "description": "Aline, boa tarde!\n\nSolicito a inclusão, no formulário \"Time Cadastro\", do campo Canal de Contato, com as seguintes opções:\n\n• Canal Interno (Slack);\n• E-mail;\n• Forms.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa39ykk",
+    "name": "Criar uma tabulação para os auditoria acionar concierge. ",
+    "status": "finalizado",
+    "description": "Por favor criar no Zendesk uma tabulação com o motivo \"Agendamento de Consulta e Negativas\". Essa categoria será usada para registrar as solicitações feitas entre os times de Auditoria/Regulação e o time de Concierge.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86aa2xavg",
+    "name": "Mercado - Integração de Novos E-mails Departamentais com o Zendesk",
+    "status": "finalizado",
+    "description": "Aline, boa tarde!\n\nO Vini concluiu a criação dos nossos novos e-mails departamentais. São eles:\n\nmercado.negociacao@samisaude.com\n\ncadastroparceiro@samisaude.com\n\nGostaríamos de solicitar a integração desses dois e-mails com a plataforma Zendesk.\n\nAproveito para esclarecer uma dúvida: a integração será direcionada para a nossa fila de atendimento já existente no Zendesk, ou será necessário acessar a plataforma com um login específico do departamento?\n\nAgradecemos a atenção",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9y6g7d",
+    "name": "Zendesk - Ajuste de gatilho de formulário offline",
+    "status": "finalizado",
+    "description": "Alterar os gatilhos de atribuição de tickets a partir dos formulários offline.\n\nCriar campos especificando os temas (ex: cancelamento, inclusão, exclusão) para o membro selecionar e direcionar aos grupos via gatilho com base nesse campo e não mais por palavra-chave de assunto.\n\nExemplo de gatilho a ser alterado:\nhttps://sami7213.zendesk.com/admin/objects-rules/rules/triggers/22465562451867",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9vbty3",
+    "name": "Erro de Gatilho Zendesk ",
+    "status": "finalizado",
+    "description": "A especialista Jaqueline Marcelino fez a abertura da CP de cancelamento para o financeiro, porém o gatilho atribuiu para ela mesma.\nPoderiam verificar o que ocorreu, por gentileza?\n\nTickets:\nhttps://sami7213.zendesk.com/agent/tickets/271845\nhttps://sami7213.zendesk.com/agent/tickets/271833\nhttps://sami7213.zendesk.com/agent/tickets/271848\nhttps://sami7213.zendesk.com/agent/tickets/271862\nhttps://sami7213.zendesk.com/agent/tickets/271876\nhttps://sami7213.zendesk.com/agent/tickets/271890\n\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9vb0p0",
+    "name": "Fluxo de envio de CSAT - Atualização",
+    "status": "finalizado",
+    "description": "Time,\nSolicito a alteração do fluxo de disparo de CSAT nos tickets de atendimento, considerando as regras descritas neste documento:\nhttps://docs.google.com/document/d/143Ym4AujGYjoK-NjqMoKMMiTacThKIYI3pc5Bbl-n0w/edit?tab=t.0\n\nQualquer dúvida, estou à disposição.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9v7239",
+    "name": "Ajuste de SLA | Front e Canais especiais",
+    "status": "finalizado",
+    "description": "Conforme reunião com a Aline Sobral, solicitamos os ajustes dos SLA estruturados nessa planilha por grupos e canais de contato: https://docs.google.com/spreadsheets/d/1tilZlwktRsFEdrVzDdnYaZVZywiEWyfA0v7Hksar9TM/edit?gid=1279550307#gid=1279550307",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9quhct",
+    "name": "Inclusão de ex membro na zendesk - 5462100010001028446",
+    "status": "finalizado",
+    "description": "Time, podem incluir o adastro do ex membro abaixo na zendesk, por gentileza?\nhttps://app.hubspot.com/contacts/8341620/record/0-1/9427151",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9qrfxd",
+    "name": "Ajuste de gatilhos - Zendesk",
+    "status": "finalizado",
+    "description": "Line, \nConforme falamos ontem, pode dar uma olhada nos casos de Retorno Cliente que ainda estão vindo errados, como Novo Offline? \nhttps://sami7213.zendesk.com/agent/tickets/313424\nhttps://sami7213.zendesk.com/agent/tickets/313528\nhttps://sami7213.zendesk.com/agent/tickets/313873\nhttps://sami7213.zendesk.com/agent/tickets/316602\n\nTem casos de Parceiros também, pros casos em que estão como \"Pendente Parceiros\" não tá voltando como \"Retorno Parceiros\":\nhttps://sami7213.zendesk.com/agent/tickets/308225\n\nOutro ponto que me sinalizaram é que os tickets quando colocados como \"Improdutivo\" não estão sendo atualizados na primeira tentativa; ele cai pra \"Retorno cliente\", e só depois disso, manualmente, é que muda pro status correto:\nhttps://sami7213.zendesk.com/agent/tickets/315782\nhttps://sami7213.zendesk.com/agent/tickets/313521",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9pnx9f",
+    "name": "Ticktes sem atribuição",
+    "status": "finalizado",
+    "description": "Time, tickets do tipo messagem está caindo sem atribuição, podem verificar? Obrigada",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9jhd1w",
+    "name": "Solicitação de Criação de Visualização no Zendesk para E-mails de Grupo",
+    "status": "finalizado",
+    "description": "Área: Mercado & Regulação  \n\nPessoal, bom dia!\n\nSolicitamos a criação de visualizações no Zendesk para os nossos e-mails de grupo. Atualmente, as demandas que chegam por e-mail não estão sendo contabilizadas nem rastreadas, o que impacta o acompanhamento das ações das áreas.\n\nE-mails de grupo:\n\n• Time de Mercado: negociacao@samisaude.com\n\n• Time de Cadastro: cadastroparceiro.sami@samisaude.com\n\nSugestão de nome para as visualizações no Zendesk:\n\n• E-mail Time de Mercado\n\n• E-mail Time de Cadastro\n\nAgradecemos desde já o apoio!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9hw93p",
+    "name": "Acesso ao zendesk - SIMONE BARRETO",
+    "status": "finalizado",
+    "description": "Pessoal, boa tarde!\nSolicito a liberação de acesso à ferramenta Zendesk para a Head de Mercado, Simone Barreto, nos perfis de Time de Mercado e Time de Cadastro.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9euuw5",
+    "name": "Correção de e-mail - Carteirinha 5462100010001013718",
+    "status": "finalizado",
+    "description": "Olá pessoal! Esta membra cadastrou o e-mail de maneira incorreta, e isso acaba afetando nossa comunicação. Seria possível editar o e-mail principal da membra no Zendesk, realizando esta correção?\n\nO e-mail cadastrado pela membra possui uma letra \"L\" faltando no sobrenome. Seria necessário apenas adicionar esta letra, conforme abaixo:\n\nE-mail cadastrado: bruna.pales@gmail.com\nE-mail correto: bruna.palles@gmail.com\n\nGrato pela ajuda!",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a9dx4qr",
+    "name": "Correção - ticket fundido erroneamente",
+    "status": "finalizado",
+    "description": "O ticket foi fundido errado.\nhttps://sami7213.zendesk.com/agent/tickets/310711\n\nO correto seria, para empresa:\nEmpresa: Ygor Ferreira Alvim\nCNPJ: 37528977000196\nE-mail: alvimygor@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9crqz0",
+    "name": "Inclusão de ex membro - 5462100010001028445",
+    "status": "finalizado",
+    "description": "Time, podem incluir na zendesk o cadastro de ex membro abaixo: \nhttps://app.hubspot.com/contacts/8341620/record/0-1/9427101",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9c8eyj",
+    "name": "Acesso Zendesk",
+    "status": "finalizado",
+    "description": "Ola!! \nÉ possivel liberar meu acesso à consulta na central administração para validação dos campos de ticket no zendesk. \n\nE acesso a Guide admin apenas para consulta das parametrizações de artigos?\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9b6bgb",
+    "name": "Liberar no zendesk a opção de tornar um e-mail principal",
+    "status": "finalizado",
+    "description": "Olá, tudo bem? Poderiam liberar para mim a opção de \"tornar um e-mail principal\" dentro do Zendesk? Muitas vezes faço a atualização cadastral e preciso tornar o novo e-mail como principal, mas não consigo devido não ter essa opçã liberada. Muito obrigada!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9at3b0",
+    "name": "Inclusão de cadastro - 5462100010001001904",
+    "status": "finalizado",
+    "description": "Podem incluir o cadastro do membro abaixo na zendesk: https://app.hubspot.com/contacts/8341620/record/0-1/8272051",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9ahbw8",
+    "name": "Cadastrar usuário no Zendesk",
+    "status": "finalizado",
+    "description": "Cadastrar ex-contratante no Zendesk.\n\nEmpresa: Wanessa Haryadne Borges Da Costa 09905934952",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a9agyv8",
+    "name": "Cadastrar ex-membra no Zendesk",
+    "status": "finalizado",
+    "description": "Cadastrar ex-membra no Zendesk.\n\nJessica Pastorello 39776443869",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a96hykr",
+    "name": "Cadastrar membro no Zendesk",
+    "status": "finalizado",
+    "description": "Cadastrar membra no Zendesk",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8wf27a",
+    "name": "Criação de gatilho no Zendesk - Chats sem grupo",
+    "status": "finalizado",
+    "description": "Time,\n\nSolicito a criação de gatilho no Zendesk, para enviar para Suporte a Membros os tickets que estão entrando sem grupo definido.\n\nTratado aqui: https://oisami.slack.com/archives/C08C6K34ZM5/p1748026051563709",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8w4phc",
+    "name": "inclusão de ex membra na zendesk - 5462100010001053759",
+    "status": "finalizado",
+    "description": "Time, podem nos apoiar na inclusão do perfil abaixo na zendesk: \n\nhttps://app.hubspot.com/contacts/8341620/record/0-1/6516151",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a8vx0pe",
+    "name": "Inclusão de perfil no zendesk",
+    "status": "finalizado",
+    "description": "Contrato cancelado em abril/2024 e não tem perfil no zendesk. Por favor, podem realizar a inclusão para que possamos fazer a negociação do valores em aberto?\n\nMARLOW DA SILVA DE SOUSA LTDA\nCNPJ 50752010000151\ne-mail: marlow.dsds@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 0,
+      "option": {
+        "id": "70b9db24-3510-472c-b0ce-5cee9d5e843b",
+        "name": "Brokers",
+        "color": null,
+        "orderindex": 0
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8tbqtg",
+    "name": "Inclusão de perfil no zendesk",
+    "status": "finalizado",
+    "description": "Ex-membra deseja seguir com negociação do valor em aberto, mas plano foi cancelado em 2023. Por favor, poderiam incluir o perfil no zendesk para envio de e-mail?\nObrigada\n\nPaloma De Oliveira Pereira 04934673199\ne-mail: pam.catsitter@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8qrmtr",
+    "name": "Integração - Membra não subiu para o Zendesk",
+    "status": "finalizado",
+    "description": "Time,\n\nMembra já está vigente conosco, mas seu cadastro não subiu para o Zendesk. Podem verificar?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8qrm3u",
+    "name": "Cadastrar corretoras no Zendesk",
+    "status": "finalizado",
+    "description": "Cadastrar corretoras no Zendesk e HubSpot:\n\nFORTT BRASIL - 15.738.220/0001-94\nIMPACTARE - 06.967.969/0001-12\nMDS - 07.448.144/0002-35\nRRANA - 20.945.087/0001-87\nBUSINESS WAY - 32.947.147/0001-80\nVIANA DO CASTELO - 03.916.741/0001-05\nZIPIA - 17.467.253/0001-72\nASTA - 60.140.000/0001-19\nJR E MARTO - 48.274.031/0001-67\nSEGURE TUDO - 54.027.521/0001-61\nBRADU - 22.959.822/0001-37\nWORLD - 54.787.431/0001-79\nBEDOIS - 04.337.040/0001-84\nNOCTA - 07.428.537/0001-04\nAJJI BRASIL - 10.797.733/0001-52\nFluir - 52.111.950/0001-97",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8qr0q7",
+    "name": "Liberar tarefa no zendesk",
+    "status": "finalizado",
+    "description": "Corretora solicitou o informe de rendimento, porém no meu perfil no zendesk não mostra essa tarefa. Poderia liberar?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8qqct1",
+    "name": "Completar cadastro - cart. 5462100010001058372",
+    "status": "finalizado",
+    "description": "Membra não tem cadastro na Zen, podem ajudar a completar? Fiz só o cadastro inicial.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8pc8rp",
+    "name": "Inclusão de perfil no zendesk ",
+    "status": "finalizado",
+    "description": "Contratante não é membro e não tem perfil no zendesk. Precisamos enviar o IR via e-mail, por favor, podem cadastrar ela no zendesk?\n\nrazão social: Gercina Dalva Barros Eireli\nContratante: Gercina Dalva Barros\nfinanceiro.juniors@gmail.com\n\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8pa2c3",
+    "name": "Completar cadastro membra cart. 5462100010001029281",
+    "status": "finalizado",
+    "description": "Membra estava sem cadastro na Zen porque filha estava com mesmo e-mail que ela. Fizemoss a separação dos e-mails e agora podemos completar o cadastro.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8ngqek",
+    "name": "Inclusão de ex membro zendesk 5462100010001019890",
+    "status": "finalizado",
+    "description": "Olá time!\nPodem por favor incluir so dados da ex membra na Zendesk.\nSegue perfil no Hub https://app.hubspot.com/contacts/8341620/record/0-1/5914751\nMuito obrigada!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8mcr0z",
+    "name": "Solicitação de Inclusão de E-mails de Grupo no Zendesk",
+    "status": "finalizado",
+    "description": "Aline, boa tarde!\n\nSolicito a inclusão dos e-mails de grupo no Zendesk, conforme abaixo:\n\nCadastro\n• E-mail de grupo: cadastroparceiro.sami@samisaude.com\n• Visualização: Criar visualização com o nome \"E-MAIL CADASTRO\"\n\nMercado\n• E-mail de grupo: negociacao@samisaude.com\n• Visualização: Criar visualização com o nome \"E-MAIL MERCADO\"\n\nDesde já, agradeço!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8m9t02",
+    "name": "Inclusão de Motivos de Acionamento no Campo \"Aplicar Macro\"",
+    "status": "finalizado",
+    "description": "Solicito a inclusão dos motivos de acionamento do formulario \"time cadastro\" no campo \"Aplicar Macro\", para que os times possam direcionar conversas paralelas de forma mais assertiva ao time de Cadastro.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a8ka3mm",
+    "name": "Incluir novos produtos RM no form do Zendesk",
+    "status": "finalizado",
+    "description": "Solicito a criação dos novos produtos Celeste RM, Coral RM e Safira RM no form do Zendesk.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a890t49",
+    "name": "Ajuste no zendesk",
+    "status": "finalizado",
+    "description": "Time, boa tarde.\n\nA opção enviar como pendente DS, sumiu do zendesk, poderiam ajusar?\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a879r03",
+    "name": "Correção de email",
+    "status": "finalizado",
+    "description": "Email informado pelo membro no ticket não permite resposta para a demanda. Solicito cadastro do email ryan.lima@lello.com.br disponível no cadastro do Sirius.",
+    "tags": [
+      {
+        "name": "sustentação - dados cadastrais incorretos",
+        "tag_fg": "#7C0B8A",
+        "tag_bg": "#7C0B8A",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a86eheb",
+    "name": "Alteração de status no grupo de Concessão ",
+    "status": "finalizado",
+    "description": "Time, tudo bem?\n\nPor favor, retirar alguns status de Concessão que não utilizamos ou estão duplicadas. São eles:\nRetirar: \"Atuação - Time de Mercado\"   / Utilizamos essa: \"Aguardando retorno - Time de Mercado\"\nRetirar: \"Pendente Cliente\"  / Utilizamos essa: \"Pendência do cliente (documentação)\"\nRetirar: \"Pendente Sami\" / Utilizamos: \"Aguardando retorno - Time de Mercado\"\nRetirar: \"Resolvido\"  / Utilizamos \"Concluído Concessão\" ou \"Recusado\" para finalizar\n\nCriar:\n\"Pendente Cadastro\" (Utilizamos quando acionamos o time de cadastro)\n\"Pendente TDS\"  (Utilizamos quando precisamos acionar o TDS internamente para ajuste em PM)",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a86arvp",
+    "name": "Cadastro de perfil no Zendesk",
+    "status": "finalizado",
+    "description": "Bom dia! Poderiam cadastrar o perfil no Zendesk?\n\nCNPJ: 46784409000147\nCPF: 253.315.788-02\nALLAN CHINGOTTE",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a862wfy",
+    "name": "Cadastrar de e-mail do RH da empresa Apice 3d Servicos De Digitacao De Dados Ltda",
+    "status": "finalizado",
+    "description": "Boa tarde, time! \n\nPor favor, cadastrar no Zendesk o e-mail do time de RH da empresa Ápice 3d Servicos De Digitação De Dados Ltda e vincular ao cadastro da empresa também.\n\nE-mail: rh@flyingstudio.com.br \nFuncionária: Rayssa Victória\n\nObrigada!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a85eumk",
+    "name": "Inclusão de perfil no zendesk",
+    "status": "finalizado",
+    "description": "Membro ativo SAMUEL EDUARDO DA CONCEICAO não tem perfil disponível no zendesk. Por favor, podem reaizar a inclusão?\n\nEmpresa: KAIROS ADMINISTRACAO DE EMPREENDIMENTOS LTDA \n\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      },
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a80nqex",
+    "name": "APP - Erro - Ao acessar  - Atendimento - Autorizações, boletos e questões do plano -  5462100010001033877",
+    "status": "finalizado",
+    "description": "Membro nos acionou via e-mail com a informação de que não consegue falar com TDR pelo APP - sempre que vai no campo atendimento aparece erro. \n\nTexto do E-mail \n\"Sobre o erro no app: ele persiste. \n\nMeu aparelho é um Samsung SM-G9600 - Android 10 e o app da Sami é a versão 3.61.0\n\nJá desinstalei e instalei algumas vezes e o erro persiste. \n\nQuando eu clico em  \"Atendimento - autorizações, boletos e questões do plano\" é gerado um erro com um x vermelho na tela\".\n\nPodem me ajudar?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a8093nx",
+    "name": "Inclusão de ex membro zendesk - 5462100010001035546",
+    "status": "finalizado",
+    "description": "Time, podem realizar a inclusão do cadastro do membro abaixo na zendesk?\n\nE-mails: cdslegaliza@gmail.com\ncarlos107souza@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a802k1z",
+    "name": "Correção zendesk telefone",
+    "status": "finalizado",
+    "description": "Membra BEATRIZ PRADO DOS SANTOS está com o seu telefone 55 (11) 9 8148-4238 (whatsapp) associado ao perfil errado no zendesk, está atribuido no perfil da membra BIANCA BAFFINI MIGLIARI VIEIRA. \n\nPor favor, é possível fazer a correção?\n\nTelefone 55 (11) 9 8148-4238 tem que estar associado a BEATRIZ PRADO DOS SANTOS\n\nex: https://sami7213.zendesk.com/agent/tickets/271098\n\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7t300d",
+    "name": "Atualização cadastro - Cart. 5462100010001054775",
+    "status": "finalizado",
+    "description": "Time, tudo bem? podem completar cadastro da membra? \nhttps://sami7213.zendesk.com/agent/users/35711770031899/requested_tickets",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      },
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a7nuzu4",
+    "name": "Pesquisa PSO no Zendesk",
+    "status": "finalizado",
+    "description": "Time,\n\nO time de CRM consultou a Galindo para entender se alguma equipe poderia atender às respostas da pesquisa, já que alguns casos pareciam mais críticos.\n\nA Ju sinalizou que o time responsável pelas pesquisas pode assumir esses atendimentos, desde que os tíquetes sejam gerados no Zendesk.\n\nHoje, essa pesquisa é disparada pelo HubSpot após o atendimento no PSO. A ideia é manter o disparo por lá, mas garantir que as respostas gerem tíquetes automaticamente no Zendesk, para que o time de suporte possa atuar.\n\nO Arthur Lopes se disponibilizou para apoiar na automação, já que envolve o CRM.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 7,
+      "option": {
+        "id": "403b6204-d4cc-4d79-91bf-21572d1408b4",
+        "name": "Hubspot-service-api",
+        "color": "#2ecd6f",
+        "orderindex": 7
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7nac8g",
+    "name": "Gatilho para filas zendesk",
+    "status": "finalizado",
+    "description": "Solicito criação de gatilhos por assuntos para direcionamento para filas corretas ref ao formulario \"Solicitações -  Meu Contrato\"",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7j6h3a",
+    "name": "Impossibilidade de envio de mensagem ativa",
+    "status": "finalizado",
+    "description": "Time, não estamos conseguindo enviar o push ao membro de cart. 5462100010001005432. Trocando com a Ana Paula, ela me orientou a pedir que \"forcem\" a integração com o PME, pois parece que esse membro provavelmente foi criado manualmente. Podem nos ajudar com isso?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7hugzr",
+    "name": "Erro Zendesk - Gatilho cíclico",
+    "status": "finalizado",
+    "description": "Time,\nTentei atribuir o ticket abaixo para o grupo de Pagamentos, mas alguma automação não está deixando e permanece em BKO.\n\nhttps://sami7213.zendesk.com/agent/tickets/256619",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7hcgmy",
+    "name": "Criação de perfil no zendesk",
+    "status": "finalizado",
+    "description": "Contrato cancelado em 06/22 e deseja realizar a negociação dos valores em aberto para recontratação. Por favor, podem criar o perfil no zendesk?\nObrigada!!\n\n\nISMAEL CARRICO INOCH 12116732786",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7gj47a",
+    "name": "Correção de e-mail no Zendesk ",
+    "status": "finalizado",
+    "description": "Boa tarde,  preciso desvincular o e-mail carla@maxxaguas.com.br do cadastro do membro CARLOS HENRIQUE PROBST.\nDeixando apenas o e-mail correto: carloshenriqueprobst@gmail.com\n\nEm paralelo preciso criar um cadastro separado para a contratante Carta Probst (não membra) mas responsável financeira e por movimentações com o e-mail: carla@maxxaguas.com.br",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7ghmez",
+    "name": "Erro de gatilho - Zendesk",
+    "status": "finalizado",
+    "description": "Boa tarde, time.\n\nSolicito ajuste dos gatilhos abaixo, pois estão enviando os tickets para \"Novo\" quando os clientes respondem, mas o correto seria \"Retorno Cliente\", e está impactando no controle dos chamados.\n\nGatilhos:\nhttps://sami7213.zendesk.com/admin/objects-rules/rules/triggers/19091039758363\nhttps://sami7213.zendesk.com/admin/objects-rules/rules/triggers/23601864088475\n\nTickets de exemplo:\nhttps://sami7213.zendesk.com/agent/tickets/254138\nhttps://sami7213.zendesk.com/agent/tickets/254207\nhttps://sami7213.zendesk.com/agent/tickets/254171\nhttps://sami7213.zendesk.com/agent/tickets/252954",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7ghdt8",
+    "name": "Inclusão de ex-membro na zendesk - 5462100010001011703",
+    "status": "finalizado",
+    "description": "Time, podem incluir o cadastro do ex-membro abaixo na zendesk?\nObrigada!\nhttps://app.hubspot.com/contacts/8341620/record/0-1/3441301",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7e3u4v",
+    "name": "Criação de perfil no zendesk ",
+    "status": "finalizado",
+    "description": "Ex-membra deseja recontratar o plano e tem pendências financeiras. Por favor, criar o perfil no zendesk para envio do e-mail.\n\nAlana Duarte Lima 51014915864\n\nObrigada!!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7e12jh",
+    "name": "Cadastrar corretoras no Zendesk",
+    "status": "finalizado",
+    "description": "Cadastrar essas corretoras no Zendesk:\n\nCONNECT PLUS | 09.174.592/0001-32\nTEXAS SP | 30.798.747/0001-06\nYOU HEALTH | 57.142.460/0001-71\nRAGAZ | 23.643.584/0001-19\nLIVESTRONG | 11.113.389/0001-06\nINFINITY | 41.837.218/0001-82\nW ASSESSORIA | 36.325.607/0001-99\nEMPIRE | 19.905.004/0001-47",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7ce3f6",
+    "name": "Incluir fila no Zendesk ",
+    "status": "finalizado",
+    "description": "Incluir a fila de improdutivo no zendesk, para finalizar os tickets como improdutivo.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7c7trg",
+    "name": "Status errado do tíquete ",
+    "status": "finalizado",
+    "description": "Tíquete abaixo finalizado como resolvido e após resposta do membro via e-mail o status mudou para novo off ao invés de retorno. Poderia verificar, por favor?\n\nhttps://sami7213.zendesk.com/agent/tickets/250001",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7c1yfp",
+    "name": "Ajustar fila no zendesk",
+    "status": "finalizado",
+    "description": "Não mostra na minha área de trabalho a fila \"pendente Sami\". Favor incluir.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7c1pvr",
+    "name": "Liberação de acesso à zendesk, para edição de e-mail",
+    "status": "finalizado",
+    "description": "Preciso de acesso para editar e-mail de membros na zendesk, pois em casos de NIP, os e-mails as vezes precisam ser enviados para outros endereços de e-mail, além do cadastrado.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7bfjmk",
+    "name": "Liberação de acesso",
+    "status": "finalizado",
+    "description": "Por favor, liberar acesso para Amanda Batista fundir os tíquetes de whatsapp no contato do membro.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a7b3hx4",
+    "name": "Chat sem Protocolo - 5462100010001057414",
+    "status": "finalizado",
+    "description": "Time, recebemos um chat de membro com plano ativo que não estava com o protocolo gerado podem verificar por gentileza foi algum erro ou algo pontual? Conseguimos gerar manual normalmente.\nhttps://sami7213.zendesk.com/agent/tickets/250109/events",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a78w3g1",
+    "name": "Problemas no recebimento de email ZENDESK ",
+    "status": "finalizado",
+    "description": "Olá, time.\n\nA empresa Rooftop Tecnologia De Ativos S.a. informa que enviou alguns emails, porém nos não recebemos ela encaminhou prints, poderiam verificar se se trata de algum problema no zendesk? Obrigada.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a78ggdq",
+    "name": "Ajuste - Zendesk",
+    "status": "finalizado",
+    "description": "Time, por gentileza.\n\nCriar a seguinte tabulação no Zendesk:\n\nImprodutivo - E-mail's institucionais ou outros. E criar o status improdutivo para os tíquetes. \n\nCriar o campo obrigatório: Tipo de Atendimento\nAtivo ou Receptivo",
+    "tags": [
+      {
+        "name": "support team - zendesk",
+        "tag_fg": "#02579b",
+        "tag_bg": "#02579b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a76m8pf",
+    "name": "Liberação - Zendesk",
+    "status": "finalizado",
+    "description": "Time, por favor, liberar a opção de adicionar usuário no Zen para o Leonardo Alves.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a76fmq5",
+    "name": "Formulário do juridico no grupo concessão",
+    "status": "finalizado",
+    "description": "https://oisami.slack.com/archives/C019PB8JRJS/p1741642800178969\n\nConforme sinalizado na thread, os casos que são no jurídico estão caindo no grupo de concessão.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a763rue",
+    "name": "Inclusão na Zendesk - Cart. 5462100010001030442",
+    "status": "finalizado",
+    "description": "Olá, time!\nPodem por favor, incluir os dados da membra na Zendesk?\nPerfil Hub: https://app.hubspot.com/contacts/8341620/record/0-1/9751701\nMuito obrigada!",
+    "tags": [
+      {
+        "name": "support team - sem ação tech",
+        "tag_fg": "#6A85FF",
+        "tag_bg": "#6A85FF",
+        "creator": 48943633
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a75pyy0",
+    "name": "Alterações nos Campos do Formulário Jurídico - Ouvidoria",
+    "status": "finalizado",
+    "description": "Alterar a ordem para:\n1. Tabulação de Contato - Jurídico\n2. Demandante\n3. Tipo de Manifestação\n- Dentro do desse campo, somente se for selecionado a opção \"Reanálise\", abrir a condicional:\n\"Reversão após análise?\"\nSe a resposta for \"SIM\", abrir somente o campo \"Reversão da Negativa\"\nSe a resposta for \"NÃO\", abrir somente o campo \"Manutenção da Negativa\"\n4. Natureza NIP\n5. Tema\n6. Houve Atendimento com Parceiro\n7. Acionou canais extrajudiciais\n8. Prazo Repactuado?\nSe a resposta for \"SIM\", criar um campo condicional com as seguintes opções:\nOpção 1: Resposta Dentro do Prazo Pactuado (8º até 30º dia útil)\nOpção 2: Resposta Fora do Prazo (Após o 30º dia útil)\n9. Protocolo ANS\n10. Descrição do Ticket\n\nNo cenário em que for selecionado na \"Tabulação de Contato - Jurídico\" as opções de IMPRODUTIVO, retirar os campos 2 a 9, mantendo somente a Descrição.\n\nEm caso de dúvida, estou à disposição!",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a74bz45",
+    "name": "Inclusão de e-mail contratante",
+    "status": "finalizado",
+    "description": "Precisamos incluir o contratante no Zendesk para envio de e-mail.\n\nLeandro Quaresma da Silva\nlequas@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a73uwhq",
+    "name": "Usuário Zendesk",
+    "status": "finalizado",
+    "description": "Solicito criação do usuário na zendesk para Arthur Lopes, com acesso a criação e edição de painéis.",
+    "tags": [],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a73a0er",
+    "name": "Acesso à plataforma InfocusCX",
+    "status": "finalizado",
+    "description": "Acesso à plataforma para envio de WhatsApp.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a72k3nb",
+    "name": "Inclusão de aviso na Zendesk",
+    "status": "finalizado",
+    "description": "Olá, time!\n\nGostaria de verificar a possibilidade de incluir um pop-up de aviso na Zendesk para membros trans. Atualmente, o nome social está disponível no cadastro, mas, no fluxo intenso de atendimentos, essa informação pode passar despercebida. Como o nome de batismo aparece no atendimento, isso pode gerar erros na interação e causar desconforto ao membro.\n\nSeria interessante termos uma sinalização mais visível, semelhante ao que já ocorre no MV e no Sírius, garantindo que o especialista utilize o nome correto desde o início do atendimento. Dessa forma, evitamos que o próprio membro precise nos corrigir, tornando a experiência mais respeitosa e acolhedora.\n\nAnexei alguns prints dos sistemas para comparação – percebi que, nos outros, a visibilidade do nome social está bem destacada.\n\nAcreditam que essa implementação seria viável? Agradeço desde já pela ajuda!",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a726947",
+    "name": "Ticket com status indevido #181911",
+    "status": "finalizado",
+    "description": "Time, o ticket abaixo de nov/2024 está fechado, porém com status de Novo Online, e por isso aparece em todos os nossos relatórios com esse status, pode verificar se foi algum erro e se conseguimos ajustar de alguma forma, por gentileza? https://sami7213.zendesk.com/agent/tickets/181911",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6zwdzm",
+    "name": "Cadastro de e-mail no Zendesk",
+    "status": "finalizado",
+    "description": "Boa tarde, por favor cadastrar o e-mail robertosalasc10@gmail.com do membro ROBERTO SALAS CORREA no Zendesk.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      },
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a6zqz4h",
+    "name": "app Sami - acesso ao contato com time de relacionamento",
+    "status": "finalizado",
+    "description": "Dificuldade de acessar botão de contato com o time de relacionamento. aparece mensagem de erro",
+    "tags": [
+      {
+        "name": "sustentação - criar cadastro zendesk",
+        "tag_fg": "#D99FA3",
+        "tag_bg": "#D99FA3",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6zq0pe",
+    "name": "Tabulação Zendesk cadastro ",
+    "status": "finalizado",
+    "description": "Aline bom dia !\n\nSolicito alguns ajustes na tabulação do zendesk da area de cadastro, com campos condicionados.\n\nVou marcar uma reunião para explicar ♥",
+    "tags": [
+      {
+        "name": "support team - zendesk",
+        "tag_fg": "#02579b",
+        "tag_bg": "#02579b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6z8r44",
+    "name": "app com erro na hora de acionar time de relacionamento",
+    "status": "finalizado",
+    "description": "Membra citada, e outros membros reclamam que, no uso do app, ao clicar na aba de acesso ao chat com time de relacionamento, aparece mensagem de erro ou o proprio app fecha",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6ywf78",
+    "name": "Ajuste no fluxo de movimentações (BKO)",
+    "status": "finalizado",
+    "description": "Oi, time!\n\nRecentemente, a área de BKO passou para a minha gestão em CS e, com isso, unificaremos os chamados recebidos no Zendesk em um único grupo.\n\nPreciso de ajuda para:\n- ajustar macros de CP das áreas, direcionando os tickets de movimentações para o grupo Customer Success\n- ajustar os gatilhos de e-mail, direcionando o que chega no email de BKO para o grupo Customer Success\n\nApós as alterações e o Front ser comunicado, apagaremos os grupos de BKO, para evitar direcionamentos errados.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6x6kvq",
+    "name": "Liberação de Acessos",
+    "status": "finalizado",
+    "description": "Pessoal, favor remover os acessos dos grupos do jurídico no zendesk da \"maria.viana@samisaude.com\" e liberar para o \"luca.marinho@samisaude.com\" (Procon, Consumidor, NIP e Ouvidoria)",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6x5pja",
+    "name": "Acesso Zendesk",
+    "status": "finalizado",
+    "description": "Time, precisamos de uma ajuda com o acesso do especialista Marcelo Terra, ele não está conseguindo utilizar o chat, e isso afeta a rotina de treinamento.\nPoderiam nos auxiliar, por gentileza?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6w5gce",
+    "name": "Erro no Ticket - Cart5462100010001042131",
+    "status": "finalizado",
+    "description": "Oi time tudo bem? Esse ticket não fecha de forma alguma, tentamos fechar como resolvido, improdutivo e retorna para retorno cliente.\n\nEra um ticket do time de saúde e por alguma razão veio para suporte a membros. \n\nLink do ticket: https://sami7213.zendesk.com/agent/tickets/171272",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6w3vrf",
+    "name": "Cadastro de membro no Zendesk",
+    "status": "finalizado",
+    "description": "Membra cancelada em 2022 deseja fazer negociação dos valores em aberto. Por favor, inserir os dados no zendesk para tratativa. Obrigada!! \n\nmembro: MARCELLE SIMOES PEREIRA MONTEIRO\nempresa: ZEN ESTAR LTDA",
+    "tags": [
+      {
+        "name": "sustentação - criar cadastro zendesk",
+        "tag_fg": "#D99FA3",
+        "tag_bg": "#D99FA3",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6u4dmg",
+    "name": "Ajuste Zendesk | TAG Jurídico",
+    "status": "finalizado",
+    "description": "Hoje o Front não tem visibilidade dos membros que estão com ticket em aberto com o Jurídico, e gostaríamos de apoio para que pudessem ter alguma visibilidade no Zendesk. \n\nSei que temos o alerta no MV, mas não temos tanta clareza se o caso continua em andamento, ou encerrado.\n\nSeria possível colocarmos as tags no Zendesk? E, além disso, daria para incluir alguma sinalização se o caso está em andamento ou foi finalizado?\n\nMuito obrigada!",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6tdwdb",
+    "name": "Completar cadastro - Cart.36608535000197",
+    "status": "finalizado",
+    "description": "Oi time, pode completar esse cadastro, por gentileza? No nome da membra: Vitoria Pereira da Cruz\n\nhttps://sami7213.zendesk.com/agent/users/25518321507867/requested_tickets",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      }
+    ]
+  },
+  {
+    "id": "86a6rajyz",
+    "name": "Formulário e Tabulações - Cadastro ",
+    "status": "finalizado",
+    "description": "Aline boa tarde !\n\nSolicito a criação de um formulário específico para a área de cadastro no Zendesk. Segue o link da planilha contendo as informações necessárias para a estruturação do formulário.  \n\nhttps://docs.google.com/spreadsheets/d/1N_JViUMCJwPywob5H_eVsXNDMQLqkHJJtTqNmQSRy3M/edit?gid=1668561768#gid=1668561768",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6mzb34",
+    "name": "JEdS | 5462100010001030904",
+    "status": "finalizado",
+    "description": "Oi, time! Como vai?\n\nCorreção de Cadastro da Membra\n\nPercebi que a membra possui dois cadastros:\n\nCadastro correto:\n📌 E-mail: janduyeuclides@gmail.com\n📌 Nome: Janduy Euclides da Silva\n\nCadastro incorreto:\n⚠️ E-mail: janduyeuclides@googlemail.com\n⚠️ Nome: Janduy Euclides\n⚠️ Problema: Não há número da carteirinha vinculado\n\nPodemos seguir com a correção para unificar as informações no cadastro correto?",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": null,
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6mz4fx",
+    "name": "FdCN | 36692653000126",
+    "status": "finalizado",
+    "description": "Correção do número da carteirinha e do status do plano do membro. Ele realizou uma nova contratação, mas, no Zendesk, as informações ainda aparecem incorretas.\nNo MV, a carteirinha ativa está assim:\n5462100010001046592 | Sami Antares * Enfermaria\nData de vigência: 06/05/2024\nCPF: 33341822828 | FdCN | abiocruz187@gmail.com",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6myme7",
+    "name": "Sem acesso ",
+    "status": "finalizado",
+    "description": "Time, bom dia.\n\nTudo bem?\n\nEstou sem acesso no Zendesk, poderiam verificar?\n\nObrigada.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6kjj31",
+    "name": "Inclusão de Tabulação",
+    "status": "finalizado",
+    "description": "Inclusão Ação Realizada [Financeiro]*\nFaturamento::Contrato Extensão",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49075005,
+        "username": "Aline Farias de Sobral"
+      }
+    ]
+  },
+  {
+    "id": "86a6katfe",
+    "name": "Vincular empresa no Zendesk 5462100010001046592",
+    "status": "finalizado",
+    "description": "Pessoal, boa tarde!\n\nO membro Fábio da Cruz Nascimento ainda está vinculado, no Zendesk, à razão social Fábio Da Cruz Nascimento Serviços de Engenharia Ltda (CNPJ: 36.692.653/0001-26). No entanto, essa empresa foi cancelada em 16/04/2024, conforme o print anexo.\n\nAtualmente, ele possui um novo contrato sob a razão social Build Now Engenharia Ltda (CNPJ: 54.408.159/0001-79), e precisamos que essa nova empresa seja vinculada ao Zendesk para evitar inconsistências no atendimento, já que o cadastro ainda está associado à empresa cancelada.\n\nPoderiam, por favor, realizar essa correção? Agradeço desde já! 😊",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a6k6dhq",
+    "name": "Acesso a plataforma zendesk",
+    "status": "finalizado",
+    "description": "estamos fazendo a ingestão dos dados de lá para os buckets e ai estão encontrando divergências entre o dado que a gente ta disponibilizando vs. os relatórios do zendesk, então precisaria de acesso ao Zendesk para conseguir fazer essa checagem.",
+    "tags": [
+      {
+        "name": "sustentação - zendesk",
+        "tag_fg": "#ee5e99",
+        "tag_bg": "#ee5e99",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": {
+      "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
+      "value": 19,
+      "option": {
+        "id": "b2e19325-e2de-484d-920a-d8843da8a239",
+        "name": "Zendesk-service-api",
+        "color": "#667684",
+        "orderindex": 19
+      }
+    },
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  }
+]

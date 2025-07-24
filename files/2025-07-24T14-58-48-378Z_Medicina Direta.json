@@ -1,0 +1,475 @@
+[
+  {
+    "id": "86a89w1nv",
+    "name": "Receita sem dosagem",
+    "status": "finalizado",
+    "description": "Receita emitida esta sem dosagem da medicação. Normalmente deve estar com o descritivo de, ex: Trazodona 50mg - 120 cp\nTomar 1cp dia",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a89q7bz",
+    "name": "pedido fora de esquadro",
+    "status": "finalizado",
+    "description": "Pacientes têm recebido pedidos desconfigurados e sem qr code para validação de assinatura, com token e link. Solicito correção",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a81z5h0",
+    "name": "Prontuáro sem evolução habilitada",
+    "status": "finalizado",
+    "description": "MD caiu não conseguimos evoluir",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7wac06",
+    "name": "5462100010001057924 Membra está com data de nascimento incorreta TdS",
+    "status": "finalizado",
+    "description": "Time, data de nascimento correta da membra é 03/06/86 esta atualizado no BKO e Zendesk, mas ela nao consegue acessar o pedido medico Sami com essa data somente com a data 02/06/86\npodem ajudar a resolver isso por aqui, por favor?\nAnexei os pedidos medicos que o tds enviou, a data ainda esta incorreta.",
+    "tags": [
+      {
+        "name": "sustentação - inconsistência de dados",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7u6wb4",
+    "name": "Sem prontuário no MD",
+    "status": "finalizado",
+    "description": "Boa tarde\nAtendi este Membro hoje, solicitou primeira consulta , porém não localizei prontuário no MD\nMembro desde\n02/04/2025\nObrigada\nOBS: Agendei mas sem anotação",
+    "tags": [
+      {
+        "name": "sustentação - integrações parceiros",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7r6wb6",
+    "name": "membra sem caretea/ medicina direta",
+    "status": "finalizado",
+    "description": "Bom dia! Recebo lista de novos membros da empresa Allello, e a membra CPF 48170645875, nome Vitória Eloísa Neves da Silva, não consta no careteam e nem no prontuário medicina direta (não consegui acesso ao numero da carteirinha)",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 82020014,
+        "username": "Matheus Nascimento"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7q0w8e",
+    "name": "Membro sem prontuário",
+    "status": "finalizado",
+    "description": "Membro sem prontuário no Medicina Direta.",
+    "tags": [
+      {
+        "name": "sustentação - integrações parceiros",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7k3p74",
+    "name": "Erro ao acessar encaminhamento TdS - 5462100010001046476",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando erro ao tentar acessar encaminhamentos/prescrições emitidos pelo Time de Saúde.",
+    "tags": [
+      {
+        "name": "sustentação - integrações parceiros",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7k3j5u",
+    "name": "Erro ao acessar encaminhamento TdS - 5462100010001012957",
+    "status": "finalizado",
+    "description": "Membro nos contata relatando indisponibilidade ao tentar acessar encaminhamentos/prescrições emitidos pelo Time de Saúde.\n\nAo apertar em \"abrir\", nada acontece.",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7k3btb",
+    "name": "Erro ao acessar encaminhamento TdS - 5462100010001032889",
+    "status": "finalizado",
+    "description": "Membra nos contata relatando erro ao tentar acessar encaminhamentos/prescrições emitidos pelo Time de Saúde, conforme imagem em anexo.",
+    "tags": [
+      {
+        "name": "sustentação - instabilidades ou queda",
+        "tag_fg": "#0f9d9f",
+        "tag_bg": "#0f9d9f",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7g7qpg",
+    "name": "incompatibilidade de documento",
+    "status": "finalizado",
+    "description": "Membro entra em contato referindo que,  desde a mudança do prontuário, ao receber pedidos e exames, arquivo chega de modo incompatível.",
+    "tags": [
+      {
+        "name": "sustentação - medicina direta",
+        "tag_fg": "#EC409F",
+        "tag_bg": "#EC409F",
+        "creator": 49028527
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7chaky",
+    "name": "Anexado exames errados",
+    "status": "finalizado",
+    "description": "Boa tarde! Ao anexar exames do paciente citado, anexei exames de outra membra \"Amanda\", na pasta de imagens e na pasta de documentos.\nSolicito exclusão.",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a7bvgk7",
+    "name": "Prontuário não encontrado no Medicina Direta",
+    "status": "finalizado",
+    "description": "O Membro está com plano ativo desde 16/03/2025\nProntuário consta no prontmed mas não está disponível no Medicina Direta",
+    "tags": [
+      {
+        "name": "sustentação - integrações parceiros",
+        "tag_fg": "#afb42b",
+        "tag_bg": "#afb42b",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      },
+      {
+        "id": 49170554,
+        "username": "Igor Domingos"
+      }
+    ]
+  },
+  {
+    "id": "86a73ya4t",
+    "name": "Modificação (limpeza) medicina direta - time de enfer",
+    "status": "finalizado",
+    "description": "Tivemos uma reunião com o Rafael do MD e discutimos alguns ajustes que precisamos fazer no perfil dos técnicos de enfermagem e enfermeiros \nFomos informados que essa parte está com vocês e gostaríamos de saber se podem nos ajudar a excluir algumas informações específicas, abro chamado aqui após orientação do Rodrigo Domingues \n\nPerfil tecnico de enfermagem  excluir:  Dr tis - Saude ocupacional -comunicação , formulario dinamico , nota adiministrativa ,restrição de acessos , \nDo Perfil enfermeiro >. tirar Dr Tis, saude ocupacional e restrição de acessos",
+    "tags": [
+      {
+        "name": "sustentação - medicina direta",
+        "tag_fg": "#EC409F",
+        "tag_bg": "#EC409F",
+        "creator": 49028527
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  },
+  {
+    "id": "86a6zwmvf",
+    "name": "Conta de e-mail TDS",
+    "status": "finalizado",
+    "description": "@Vini Silva\n\nPrecisamos criar uma conta de e-mail para cadastro no novo PEP (para envio de receitas, encaminhamentos)\nConsegue nos ajudar?\n\nSugestão: timedesaude@samisaude.com",
+    "tags": [
+      {
+        "name": "sustentação - sem ação de tech",
+        "tag_fg": "#1b5e20",
+        "tag_bg": "#1b5e20",
+        "creator": 49170554
+      }
+    ],
+    "squad": {
+      "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
+      "value": 2,
+      "option": {
+        "id": "cd3be275-85d3-487c-bbbe-f822822c3692",
+        "name": "Swot",
+        "color": null,
+        "orderindex": 2
+      }
+    },
+    "origin": null,
+    "assignees": [
+      {
+        "id": 49028527,
+        "username": "Rodrigo Domingues"
+      }
+    ]
+  }
+]
