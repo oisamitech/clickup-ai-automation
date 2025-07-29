@@ -83,19 +83,32 @@ export default class ClickupService {
     async getTickets(id) {
         try {
             let now = Date.now();
-            let oneYearAgo = now - (365 * 24 * 60 * 60 * 1000);
+            let fourMonthsAgo = now - (4 * 30 * 24 * 60 * 60 * 1000);
+            let allTickets = [];
+            let page = 0;
+            let hasMore = true;
 
-            let res = await this.api.get(`list/${id}/task`, {
-                params: {
-                    archived: false,
-                    include_closed: true,
-                    date_closed_gt: oneYearAgo,
-                    date_closed_lt: now,
-                    limit: 1000
+            while (hasMore) {
+                const res = await this.api.get(`list/${id}/task`, {
+                    params: {
+                        archived: false,
+                        include_closed: true,
+                        date_created_gt: fourMonthsAgo,
+                        date_created_lt: now,
+                        limit: 100,
+                        page: page
+                    }
+                });
+
+                if (res.data.tasks && res.data.tasks.length > 0) {
+                    allTickets = [...allTickets, ...res.data.tasks];
+                    page++;
+                } else {
+                    hasMore = false;
                 }
-            });
+            }
 
-            let tickets = res.data.tasks.map(t => {
+            let tickets = allTickets.map(t => {
                 let { id, name, description, tags, status, custom_fields = [], assignees = [] } = t;
                 let squadField = Array.isArray(custom_fields) 
                     ? custom_fields.find(cf => cf.name === "SQUAD")
