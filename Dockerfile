@@ -16,6 +16,10 @@ FROM node:18-alpine
 # Define o usuário não-root para maior segurança
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
+# Cria o diretório para arquivos e define as permissões corretas
+RUN mkdir -p /usr/src/app/files && \
+    chown -R appuser:appgroup /usr/src/app/files
+
 # Define o diretório de trabalho
 WORKDIR /usr/src/app
 
