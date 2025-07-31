@@ -1,5 +1,6 @@
 import axios from "axios";
 import 'dotenv/config';
+import Ticket from '../models/Ticket.js';
 
 export default class ClickupService {
     constructor () {
@@ -108,56 +109,7 @@ export default class ClickupService {
                 }
             }
 
-            let tickets = allTickets.map(t => {
-                let { id, name, description, tags, status, custom_fields = [], assignees = [] } = t;
-                let squadField = Array.isArray(custom_fields) 
-                    ? custom_fields.find(cf => cf.name === "SQUAD")
-                    : null;
-                
-                let squadOption = squadField?.type_config?.options?.[squadField.value];
-
-                let originField = Array.isArray(custom_fields) 
-                    ? custom_fields.find(cf => cf.name === "🔧 Origem")
-                    : null;
-                
-                let originOption = originField?.type_config?.options?.[originField.value];
-
-                let assigneesField = assignees.map(a => {
-                    return {
-                        id: a.id,
-                        username: a.username
-                    }
-                });
-                    
-                return {
-                    id,
-                    name,
-                    status: status?.status || status,
-                    description,
-                    tags: tags || [],
-                    squad: squadOption ? {
-                        field_id: squadField.id,
-                        value: squadField.value,
-                        option: {
-                            id: squadOption.id,
-                            name: squadOption.name,
-                            color: squadOption.color,
-                            orderindex: squadOption.orderindex
-                        }
-                    } : null,
-                    origin: originOption ? {
-                        field_id: originField.id,
-                        value: originField.value,
-                        option: {
-                            id: originOption.id,
-                            name: originOption.name,
-                            color: originOption.color,
-                            orderindex: originOption.orderindex
-                        }
-                    } : null,
-                    assignees: assigneesField
-                };
-            });
+            let tickets = allTickets.map(t => new Ticket(t));
 
             return tickets;
         } catch (error) {

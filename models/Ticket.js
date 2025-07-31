@@ -1,0 +1,51 @@
+export default class Ticket {
+    constructor(data) {
+        this.id = data.id;
+        this.name = data.name;
+        this.description = data.description;
+        this.tags = data.tags || [];
+        this.status = data.status?.status;
+        this.assignees = (data.assignees || []).map(a => {
+            return {
+                id: a.id,
+                username: a.username
+            }
+        });
+        this.squad = (() => {
+            let squadField = Array.isArray(data.custom_fields) 
+                ? data.custom_fields.find(cf => cf.name === "SQUAD")
+                : null;
+            
+            let squadOption = squadField?.type_config?.options?.[squadField.value];
+            
+            return squadOption ? {
+                field_id: squadField.id,
+                value: squadField.value,
+                option: {
+                    id: squadOption.id,
+                    name: squadOption.name,
+                    color: squadOption.color,
+                    orderindex: squadOption.orderindex
+                }
+            } : null;
+        })();
+        this.origin = (() => {
+            let originField = Array.isArray(data.custom_fields) 
+                ? data.custom_fields.find(cf => cf.name === "🔧 Origem")
+                : null;
+            
+            let originOption = originField?.type_config?.options?.[originField.value];
+            
+            return originOption ? {
+                field_id: originField.id,
+                value: originField.value,
+                option: {
+                    id: originOption.id,
+                    name: originOption.name,
+                    color: originOption.color,
+                    orderindex: originOption.orderindex
+                }
+            } : null;
+        })();
+    }
+}
