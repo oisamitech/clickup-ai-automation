@@ -134,21 +134,7 @@ export default class ClickupService {
             let response = await this.api.get(`/task/${id}`);
             let task = response.data;
 
-            return {
-                id: task.id,
-                name: task.name,
-                description: task.description,
-                status: task.status?.status || task.status,
-                priority: task.priority,
-                tags: task.tags?.map(tag => tag.name) || [],
-                creator: task.creator?.username || 'N/A',
-                assignees: task.assignees?.map(assignee => assignee.username) || [],
-                created: task.date_created,
-                updated: task.date_updated,
-                due_date: task.due_date,
-                list: task.list?.name || 'N/A',
-                space: task.space?.name || 'N/A'
-            }            
+            return new Ticket(task);       
         } catch (error) {
             console.error('Erro ao buscar task:', error.response?.data || error.message);
             throw error;
