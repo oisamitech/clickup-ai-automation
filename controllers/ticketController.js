@@ -1,7 +1,6 @@
-import createFile from "../helpers/createFile.js";
 import createFilename from "../helpers/createFilename.js";
-import getFiles from "../helpers/getFiles.js";
 import ClickupService from "../service/clickupService.js";
+import GCPStorageService from "../service/gcpStorageService.js";
 import GeminiService from "../service/geminiService.js";
 
 // Cache simples para evitar processamento duplicado
@@ -39,10 +38,11 @@ export default class TicketController {
     constructor() {
         this.clickupService = new ClickupService();
         this.geminiService = new GeminiService();
+        this.gcpStorageService = new GCPStorageService();
         this.recentlyProcessed = new SimpleCache();
     }
 
-    async webhook(req, res) {
+    async categorizeTicket(req, res) {
         // Responde imediatamente ao webhook para evitar timeouts
         res.status(202).json({ success: true, message: 'Processando...' });
         
@@ -82,7 +82,7 @@ export default class TicketController {
             }
             
             // 5. Processa a categorização
-            const files = await getFiles();
+            const files = await this.gcpStorageService.getAllFiles();
             const categorization = await this.geminiService.categorizeTicket(ticket, files);
             
             if (!categorization) {
@@ -179,7 +179,7 @@ export default class TicketController {
             let list = await this.clickupService.getList(id);
     
             let filename = createFilename(list.name, 'json');
-            await createFile(tasks, filename);
+            let x = await this.gcpStorageService.uploadFile(tasks, filename);
             
             // Calcular estatísticas
             const totalTasks = tasks.length;
@@ -206,7 +206,8 @@ export default class TicketController {
                         tasksWithTags: tasksWithTags,
                         tasksWithoutTags: tasksWithoutTags
                     },
-                    processingTime: new Date().toISOString()
+                    processingTime: new Date().toISOString(), 
+                    x: x
                 }
             };
             
