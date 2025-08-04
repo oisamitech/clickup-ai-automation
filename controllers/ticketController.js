@@ -54,7 +54,12 @@ export default class TicketController {
                 return; // Already sent 202, no need to respond again
             }
             
-            const files = await this.gcpStorageService.getAllFiles();
+            let files = await this.redisService.getFiles();
+            if (!files) {
+                files = await this.gcpStorageService.getAllFiles();
+                await this.redisService.saveFiles(files);
+            }
+
             const categorization = await this.geminiService.categorizeTicket(ticket, files);
             
             if (!categorization) {
@@ -107,19 +112,19 @@ export default class TicketController {
                 });
             }
 
-            if (categorization.assignees) {
+            // if (categorization.assignees) {
 
-                let assigneesIds = categorization.assignees.map((assignee) => assignee.id);
+            //     let assigneesIds = categorization.assignees.map((assignee) => assignee.id);
 
-                await this.clickupService.setAssignees(
-                    task_id,
-                    assigneesIds
-                );
-                console.log('✅ Assignees assigned:', {
-                    task_id,
-                    assignees: assigneesIds
-                });
-            }
+            //     await this.clickupService.setAssignees(
+            //         task_id,
+            //         assigneesIds
+            //     );
+            //     console.log('✅ Assignees assigned:', {
+            //         task_id,
+            //         assignees: assigneesIds
+            //     });
+            // }
             
         } catch (error) {
             console.error('❌ Error processing webhook:', {
