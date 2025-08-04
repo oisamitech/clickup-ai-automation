@@ -12,107 +12,101 @@ export default class TicketController {
         this.redisService = new RedisService();
 
         this.redisService.ensureConnection().catch(error => {
-            console.error('⚠️ Redis não disponível, continuando sem cache:', error.message);
+            console.error('⚠️ Redis not available, continuing without cache:', error.message);
         })
     }
 
     async categorizeTicket(req, res) {
-        res.status(202).json({ success: true, message: 'Processando...' });
-        
         try {
-            const { task_id, event, webhook_id, history_items = [] } = req.body;
+            const { task_id, history_items = [] } = req.body;
             
-            // Validação básica
             if (!task_id) {
-                console.warn('❌ Webhook inválido: task_id não fornecido');
-                return;
+                return res.status(422).json({ success: false, message: 'task_id não fornecido' });
             }
             
-            // 1. Verifica se o evento veio de um usuário real ou do sistema
-            const isFromUser = history_items.some(item => item.user);
-            if (!isFromUser) {
-                console.log('ℹ️  Ignorando evento gerado pelo sistema:', event);
-                return;
+            let isFromOurAPI = history_items.some(item => 
+                item.user && item.user.id === parseInt(process.env.CLICKUP_USER_ID)
+            );
+            
+            if (isFromOurAPI) {
+                return res.status(200).json({ success: true, message: 'Evento da própria API ignorado' });
             }
             
-            // 2. Verifica se o ticket já foi processado recentemente (cache simples)
+            if (!history_items.some(item => item.user)) {
+                return res.status(422).json({ success: false, message: 'evento não gerado por um usuário' });
+            }
+            
             let cacheKey = `ticket_${task_id}`;
             if (await this.redisService.has(cacheKey)) {
-                console.log('ℹ️  Ticket já processado recentemente:', task_id);
-                return;
+                return res.status(200).json({ success: true, message: 'ticket já processado recentemente' });
             }
             
-            // Adiciona ao cache com TTL de 5 minutos
-            await this.redisService.set(cacheKey, true, 300000); // 5 minutos em ms
+            res.status(202).json({ success: true, message: 'Processando...' });
             
-            // 3. Obtém o ticket apenas se necessário
+            await this.redisService.set(cacheKey, true, 300000);
+            
             const ticket = await this.clickupService.getTicket(task_id);
             
-            // 4. Verifica se o ticket já tem prioridade/tag definida
-            if (ticket.priority || (ticket.tags && ticket.tags.length > 0)) {
-                console.log('ℹ️  Ticket já categorizado:', task_id);
-                return;
+            const isAlreadyProcessed = ticket.priority || (ticket.tags && ticket.tags.length > 0) || ticket.squad || ticket.origin;
+            
+            if (isAlreadyProcessed) {
+                console.log('ℹ️ Ticket already categorized:', task_id);
+                return; // Already sent 202, no need to respond again
             }
             
-            // 5. Processa a categorização
             const files = await this.gcpStorageService.getAllFiles();
             const categorization = await this.geminiService.categorizeTicket(ticket, files);
             
             if (!categorization) {
-                console.warn('⚠️  Não foi possível categorizar o ticket:', task_id);
+                console.warn('⚠️ Could not categorize ticket:', task_id);
                 return;
             }
             
-            // 6. Atualiza a prioridade do ticket
             if (categorization.priority) {
                 await this.clickupService.setPriority(task_id, { 
                     priority: categorization.priority 
                 });
-                console.log('✅ Prioridade atualizada:', {
+                console.log('✅ Priority updated:', {
                     task_id,
                     priority: categorization.priority
                 });
             }
             
-            // 7. Adiciona a tag ao ticket, se existir
             if (categorization.tags?.[0]?.name) {
                 await this.clickupService.addTagToTicket(
                     task_id, 
                     categorization.tags[0].name
                 );
-                console.log('✅ Tag adicionada:', {
+                console.log('✅ Tag added:', {
                     task_id,
                     tag: categorization.tags[0].name
                 });
             }
 
-            //8. Define a Squad do ticket
             if (categorization.squad) {
                 await this.clickupService.setCustomField(
                     task_id,
                     categorization.squad.field_id,
                     categorization.squad.value
                 );
-                console.log('✅ Squad atualizada:', {
+                console.log('✅ Squad updated:', {
                     task_id,
                     squad: categorization.squad.option.name
                 });
             }
 
-            //9. Define a Origem do ticket
             if (categorization.origin) {
                 await this.clickupService.setCustomField(
                     task_id,
                     categorization.origin.field_id,
                     categorization.origin.value
                 );
-                console.log('✅ Origem atualizada:', {
+                console.log('✅ Origin updated:', {
                     task_id,
                     origin: categorization.origin.option.name
                 });
             }
 
-            //10. Define os responsaveis pelo ticket
             if (categorization.assignees) {
 
                 let assigneesIds = categorization.assignees.map((assignee) => assignee.id);
@@ -121,18 +115,27 @@ export default class TicketController {
                     task_id,
                     assigneesIds
                 );
-                console.log('✅ Responsáveis atribuidos:', {
+                console.log('✅ Assignees assigned:', {
                     task_id,
                     assignees: assigneesIds
                 });
             }
             
         } catch (error) {
-            console.error('❌ Erro no processamento do webhook:', {
+            console.error('❌ Error processing webhook:', {
                 error: error.message,
-                stack: error.stack,
+                task_id: req.body.task_id,
                 timestamp: new Date().toISOString()
             });
+            
+            // ✅ Only respond if headers haven't been sent yet
+            if (!res.headersSent) {
+                return res.status(500).json({ 
+                    success: false, 
+                    message: 'Erro ao processar o webhook', 
+                    error: error.message 
+                });
+            }
         }
     }
 
@@ -152,17 +155,16 @@ export default class TicketController {
             let list = await this.clickupService.getList(id);
     
             let filename = createFilename(list.name, 'json');
-            let x = await this.gcpStorageService.uploadFile(tasks, filename);
+            let uploadResult = await this.gcpStorageService.uploadFile(tasks, filename);
             
-            // Calcular estatísticas
+            // Calculate statistics
             const totalTasks = tasks.length;
             const tasksWithTags = tasks.filter(task => task.tags && task.tags.length > 0).length;
             const tasksWithoutTags = totalTasks - tasksWithTags;
             
-
-            const response = {
+            return res.status(200).json({
                 success: true,
-                message: 'Arquivo criado com sucesso!',
+                message: 'Arquivo enviado para GCP Storage com sucesso!',
                 data: {
                     list: {
                         id: id,
@@ -171,23 +173,22 @@ export default class TicketController {
                     },
                     file: {
                         filename: filename,
-                        path: `files/${filename}`,
-                        size: `${JSON.stringify(tasks).length} bytes`
+                        bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
+                        gcpPath: `${filename}`,
+                        size: `${JSON.stringify(tasks).length} bytes`,
+                        uploadResult: uploadResult
                     },
                     statistics: {
                         totalTasks: totalTasks,
                         tasksWithTags: tasksWithTags,
                         tasksWithoutTags: tasksWithoutTags
                     },
-                    processingTime: new Date().toISOString(), 
-                    x: x
+                    processingTime: new Date().toISOString()
                 }
-            };
-            
-            return res.status(200).json(response);
+            });
 
         } catch (error) {
-            console.error(`❌ Erro no processamento:`, error.message);
+            console.error(`❌ Processing error:`, error.message);
             
             return res.status(500).json({ 
                 success: false,
