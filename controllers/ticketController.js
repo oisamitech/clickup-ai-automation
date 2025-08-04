@@ -2,48 +2,21 @@ import createFilename from "../helpers/createFilename.js";
 import ClickupService from "../service/clickupService.js";
 import GCPStorageService from "../service/gcpStorageService.js";
 import GeminiService from "../service/geminiService.js";
-
-// Cache simples para evitar processamento duplicado
-class SimpleCache {
-    constructor() {
-        this.cache = new Map();
-    }
-
-    set(key, value, ttl = 60000) {
-        this.cache.set(key, {
-            value,
-            expires: Date.now() + ttl
-        });
-    }
-
-    get(key) {
-        const item = this.cache.get(key);
-        if (!item) return null;
-        
-        // Remove itens expirados
-        if (Date.now() > item.expires) {
-            this.cache.delete(key);
-            return null;
-        }
-        
-        return item.value;
-    }
-
-    has(key) {
-        return this.cache.has(key) && Date.now() <= this.cache.get(key).expires;
-    }
-}
+import RedisService from "../service/redisService.js";
 
 export default class TicketController {
     constructor() {
         this.clickupService = new ClickupService();
         this.geminiService = new GeminiService();
         this.gcpStorageService = new GCPStorageService();
-        this.recentlyProcessed = new SimpleCache();
+        this.redisService = new RedisService();
+
+        this.redisService.ensureConnection().catch(error => {
+            console.error('⚠️ Redis não disponível, continuando sem cache:', error.message);
+        })
     }
 
     async categorizeTicket(req, res) {
-        // Responde imediatamente ao webhook para evitar timeouts
         res.status(202).json({ success: true, message: 'Processando...' });
         
         try {
@@ -63,14 +36,14 @@ export default class TicketController {
             }
             
             // 2. Verifica se o ticket já foi processado recentemente (cache simples)
-            const cacheKey = `ticket_${task_id}`;
-            if (this.recentlyProcessed.has(cacheKey)) {
+            let cacheKey = `ticket_${task_id}`;
+            if (await this.redisService.has(cacheKey)) {
                 console.log('ℹ️  Ticket já processado recentemente:', task_id);
                 return;
             }
             
             // Adiciona ao cache com TTL de 5 minutos
-            this.recentlyProcessed.set(cacheKey, true, 300000); // 5 minutos em ms
+            await this.redisService.set(cacheKey, true, 300000); // 5 minutos em ms
             
             // 3. Obtém o ticket apenas se necessário
             const ticket = await this.clickupService.getTicket(task_id);
