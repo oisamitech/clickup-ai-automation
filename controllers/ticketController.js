@@ -111,21 +111,7 @@ export default class TicketController {
                     origin: categorization.origin.option.name
                 });
             }
-
-            // if (categorization.assignees) {
-
-            //     let assigneesIds = categorization.assignees.map((assignee) => assignee.id);
-
-            //     await this.clickupService.setAssignees(
-            //         task_id,
-            //         assigneesIds
-            //     );
-            //     console.log('✅ Assignees assigned:', {
-            //         task_id,
-            //         assignees: assigneesIds
-            //     });
-            // }
-            
+                    
         } catch (error) {
             console.error('❌ Error processing webhook:', {
                 error: error.message,
