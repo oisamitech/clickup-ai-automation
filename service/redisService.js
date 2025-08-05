@@ -78,39 +78,15 @@ export default class RedisService {
     //Save files in chunks
     async saveFiles(files) {
         try {
-            const chunkSize = 1000;
-            const chunks = [];
-
-            // Split into chunks
-            for (let i = 0; i < files.length; i += chunkSize) {
-                chunks.push(files.slice(i, i + chunkSize));
-            }
-
-            console.log(`Splitting ${files.length} files into ${chunks.length} chunks`);
-
-            // Save chunks
-            for (let i = 0; i < chunks.length; i++) {
-                await this.redisClient.setEx(
-                    `files_chunk_${i}`, 
-                    86400, // 24 hours in seconds
-                    JSON.stringify(chunks[i])
-                );
-            }
+            const connected = await this.ensureConnection();
+            if (!connected) return false;
             
-            // Save metadata
-            const metadata = {
-                total: files.length,
-                chunks: chunks.length,
-                cachedAt: new Date().toISOString()
-            };
+            if (files.length === 0) {
+                return true;
+            }
 
-            await this.redisClient.setEx(
-                'files_metadata', 
-                86400, // 24 hours in seconds
-                JSON.stringify(metadata)
-            );
-
-            console.log(`Successfully cached ${files.length} files in ${chunks.length} chunks`);
+            await this.redisClient.setEx('files', 86400, JSON.stringify(files));
+            console.log(`Successfully cached ${files.length} files`);
             return true;
         } catch (error) {
             console.warn('Failed to cache files:', error.message);
@@ -121,42 +97,20 @@ export default class RedisService {
     //Get files from cache
     async getFiles() {
         try {
-            // Get metadata
-            const metadataString = await this.redisClient.get('files_metadata');
-            if (!metadataString) {
-                console.log('No cache metadata found');
-                return null;
+            const connected = await this.ensureConnection();
+            if (!connected) return null;
+            
+            let filesExists = await this.redisClient.get('files');
+
+            if (!filesExists) {
+                console.log('No files found in cache');
+                return false;
             }
 
-            const metadata = JSON.parse(metadataString);
-            console.log(`Found cache: ${metadata.total} files in ${metadata.chunks} chunks`);
-
-            // Get chunks
-            const chunks = [];
-            for (let i = 0; i < metadata.chunks; i++) {
-                const chunkString = await this.redisClient.get(`files_chunk_${i}`);
-                if (chunkString) {
-                    try {
-                        const chunk = JSON.parse(chunkString);
-                        chunks.push(chunk);
-                    } catch (parseError) {
-                        console.warn(`Failed to parse chunk ${i}:`, parseError.message);
-                    }
-                }
-            }
-
-            if (chunks.length === metadata.chunks) {
-                // Rebuild complete array
-                const files = chunks.flat();
-                console.log(`Successfully loaded ${files.length} files from cache`);
-                return files;
-            } else {
-                console.warn(`Missing chunks: ${chunks.length}/${metadata.chunks}`);
-                return null;
-            }
+            return JSON.parse(filesExists);
         } catch (error) {
             console.warn('Failed to get files:', error.message);
-            return null;
+            return false;
         }
     }
 }
