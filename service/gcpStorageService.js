@@ -23,7 +23,7 @@ export default class GCPStorageService {
                 }
             });
 
-            console.log(`✅ Arquivo enviado para GCP: ${filename}`);
+            console.log(`File uploaded to GCP: ${filename}`);
             
             return {
                 success: true,
@@ -33,7 +33,7 @@ export default class GCPStorageService {
             };
 
         } catch (error) {
-            console.error('❌ Erro ao enviar arquivo para GCP:', error);
+            console.error('Error uploading file to GCP:', error);
             throw error;
         }
     }
@@ -60,7 +60,7 @@ export default class GCPStorageService {
             return files.filter(file => file !== null);
             
         } catch (error) {
-            console.error('❌ Erro ao listar arquivos:', error);
+            console.error('Error listing files:', error);
             throw error;
         }
     }
