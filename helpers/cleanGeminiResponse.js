@@ -1,13 +1,13 @@
 export function cleanGeminiResponse(responseText) {
-    // Remover markdown, código e texto extra
+    // Remove markdown, code and extra text
     let cleaned = responseText
         .replace(/```json\s*/g, '')  // Remove ```json
         .replace(/```\s*/g, '')     // Remove ```
-        .replace(/^[^{]*/, '')      // Remove texto antes do primeiro {
-        .replace(/[^}]*$/, '')      // Remove texto após o último }
+        .replace(/^[^{]*/, '')      // Remove text before first {
+        .replace(/[^}]*$/, '')      // Remove text after last }
         .trim();
 
-    // Se ainda não começa com {, tentar encontrar JSON
+    // If still doesn't start with {, try to find JSON
     if (!cleaned.startsWith('{')) {
         const jsonMatch = cleaned.match(/\{.*\}/s);
         if (jsonMatch) {
