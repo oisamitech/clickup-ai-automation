@@ -10,7 +10,7 @@ export default class GeminiService {
 
     async categorizeTicket(ticket, historicalFiles) {
         try {
-            // Criar o prompt específico para categorização (agora inline)
+            // Create specific prompt for categorization 
             let prompt = `
 Você é um analista de suporte especializado em categorização automática de chamados. Sua tarefa é analisar um novo chamado e atribuir prioridade, UMA ÚNICA TAG, squad, origem e responsáveis baseado no histórico de chamados similares.
 
@@ -175,7 +175,7 @@ Estrutura exata para casos similares:
             return parseGeminiResponse(response.text);
             
         } catch (error) {
-            console.error('❌ Erro na categorização:', error.message);
+            console.error('Error in categorization:', error.message);
             throw error;
         }
     }
