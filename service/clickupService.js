@@ -16,18 +16,18 @@ export default class ClickupService {
     async setPriority(ticketId, { priority }) {
         try {
             if (priority === undefined) {
-                throw new Error('A prioridade é obrigatória para atualização');
+                throw new Error('Priority is required for update');
             }
             
             const response = await this.api.put(`/task/${ticketId}`, { priority });
             
             return {
                 success: true,
-                message: `Prioridade do chamado "${response.data.name}" atualizada com sucesso`,
+                message: `Ticket priority "${response.data.name}" updated successfully`,
                 data: response.data
             };
         } catch (error) {
-            console.error('Erro ao atualizar prioridade do chamado:', error.response?.data || error.message);
+            console.error('Error updating ticket priority:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -35,18 +35,18 @@ export default class ClickupService {
     async addTagToTicket(ticketId, tagName) {
         try {
             if (!tagName) {
-                throw new Error('O nome da tag é obrigatório');
+                throw new Error('Tag name is required');
             }
             
             const response = await this.api.post(`/task/${ticketId}/tag/${encodeURIComponent(tagName)}`);
             
             return {
                 success: true,
-                message: `Tag "${tagName}" adicionada com sucesso ao chamado.`,
+                message: `Tag "${tagName}" added successfully to the ticket.`,
                 data: response.data
             };
         } catch (error) {
-            console.error(`Erro ao adicionar a tag ${tagName}:`, error.response?.data || error.message);
+            console.error(`Error adding tag ${tagName}:`, error.response?.data || error.message);
             throw error;
         }
     }
@@ -57,11 +57,11 @@ export default class ClickupService {
             
             return {
                 success: true,
-                message: `Custom field "${fieldId}" atualizado com sucesso ao chamado.`,
+                message: `Custom field "${fieldId}" updated successfully on the ticket.`,
                 data: response.data
             };
         } catch (error) {
-            console.error('Erro ao atualizar custom field do chamado:', error.response?.data || error.message);
+            console.error('Error updating ticket custom field:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -72,11 +72,11 @@ export default class ClickupService {
             
             return {
                 success: true,
-                message: `Responsáveis atribuidos com sucesso ao chamado.`,
+                message: `Assignees assigned successfully to the ticket.`,
                 data: response.data
             };
         } catch (error) {
-            console.error('Erro ao atribuir responsáveis ao chamado:', error.response?.data || error.message);
+            console.error('Error assigning assignees to the ticket:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -113,7 +113,7 @@ export default class ClickupService {
 
             return tickets;
         } catch (error) {
-            console.error('Erro ao buscar tickets:', error.response?.data || error.message);
+            console.error('Error fetching tickets:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -125,7 +125,7 @@ export default class ClickupService {
 
             return list;
         } catch (error) {
-            console.error('Erro ao buscar lista:', error.response?.data || error.message);
+            console.error('Error fetching list:', error.response?.data || error.message);
         }
     }
 
@@ -136,7 +136,7 @@ export default class ClickupService {
 
             return new Ticket(task);       
         } catch (error) {
-            console.error('Erro ao buscar task:', error.response?.data || error.message);
+            console.error('Error fetching task:', error.response?.data || error.message);
             throw error;
         }
     }
