@@ -8,4 +8,4 @@ app.use(express.json());
 
 app.use("/tickets", TicketRouter);
 
-app.listen(process.env.PORT, () => console.log(`Running in port ${process.env.PORT}!`))
+app.listen(process.env.PORT, () => console.log(`Webhook is running in port ${process.env.PORT}!`))
