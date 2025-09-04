@@ -1,49 +1,58 @@
-# Webhook de Automação ClickUp
-
-[![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
-[![Docker](https://img.shields.io/badge/Docker-20.x-blue)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# ClickUp Webhook Automation API
 
 ## 🚀 Propósito do Projeto
 
 **Este projeto foi criado para automatizar o processamento de tickets no ClickUp através de webhooks, utilizando inteligência artificial (Google Gemini) para categorização automática de tarefas. O objetivo é reduzir o trabalho manual de categorização e melhorar a eficiência do squad de sustentação.**
 
+---
+
+Sistema de automação profissional para ClickUp com Fastify, Redis, Google Gemini AI e Google Cloud Storage.
+
 ## Funcionalidades
 
-- **Webhook ClickUp** - Processamento automático de eventos de tickets
-- **IA Google Gemini** - Categorização inteligente de tickets baseada em histórico
+- **Fastify** - Framework web de alta performance
+- **Webhook ClickUp** - Processamento automático de eventos de tickets  
+- **IA Google Gemini** - Categorização inteligente baseada em histórico
 - **Cache Redis** - Prevenção de processamento duplicado
 - **GCP Storage** - Armazenamento de histórico de tickets para análise
-- **Express.js** - Framework web para processamento de webhooks
+- **JSON Schema** - Validação de requisições e respostas
+- **Logs estruturados** - Rastreamento detalhado com Pino
 - **Docker** - Containerização para fácil implantação
 - **Healthcheck** - Monitoramento automático da aplicação
-- **Logs estruturados** - Rastreamento detalhado de operações
 
 ## Estrutura do Projeto
 
 ```
 api/
-├── controllers/          # Manipuladores de requisições
-│   └── ticketController.js
-├── helpers/             # Funções auxiliares
-│   ├── cleanGeminiResponse.js
-│   ├── createFilename.js
-│   └── parseGeminiResponse.js
-├── models/              # Modelos de dados
-│   └── Ticket.js
-├── routes/              # Rotas da API
-│   └── ticketRoutes.js
-├── service/             # Serviços de integração
-│   ├── clickupService.js
-│   ├── geminiService.js
-│   ├── gcpStorageService.js
-│   └── redisService.js
-├── .env                 # Variáveis de ambiente
-├── .env.example         # Exemplo de variáveis de ambiente
-├── docker-compose.yml   # Configuração do Docker Compose
-├── Dockerfile           # Configuração do Docker
-├── index.js             # Ponto de entrada da aplicação
-└── package.json         # Dependências do projeto
+├── src/
+│   ├── config/           # Configuração da aplicação
+│   │   └── environment.js # Validação de variáveis de ambiente
+│   ├── controllers/      # Manipuladores de requisições
+│   │   └── ticketController.js
+│   ├── helpers/          # Funções auxiliares
+│   │   ├── cleanGeminiResponse.js
+│   │   ├── createFilename.js
+│   │   └── parseGeminiResponse.js
+│   ├── models/           # Modelos de dados
+│   │   └── Ticket.js
+│   ├── plugins/          # Plugins Fastify
+│   │   ├── cors.js       # Configuração CORS
+│   │   └── redis.js      # Plugin Redis
+│   ├── routes/           # Rotas da API
+│   │   └── tickets.js
+│   ├── schemas/          # Schemas de validação
+│   │   └── ticketSchemas.js
+│   ├── services/         # Serviços de integração
+│   │   ├── clickupService.js
+│   │   ├── geminiService.js
+│   │   ├── gcpStorageService.js
+│   │   └── redisService.js
+│   └── server.js         # Ponto de entrada da aplicação
+├── .env                  # Variáveis de ambiente
+├── .env.example          # Exemplo de variáveis de ambiente
+├── docker-compose.yml    # Configuração do Docker Compose
+├── Dockerfile            # Configuração do Docker
+└── package.json          # Dependências do projeto
 ```
 
 ## Instalação
@@ -82,6 +91,10 @@ cp .env.example .env
 4. Edite o arquivo `.env` com suas credenciais:
 
 ```env
+# Application
+NODE_ENV=development
+PORT=3000
+
 # ClickUp API Configuration
 CLICKUP_API_URL=https://api.clickup.com/api/v2
 CLICKUP_API_TOKEN=seu_token_aqui
@@ -90,9 +103,6 @@ CLICKUP_USER_ID=seu_user_id
 # Google Gemini AI Configuration
 GEMINI_API_KEY=sua_chave_aqui
 GEMINI_MODEL=gemini-1.5-flash
-
-# Application Configuration
-NODE_ENV=development
 
 # GCP Storage Configuration
 GOOGLE_CLOUD_PROJECT_ID=seu_projeto_id
@@ -126,8 +136,7 @@ Isso iniciará o webhook em um container isolado.
 ## Scripts Disponíveis
 
 - `npm run dev` - Inicia o servidor de desenvolvimento com recarga automática
-- `npm start` - Inicia o servidor de produção
-- `npm test` - Executa os testes (configuração pendente)
+- `npm run start` - Inicia o servidor de produção
 
 ## Funcionalidades da API
 
@@ -173,7 +182,7 @@ Salva todos os tickets de uma lista específica:
 ```json
 {
   "success": true,
-  "message": "Arquivo criado com sucesso!",
+  "message": "File uploaded to GCP Storage successfully!",
   "data": {
     "list": {
       "id": "lista_id",
@@ -182,7 +191,7 @@ Salva todos os tickets de uma lista específica:
     },
     "file": {
       "filename": "2024-01-15T10:30:00.000Z_Lista_Exemplo.json",
-      "path": "files/2024-01-15T10:30:00.000Z_Lista_Exemplo.json",
+      "bucket": "clickup-bucket",
       "size": "45000 bytes"
     },
     "statistics": {
@@ -194,6 +203,19 @@ Salva todos os tickets de uma lista específica:
 }
 ```
 
+#### GET `/tickets/health`
+**Healthcheck do sistema**
+
+Retorna status da aplicação:
+```json
+{
+  "success": true,
+  "message": "Webhook is running",
+  "uptime": 3600,
+  "timestamp": "2024-01-15T10:30:00.000Z"
+}
+```
+
 ## Como a IA Funciona
 
 ### Processo de Categorização
@@ -202,7 +224,7 @@ Salva todos os tickets de uma lista específica:
 2. **Validação**: Verifica se o evento é válido e não duplicado
 3. **Análise do Ticket**: Extrai informações do ticket (título, descrição, etc.)
 4. **Consulta ao Histórico**: Busca tickets similares no GCP Storage
-5. **Categorização IA**: Google Gemini analisa e categoriza baseado no histórico
+5. **Categorização IA**: Google Gemini analiza e categoriza baseado no histórico
 6. **Atualização Automática**: Aplica prioridade, tags, squad, origem e responsáveis
 
 ### Critérios de Categorização
@@ -245,16 +267,16 @@ A aplicação inclui healthcheck configurado no Docker Compose:
 
 ```yaml
 healthcheck:
-  test: ["CMD", "wget", "--spider", "http://localhost:3000/health"]
+  test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/tickets/health"]
   interval: 30s
   timeout: 10s
   retries: 3
-  start_period: 5s
+  start_period: 10s
 ```
 
 ### Logs Estruturados
 
-O sistema gera logs detalhados para monitoramento:
+O sistema usa Pino (via Fastify) para logs estruturados e de alta performance:
 
 - ✅ **Sucesso**: Operações completadas com sucesso
 - ❌ **Erro**: Falhas e exceções
@@ -264,11 +286,11 @@ O sistema gera logs detalhados para monitoramento:
 ### Exemplo de Logs
 
 ```
-✅ Redis conectado
-📝 Redis: ticket_abc123 (TTL: 300s)
-✅ Prioridade atualizada: { task_id: "abc123", priority: 2 }
-✅ Tag adicionada: { task_id: "abc123", tag: "bug" }
-✅ Squad atualizada: { task_id: "abc123", squad: "Sinistro" }
+[2024-01-15 10:30:00] INFO: ✅ Redis connected
+[2024-01-15 10:30:05] INFO: 📝 Redis: ticket_abc123 (TTL: 300s)
+[2024-01-15 10:30:10] INFO: ✅ Priority updated: { task_id: "abc123", priority: 2 }
+[2024-01-15 10:30:15] INFO: ✅ Tag added: { task_id: "abc123", tag: "bug" }
+[2024-01-15 10:30:20] INFO: ✅ Squad updated: { task_id: "abc123", squad: "Sinistro" }
 ```
 
 ## Variáveis de Ambiente
@@ -287,7 +309,8 @@ O sistema gera logs detalhados para monitoramento:
 
 | Variável | Descrição | Padrão |
 |----------|-----------|--------|
-| `NODE_ENV` | Ambiente da aplicação | `production` |
+| `NODE_ENV` | Ambiente da aplicação | `development` |
+| `PORT` | Porta da aplicação | `3000` |
 | `REDIS_HOST` | Host do Redis | `localhost` |
 | `REDIS_PORT` | Porta do Redis | `6379` |
 | `REDIS_PASSWORD` | Senha do Redis | - |
@@ -307,7 +330,7 @@ O sistema gera logs detalhados para monitoramento:
 ### Fluxo de Dados
 
 ```
-ClickUp Webhook → Express Router → TicketController → 
+ClickUp Webhook → Fastify Router → TicketController → 
 ClickupService (busca ticket) → GeminiService (categorização) → 
 GCPStorageService (histórico) → ClickupService (atualização) → 
 RedisService (cache)
@@ -345,20 +368,15 @@ docker-compose logs -f
 docker-compose exec webhook sh
 
 # Verificar saúde da aplicação
-curl http://localhost:3000/health
-
-# Testar conexão Redis
-docker-compose exec webhook redis-cli ping
+curl http://localhost:3000/tickets/health
 ```
 
-## Contribuição
-
-### Workflow de Desenvolvimento
+## Workflow de Desenvolvimento
 
 1. **Criar branch**: `git checkout -b feature/nova-funcionalidade`
 2. **Desenvolver**: Implementar funcionalidade seguindo padrões do projeto
 3. **Testar**: Executar testes e verificar logs
-4. **Commit**: Usar mensagem descritiva
+4. **Commit**: Usar mensagem descritiva seguindo Conventional Commits
 5. **Push**: Enviar para repositório remoto
 6. **Pull Request**: Criar PR com descrição detalhada
 
