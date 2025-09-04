@@ -110,6 +110,7 @@ Estrutura exata para casos similares:
                 contents: prompt
             });
 
+            console.log(parseGeminiResponse(response.text));
             return parseGeminiResponse(response.text);
             
         } catch (error) {
