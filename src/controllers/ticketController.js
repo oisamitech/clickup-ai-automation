@@ -150,7 +150,7 @@ export default class TicketController {
             let tasks = await this.clickupService.getTickets(id);
             let list = await this.clickupService.getList(id);
     
-            let filename = createFilename(list.name, 'json');
+            let filename = `${new Date().toISOString().replace(/[:.]/g, '-')}_${list.name}.json`;
             let uploadResult = await this.gcpStorageService.uploadFile(tasks, filename);
             
             // Calculate statistics
