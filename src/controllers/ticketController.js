@@ -88,6 +88,8 @@ export default class TicketController {
                 this.fastify.log.warn(`⚠️ Could not categorize ticket: ${task_id}`);
                 return;
             }
+
+            this.fastify.log.info('✅ Categorization:', categorization);
             
             if (categorization.priority) {
                 await this.clickupService.setPriority(task_id, { 
