@@ -1,7 +1,8 @@
 import { Storage } from '@google-cloud/storage';
 
 export default class GCPStorageService {
-    constructor() {
+    constructor(logger = console) {
+        this.logger = logger;
         this.storage = new Storage({
             credentials: JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY)
         });
@@ -23,7 +24,7 @@ export default class GCPStorageService {
                 }
             });
 
-            console.log(`File uploaded to GCP: ${filename}`);
+            this.logger.info(`📤 File uploaded to GCP: ${filename}`);
             
             return {
                 success: true,
@@ -33,7 +34,7 @@ export default class GCPStorageService {
             };
 
         } catch (error) {
-            console.error('Error uploading file to GCP:', error);
+            this.logger.error('Error uploading file to GCP:', error);
             throw error;
         }
     }
@@ -60,7 +61,7 @@ export default class GCPStorageService {
             return files.filter(file => file !== null);
             
         } catch (error) {
-            console.error('Error listing files:', error);
+            this.logger.error('Error listing files:', error);
             throw error;
         }
     }
