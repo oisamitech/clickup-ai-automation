@@ -1,9 +1,9 @@
 import axios from "axios";
-import 'dotenv/config';
 import Ticket from '../models/Ticket.js';
 
 export default class ClickupService {
-    constructor () {
+    constructor(logger = console) {
+        this.logger = logger;
         this.api = axios.create({
             baseURL: process.env.CLICKUP_API_URL,
             headers: {
@@ -27,7 +27,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            console.error('Error updating ticket priority:', error.response?.data || error.message);
+            this.logger.error('Error updating ticket priority:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -46,7 +46,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            console.error(`Error adding tag ${tagName}:`, error.response?.data || error.message);
+            this.logger.error(`Error adding tag ${tagName}:`, error.response?.data || error.message);
             throw error;
         }
     }
@@ -61,7 +61,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            console.error('Error updating ticket custom field:', error.response?.data || error.message);
+            this.logger.error('Error updating ticket custom field:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -76,7 +76,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            console.error('Error assigning assignees to the ticket:', error.response?.data || error.message);
+            this.logger.error('Error assigning assignees to the ticket:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -110,10 +110,9 @@ export default class ClickupService {
             }
 
             let tickets = allTickets.map(t => new Ticket(t));
-
             return tickets;
         } catch (error) {
-            console.error('Error fetching tickets:', error.response?.data || error.message);
+            this.logger.error('Error fetching tickets:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -121,22 +120,19 @@ export default class ClickupService {
     async getList(id) {
         try {
             let response = await this.api.get(`list/${id}`);
-            let list = response.data;
-
-            return list;
+            return response.data;
         } catch (error) {
-            console.error('Error fetching list:', error.response?.data || error.message);
+            this.logger.error('Error fetching list:', error.response?.data || error.message);
+            throw error;
         }
     }
 
     async getTicket(id) {
         try {
             let response = await this.api.get(`/task/${id}`);
-            let task = response.data;
-
-            return new Ticket(task);       
+            return new Ticket(response.data);       
         } catch (error) {
-            console.error('Error fetching task:', error.response?.data || error.message);
+            this.logger.error('Error fetching task:', error.response?.data || error.message);
             throw error;
         }
     }

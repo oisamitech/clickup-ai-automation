@@ -1,16 +1,15 @@
 import { GoogleGenAI } from "@google/genai";
-import 'dotenv/config';
 import { parseGeminiResponse } from "../helpers/parseGeminiResponse.js";
 
 export default class GeminiService {
-    constructor () {
+    constructor(logger = console) {
+        this.logger = logger;
         this.modelName = process.env.GEMINI_MODEL;
         this.googleGenAi = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     }
 
     async categorizeTicket(ticket, historicalFiles) {
         try {
-            // Create specific prompt for categorization 
             let prompt = `
 Você é um analista de suporte especializado em categorização automática de chamados. Sua tarefa é analisar um novo chamado e atribuir prioridade, UMA ÚNICA TAG, squad, origem e responsáveis baseado no histórico de chamados similares.
 
@@ -92,67 +91,6 @@ Estrutura exata para casos similares:
   "confidence": 0.1-1.0
 }
 
-## EXEMPLOS DE RESPOSTA VÁLIDA:
-
-### Exemplo 1 - Categorização completa (quando há casos similares para todos os campos):
-{
-  "priority": 2,
-  "tags": [
-    {
-      "name": "bug",
-      "tag_fg": "#1b5e20",
-      "tag_bg": "#1b5e20",
-      "creator": 49170554
-    }
-  ],
-  "squad": {
-    "field_id": "c2d77207-eed4-4eef-a54f-34c620ee8adc",
-    "value": 1,
-    "option": {
-      "id": "c42f0f72-2b75-43e1-8aa1-facdeea146e9",
-      "name": "Sinistro",
-      "color": null,
-      "orderindex": 1
-    }
-  },
-  "origin": {
-    "field_id": "b521ca7d-610b-4044-8b22-fc5c0bbe6775",
-    "value": 6,
-    "option": {
-      "id": "aa771d3d-8195-4c88-bbe9-0af9ea989c0b",
-      "name": "health-declaration-api",
-      "color": "#04A9F4",
-      "orderindex": 6
-    }
-  },
-  "assignees": [
-    {
-      "id": 49075005,
-      "username": "Aline Farias de Sobral"
-    }
-  ],
-  "reasoning": "Problema similar ao histórico mostra que erros de login são tratados como alta prioridade, e o time de Sinistro é o responsável por este tipo de chamado.",
-  "confidence": 0.85
-}
-
-### Exemplo 2 - Categorização parcial (quando alguns campos não têm casos similares no histórico):
-{
-  "priority": 3,
-  "tags": [
-    {
-      "name": "bug",
-      "tag_fg": "#1b5e20",
-      "tag_bg": "#1b5e20",
-      "creator": 49170554
-    }
-  ],
-  "squad": null,
-  "origin": null,
-  "assignees": null,
-  "reasoning": "Encontrei casos similares para classificar como dúvida e definir prioridade, mas não há casos similares no histórico para determinar squad, origem ou responsáveis específicos.",
-  "confidence": 0.60
-}
-
 ## REGRAS IMPORTANTES:
 - **SE NÃO ENCONTRAR NENHUM CASO SIMILAR NO HISTÓRICO, retorne apenas "null"**
 - **SE ENCONTRAR CASOS SIMILARES PARA ALGUNS CAMPOS, retorne o JSON com os campos encontrados preenchidos e os campos sem similaridade como null**
@@ -175,9 +113,8 @@ Estrutura exata para casos similares:
             return parseGeminiResponse(response.text);
             
         } catch (error) {
-            console.error('Error in categorization:', error.message);
+            this.logger.error('Error in categorization:', error.message);
             throw error;
         }
     }
-
 }

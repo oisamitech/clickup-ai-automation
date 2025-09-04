@@ -1,4 +1,4 @@
-# Use a imagem oficial do Node.js LTS (suporte de longo prazo)
+# Use a imagem oficial do Node.js LTS
 FROM node:18-alpine AS builder
 
 # Define o diretório de trabalho
@@ -13,12 +13,15 @@ RUN npm ci --only=production
 # Estágio final de produção
 FROM node:18-alpine
 
+# Instala pino-pretty para logs mais legíveis
+RUN npm install -g pino-pretty
+
 # Define o usuário não-root para maior segurança
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
 # Cria o diretório para arquivos e define as permissões corretas
-RUN mkdir -p /usr/src/app/files && \
-    chown -R appuser:appgroup /usr/src/app/files
+RUN mkdir -p /usr/src/app && \
+    chown -R appuser:appgroup /usr/src/app
 
 # Define o diretório de trabalho
 WORKDIR /usr/src/app
@@ -36,4 +39,4 @@ USER appuser
 EXPOSE 3000
 
 # Comando para iniciar o webhook
-CMD ["node", "index.js"]
+CMD ["node", "src/server.js"]
