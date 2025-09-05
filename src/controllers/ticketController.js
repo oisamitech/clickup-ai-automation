@@ -2,11 +2,12 @@ import createFilename from "../helpers/createFilename.js";
 import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";
 import GeminiService from "../services/geminiService.js";
+import { logger } from "@oisamitech/sami-logger";
 
 export default class TicketController {
     constructor(fastify) {
         this.fastify = fastify;
-        this.clickupService = new ClickupService(fastify.log);
+        this.clickupService = new ClickupService();
         this.geminiService = new GeminiService(fastify.log);
         this.gcpStorageService = new GCPStorageService(fastify.log);
     }
@@ -41,7 +42,7 @@ export default class TicketController {
             });
             
         } catch (error) {
-            this.fastify.log.error('Error processing webhook:', {
+            logger.error('Error processing webhook:', {
                 error: error.message,
                 task_id: request.body.task_id,
                 timestamp: new Date().toISOString()
@@ -66,7 +67,7 @@ export default class TicketController {
             const isAlreadyProcessed = ticket.priority || (ticket.tags && ticket.tags.length > 0) || ticket.squad || ticket.origin;
             
             if (isAlreadyProcessed) {
-                this.fastify.log.info(`Ticket already categorized: ${task_id}`);
+                logger.info(`Ticket already categorized: ${task_id}`);
                 return;
             }
             
@@ -85,15 +86,17 @@ export default class TicketController {
             const categorization = await this.geminiService.categorizeTicket(ticket, files);
             
             if (!categorization) {
-                this.fastify.log.warn(`⚠️ Could not categorize ticket: ${task_id}`);
+                logger.warn(`⚠️ Could not categorize ticket: ${task_id}`);
                 return;
             }
+            
+            logger.debug('Categorization:', categorization);
             
             if (categorization.priority) {
                 await this.clickupService.setPriority(task_id, { 
                     priority: categorization.priority 
                 });
-                this.fastify.log.info('✅ Priority updated:', {
+                logger.info('✅ Priority updated:', {
                     task_id,
                     priority: categorization.priority
                 });
@@ -104,7 +107,7 @@ export default class TicketController {
                     task_id, 
                     categorization.tags[0].name
                 );
-                this.fastify.log.info('✅ Tag added:', {
+                logger.info('✅ Tag added:', {
                     task_id,
                     tag: categorization.tags[0].name
                 });
@@ -116,7 +119,7 @@ export default class TicketController {
                     categorization.squad.field_id,
                     categorization.squad.value
                 );
-                this.fastify.log.info('✅ Squad updated:', {
+                logger.info('✅ Squad updated:', {
                     task_id,
                     squad: categorization.squad.option.name
                 });
@@ -128,14 +131,14 @@ export default class TicketController {
                     categorization.origin.field_id,
                     categorization.origin.value
                 );
-                this.fastify.log.info('✅ Origin updated:', {
+                logger.info('✅ Origin updated:', {
                     task_id,
                     origin: categorization.origin.option.name
                 });
             }
                     
         } catch (error) {
-            this.fastify.log.error('Error in async processing:', {
+            logger.error('Error in async processing:', {
                 error: error.message,
                 task_id,
                 timestamp: new Date().toISOString()
@@ -184,7 +187,7 @@ export default class TicketController {
             });
 
         } catch (error) {
-            this.fastify.log.error(`Processing error:`, error.message);
+            logger.error(`Processing error:`, error.message);
             
             return reply.code(500).send({ 
                 success: false,

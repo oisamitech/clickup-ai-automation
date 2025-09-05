@@ -1,9 +1,9 @@
 import axios from "axios";
 import Ticket from '../models/Ticket.js';
+import { logger } from "@oisamitech/sami-logger";
 
 export default class ClickupService {
-    constructor(logger = console) {
-        this.logger = logger;
+    constructor() {
         this.api = axios.create({
             baseURL: process.env.CLICKUP_API_URL,
             headers: {
@@ -27,7 +27,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            this.logger.error('Error updating ticket priority:', error.response?.data || error.message);
+            logger.error('Error updating ticket priority:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -46,7 +46,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            this.logger.error(`Error adding tag ${tagName}:`, error.response?.data || error.message);
+            logger.error(`Error adding tag ${tagName}:`, error.response?.data || error.message);
             throw error;
         }
     }
@@ -61,7 +61,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            this.logger.error('Error updating ticket custom field:', error.response?.data || error.message);
+            logger.error('Error updating ticket custom field:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -76,7 +76,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            this.logger.error('Error assigning assignees to the ticket:', error.response?.data || error.message);
+            logger.error('Error assigning assignees to the ticket:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -112,7 +112,7 @@ export default class ClickupService {
             let tickets = allTickets.map(t => new Ticket(t));
             return tickets;
         } catch (error) {
-            this.logger.error('Error fetching tickets:', error.response?.data || error.message);
+            logger.error('Error fetching tickets:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -122,7 +122,7 @@ export default class ClickupService {
             let response = await this.api.get(`list/${id}`);
             return response.data;
         } catch (error) {
-            this.logger.error('Error fetching list:', error.response?.data || error.message);
+            logger.error('Error fetching list:', error.response?.data || error.message);
             throw error;
         }
     }
@@ -132,7 +132,7 @@ export default class ClickupService {
             let response = await this.api.get(`/task/${id}`);
             return new Ticket(response.data);       
         } catch (error) {
-            this.logger.error('Error fetching task:', error.response?.data || error.message);
+            logger.error('Error fetching task:', error.response?.data || error.message);
             throw error;
         }
     }
