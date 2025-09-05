@@ -11,17 +11,7 @@ import ticketRoutes from './routes/tickets.js';
 
 async function build() {
     const fastify = Fastify({
-        logger: {
-            level: process.env.NODE_ENV === 'development' ? 'debug' : 'info',
-            transport: process.env.NODE_ENV === 'development' ? {
-                target: 'pino-pretty',
-                options: {
-                    colorize: true,
-                    translateTime: 'SYS:standard',
-                    ignore: 'pid,hostname'
-                }
-            } : undefined
-        }
+        logger: false
     });
 
     try {

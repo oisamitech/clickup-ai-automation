@@ -38,7 +38,7 @@ export default class TicketController {
             
             // Processamento assíncrono
             this.processTicketAsync(task_id, cacheKey).catch(error => {
-                this.fastify.log.error('Async processing error:', error);
+                logger.error('Async processing error:', error);
             });
             
         } catch (error) {
@@ -90,7 +90,7 @@ export default class TicketController {
                 return;
             }
             
-            logger.debug('Categorization:', categorization);
+            logger.info('Categorization:', categorization);
             
             if (categorization.priority) {
                 await this.clickupService.setPriority(task_id, { 
@@ -117,7 +117,8 @@ export default class TicketController {
                 await this.clickupService.setCustomField(
                     task_id,
                     categorization.squad.field_id,
-                    categorization.squad.value
+                    categorization.squad.value,
+                    "Squad"
                 );
                 logger.info('✅ Squad updated:', {
                     task_id,
@@ -129,7 +130,8 @@ export default class TicketController {
                 await this.clickupService.setCustomField(
                     task_id,
                     categorization.origin.field_id,
-                    categorization.origin.value
+                    categorization.origin.value,
+                    "Origem"
                 );
                 logger.info('✅ Origin updated:', {
                     task_id,

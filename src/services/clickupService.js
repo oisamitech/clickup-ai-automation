@@ -51,7 +51,7 @@ export default class ClickupService {
         }
     }
 
-    async setCustomField(ticketId, fieldId, value) {
+    async setCustomField(ticketId, fieldId, value, optionName = 'customField') {
         try {
             let response = await this.api.post(`/task/${ticketId}/field/${fieldId}`, { value });
             
@@ -61,7 +61,7 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            logger.error('Error updating ticket custom field:', error.response?.data || error.message);
+            logger.error(`Error updating ticket custom field ${optionName}:`, error.response?.data || error.message);
             throw error;
         }
     }

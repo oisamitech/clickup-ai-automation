@@ -3,8 +3,7 @@ import { parseGeminiResponse } from "../helpers/parseGeminiResponse.js";
 import { logger } from "@oisamitech/sami-logger";
 
 export default class GeminiService {
-    constructor(logger = console) {
-        this.logger = logger;
+    constructor() {
         this.modelName = process.env.GEMINI_MODEL;
         this.googleGenAi = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     }

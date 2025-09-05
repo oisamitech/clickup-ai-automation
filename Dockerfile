@@ -1,10 +1,13 @@
 # Use a imagem oficial do Node.js LTS
 FROM node:18-alpine AS builder
 
+ARG NPM_TOKEN=$NPM_TOKEN
+
 # Define o diretório de trabalho
 WORKDIR /usr/src/app
 
 # Copia apenas os arquivos necessários para instalação de dependências
+COPY .npmrc ./
 COPY package*.json ./
 
 # Instala as dependências de produção
