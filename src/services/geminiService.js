@@ -1,5 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 import { parseGeminiResponse } from "../helpers/parseGeminiResponse.js";
+import { logger } from "@oisamitech/sami-logger";
 
 export default class GeminiService {
     constructor(logger = console) {
@@ -113,7 +114,7 @@ Estrutura exata para casos similares:
             return parseGeminiResponse(response.text);
             
         } catch (error) {
-            this.logger.error('Error in categorization:', error.message);
+            logger.error('Error in categorization:', error.message);
             throw error;
         }
     }

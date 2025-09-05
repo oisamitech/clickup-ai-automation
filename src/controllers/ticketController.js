@@ -8,8 +8,8 @@ export default class TicketController {
     constructor(fastify) {
         this.fastify = fastify;
         this.clickupService = new ClickupService();
-        this.geminiService = new GeminiService(fastify.log);
-        this.gcpStorageService = new GCPStorageService(fastify.log);
+        this.geminiService = new GeminiService();
+        this.gcpStorageService = new GCPStorageService();
     }
 
     async categorizeTicket(request, reply) {

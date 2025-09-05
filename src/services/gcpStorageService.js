@@ -1,8 +1,8 @@
 import { Storage } from '@google-cloud/storage';
+import { logger } from "@oisamitech/sami-logger";
 
 export default class GCPStorageService {
-    constructor(logger = console) {
-        this.logger = logger;
+    constructor() {
         this.storage = new Storage({
             credentials: JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY)
         });
@@ -24,7 +24,7 @@ export default class GCPStorageService {
                 }
             });
 
-            this.logger.info(`📤 File uploaded to GCP: ${filename}`);
+            logger.info(`📤 File uploaded to GCP: ${filename}`);
             
             return {
                 success: true,
@@ -34,7 +34,7 @@ export default class GCPStorageService {
             };
 
         } catch (error) {
-            this.logger.error('Error uploading file to GCP:', error);
+            logger.error('Error uploading file to GCP:', error);
             throw error;
         }
     }
@@ -61,7 +61,7 @@ export default class GCPStorageService {
             return files.filter(file => file !== null);
             
         } catch (error) {
-            this.logger.error('Error listing files:', error);
+            logger.error('Error listing files:', error);
             throw error;
         }
     }

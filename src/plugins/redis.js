@@ -1,5 +1,6 @@
 import fp from 'fastify-plugin';
 import RedisService from '../services/redisService.js';
+import { logger } from "@oisamitech/sami-logger";
 
 async function redisPlugin(fastify) {
   const redisService = new RedisService();
@@ -7,9 +8,9 @@ async function redisPlugin(fastify) {
   try {
     await redisService.ensureConnection();
     fastify.decorate('redis', redisService);
-    fastify.log.info('✅ Redis connected and decorated');
+    logger.info('✅ Redis connected and decorated');
   } catch (error) {
-    fastify.log.warn('Redis not available, continuing without cache:', error.message);
+    logger.warn('Redis not available, continuing without cache:', error.message);
     fastify.decorate('redis', null);
   }
   
