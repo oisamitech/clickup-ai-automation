@@ -1,7 +1,7 @@
 # Use a imagem oficial do Node.js LTS
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
-ARG NPM_TOKEN=$NPM_TOKEN
+ARG NPM_TOKEN
 
 # Define o diretório de trabalho
 WORKDIR /usr/src/app
@@ -11,14 +11,19 @@ COPY .npmrc ./
 COPY package*.json ./
 
 # Instala as dependências de produção
-RUN npm ci --only=production
+RUN sed -i "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" .npmrc
+RUN npm ci --omit=dev
+
+# Instala curl para healthcheck
+RUN apk add --no-cache curl
 
 # Estágio final de produção
-FROM node:18-alpine
+FROM node:20-alpine
 
-# Instala pino-pretty para logs mais legíveis
-RUN npm install -g pino-pretty
-
+# Instala pino-pretty e curl
+RUN npm install -g pino-pretty && \
+    apk add --no-cache curl
+    
 # Define o usuário não-root para maior segurança
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
