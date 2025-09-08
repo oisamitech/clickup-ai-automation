@@ -4,6 +4,8 @@ services:
   webhook:
     build:
       context: .
+      args:
+        NPM_TOKEN: ${NPM_TOKEN}
     container_name: clickup-webhook-fastify
     env_file: .env
     ports:
