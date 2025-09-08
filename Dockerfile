@@ -1,50 +1,53 @@
-# Use a imagem oficial do Node.js LTS
-FROM node:20-alpine AS builder
+# Use a imagem oficial do Node.js mais recente
+FROM node:22.11-alpine AS builder
 
 ARG NPM_TOKEN
 
-# Define o diretório de trabalho
-WORKDIR /usr/src/app
+# Create app directory
+WORKDIR /app
 
-# Copia apenas os arquivos necessários para instalação de dependências
-COPY .npmrc ./
+# Install OpenSSL and other required dependencies
+RUN apk add --no-cache openssl openssl-dev curl
+
+# Copy package files and .npmrc
 COPY package*.json ./
+COPY .npmrc ./
 
-# Instala as dependências de produção
-RUN sed -i "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" .npmrc
-RUN npm ci --omit=dev
+# Replace NPM_TOKEN in .npmrc and install dependencies
+RUN sed -i "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" .npmrc && \
+    npm ci --omit=dev && \
+    rm -f .npmrc
 
-# Instala curl para healthcheck
-RUN apk add --no-cache curl
-
-# Estágio final de produção
-FROM node:20-alpine
-
-# Instala pino-pretty e curl
-RUN npm install -g pino-pretty && \
-    apk add --no-cache curl
-    
-# Define o usuário não-root para maior segurança
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
-
-# Cria o diretório para arquivos e define as permissões corretas
-RUN mkdir -p /usr/src/app && \
-    chown -R appuser:appgroup /usr/src/app
-
-# Define o diretório de trabalho
-WORKDIR /usr/src/app
-
-# Copia as dependências do estágio de construção
-COPY --from=builder /usr/src/app/node_modules ./node_modules
-
-# Copia o código da aplicação
+# Copy application source code
 COPY . .
 
-# Define o usuário não-root
+# Production stage
+FROM node:22.11-alpine AS production
+
+WORKDIR /app
+
+# Install OpenSSL, curl and other required dependencies for production
+RUN apk add --no-cache openssl openssl-dev curl
+
+# Install pino-pretty for better logging
+RUN npm install -g pino-pretty
+
+# Create non-root user for security
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+
+# Copy only the files needed for production
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/src ./src
+
+# Change ownership to non-root user
+RUN chown -R appuser:appgroup /app
+
+# Switch to non-root user
 USER appuser
 
-# Expõe a porta que o webhook irá escutar
+# Expose port
 EXPOSE 3000
 
-# Comando para iniciar o webhook
+# Start the application
 CMD ["node", "src/server.js"]
