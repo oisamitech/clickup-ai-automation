@@ -60,7 +60,7 @@ async function start() {
             host: '0.0.0.0' 
         });
         
-        logger.info(`🚀 ClickUp Webhook running on port ${server.config.PORT}`);
+        logger.info(`🚀ClickUp Webhook running on port ${server.config.PORT}`);
         
     } catch (error) {
         if (server) {
