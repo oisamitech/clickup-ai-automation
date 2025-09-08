@@ -92,14 +92,14 @@ build: &build
     - run:
         name: "Replace NPM_TOKEN on .npmrc if file exists"
         command: |
-          [ -n "$(ls .npmrc 2>/dev/null)" ] && sed -i "s/%NPM_TOKEN%/${NPM_TOKEN}/g" .npmrc || echo ".npmrc file not exists"
+          [ -n "$(ls .npmrc 2>/dev/null)" ] && sed -i "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" .npmrc || echo ".npmrc file not exists"
     - run: *install-gcloud-cli
     - run: *configure-gcloud-cli
     - run: *configure-docker
     - run:
         name: Build Docker image for GCR
         command: |
-          docker build . -t gcr.io/${GOOGLE_PROJECT_ID}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}
+          docker build --build-arg NPM_TOKEN=${NPM_TOKEN} . -t gcr.io/${GOOGLE_PROJECT_ID}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}
     - run:
         name: Push image to GCR
         command: |
