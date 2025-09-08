@@ -1,8 +1,8 @@
 import { createClient } from 'redis';
+import { logger } from "@oisamitech/sami-logger";
 
 export default class RedisService {
-    constructor(logger = console) {
-        this.logger = logger;
+    constructor() {
         this.redisClient = createClient({
             socket: {
                 host: process.env.REDIS_HOST,
@@ -18,12 +18,12 @@ export default class RedisService {
 
     setupEventListeners() {
         this.redisClient.on('error', (err) => {
-            this.logger.error('❌ Redis Error:', err);
+            logger.error('❌ Redis Error:', err);
             this.isConnected = false;
         });
 
         this.redisClient.on('connect', () => {
-            this.logger.info('✅ Redis connected');
+            logger.info('✅ Redis connected');
             this.isConnected = true;
         });
     }
@@ -33,7 +33,7 @@ export default class RedisService {
             try {
                 await this.redisClient.connect();
             } catch (error) {
-                this.logger.error('Redis connection failed:', error);
+                logger.error('Redis connection failed:', error);
                 return false;
             }
         }
@@ -55,7 +55,7 @@ export default class RedisService {
             const exists = await this.redisClient.exists(key);
             return exists === 1;
         } catch (error) {
-            this.logger.error('Redis HAS Error:', error);
+            logger.error('Redis HAS Error:', error);
             return false;
         }
     }
@@ -69,10 +69,10 @@ export default class RedisService {
             const stringValue = typeof value === 'object' ? JSON.stringify(value) : String(value);
             
             await this.redisClient.setEx(key, ttlSeconds, stringValue);
-            this.logger.info(`📝 Redis: ${key} (TTL: ${ttlSeconds}s)`);
+            logger.info(`📝 Redis: ${key} (TTL: ${ttlSeconds}s)`);
             return true;
         } catch (error) {
-            this.logger.error('Redis SET Error:', error);
+            logger.error('Redis SET Error:', error);
             return false;
         }
     }
@@ -85,10 +85,10 @@ export default class RedisService {
             if (files.length === 0) return true;
 
             await this.redisClient.setEx('files', 86400, JSON.stringify(files));
-            this.logger.info(`✅ Successfully cached ${files.length} files`);
+            logger.info(`✅ Successfully cached ${files.length} files`);
             return true;
         } catch (error) {
-            this.logger.warn('Failed to cache files:', error.message);
+            logger.warn('Failed to cache files:', error.message);
             return false;
         }
     }
@@ -101,13 +101,13 @@ export default class RedisService {
             let filesExists = await this.redisClient.get('files');
 
             if (!filesExists) {
-                this.logger.info('No files found in cache');
+                logger.info('No files found in cache');
                 return false;
             }
 
             return JSON.parse(filesExists);
         } catch (error) {
-            this.logger.warn('Failed to get files:', error.message);
+            logger.warn('Failed to get files:', error.message);
             return false;
         }
     }

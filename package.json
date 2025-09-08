@@ -16,6 +16,7 @@
     "@fastify/env": "^4.2.0",
     "@google-cloud/storage": "^7.16.0",
     "@google/genai": "^1.10.0",
+    "@oisamitech/sami-logger": "^1.0.9",
     "axios": "^1.10.0",
     "fastify": "^4.24.3",
     "redis": "^5.7.0"
