@@ -37,7 +37,13 @@ export default class GeminiService {
              - Se houver similaridade parcial → complete os campos correspondentes e **INFERA OS OUTROS CAMPOS (squad, origin, assignees) COM BASE NOS PADRÕES DO HISTÓRICO**
              - Só use null se absolutamente não houver como deduzir
           4. **Para squad, origin e assignees, use APENAS valores que já existam no histórico de chamados**. Nunca invente valores novos.
-          5. **Se o chamado for sobre falta de acesso de um membro, classifique como prioridade 1 (urgente)**
+          5. **DEFINIÇÃO DE URGÊNCIA (prioridade 1):**
+             - Qualquer caso que **impeça o usuário de acessar o aplicativo**
+             - Qualquer caso que **impeça o usuário de acessar o aplicativo**
+             - Qualquer caso que **impeça o membro de estar no MV*
+             - Qualquer caso que **envolva não refletiu**
+             - Qualquer caso que **impeça o usuário de utilizar um serviço essencial**
+             - Esses casos devem SEMPRE ser classificados como prioridade 1 (urgente)
           6. **Selecione APENAS UMA TAG** que melhor represente o tipo do chamado, e que já tenha sido usada em algum chamado do histórico
           7. Para assignees, selecione os mesmos responsáveis do caso similar ou do padrão identificado no histórico
           
@@ -88,12 +94,12 @@ export default class GeminiService {
           ## REGRAS IMPORTANTES:
           - **NUNCA deixe squad ou origin como null se houver qualquer evidência no histórico que permita inferir o valor.**
           - **Preencha todos os campos possíveis**. Use null apenas quando não existir absolutamente nenhuma base no histórico.
+          - **Qualquer caso que impeça o acesso ao app, pagamento ou uso de serviço essencial → prioridade 1**
           - **Use APENAS UMA TAG no array "tags"**
           - O JSON deve ser válido e bem formatado
           - Responda APENAS com o JSON ou "null", nada mais
           - **Prefira arriscar uma inferência baseada no histórico a retornar null em squad/origin**
-          `;
-          
+          `;     
                        
             const response = await this.googleGenAi.models.generateContent({
                 model: this.modelName,
