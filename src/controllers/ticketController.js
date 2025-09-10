@@ -64,7 +64,7 @@ export default class TicketController {
             
             const ticket = await this.clickupService.getTicket(task_id);
             
-            const isAlreadyProcessed = ticket.priority || (ticket.tags && ticket.tags.length > 0) || ticket.squad || ticket.origin;
+           const isAlreadyProcessed = ticket.priority || (ticket.tags && ticket.tags.length > 0) || ticket.squad || ticket.origin;
             
             if (isAlreadyProcessed) {
                 logger.info(`Ticket already categorized: ${task_id}`);
