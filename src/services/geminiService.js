@@ -22,7 +22,8 @@ export default class GeminiService {
           - **SEMPRE PREENCHA O MÁXIMO DE CAMPOS POSSÍVEL**
           - **NÃO RETORNE NULL PARA SQUAD OU ORIGIN SE EXISTIR QUALQUER PADRÃO OU INDÍCIO NO HISTÓRICO**. Somente retorne null nesses campos se for ABSOLUTAMENTE impossível inferir um valor com base em qualquer evidência.
           - Para assignees, também evite null: se houver correspondência parcial ou padrão no histórico, use-o.
-          
+          - Para product, também evite null: se houver correspondência parcial ou padrão no histórico, use-o.
+
           ## NOVO CHAMADO PARA CATEGORIZAR:
           ${JSON.stringify(ticket, null, 2)}
           
@@ -81,6 +82,16 @@ export default class GeminiService {
                 "orderindex": "number"
               }
             },
+            "product": {
+              "field_id": "string",
+              "value": "number",
+              "option": {
+                "id": "string",
+                "name": "string",
+                "color": "string",
+                "orderindex": "number"
+              }
+            },  
             "assignees": [
               {
                 "id": "number",

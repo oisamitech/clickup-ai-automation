@@ -84,7 +84,7 @@ export default class ClickupService {
     async getTickets(id) {
         try {
             let now = Date.now();
-            let fourMonthsAgo = now - (4 * 30 * 24 * 60 * 60 * 1000);
+            let threeMonthsAgo = now - (3 * 30 * 24 * 60 * 60 * 1000);
             let allTickets = [];
             let page = 0;
             let hasMore = true;
@@ -94,7 +94,7 @@ export default class ClickupService {
                     params: {
                         archived: false,
                         include_closed: true,
-                        date_created_gt: fourMonthsAgo,
+                        date_created_gt: threeMonthsAgo,
                         date_created_lt: now,
                         limit: 100,
                         page: page

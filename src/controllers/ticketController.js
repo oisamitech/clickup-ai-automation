@@ -138,7 +138,19 @@ export default class TicketController {
                     origin: categorization.origin.option.name
                 });
             }
-                    
+
+            if (categorization.product) {
+                await this.clickupService.setCustomField(
+                    task_id,
+                    categorization.product.field_id,
+                    categorization.product.value,
+                    "Produto"
+                );
+                logger.info('✅ Product updated:', {
+                    task_id,
+                    product: categorization.product.option.name
+                });
+            }
         } catch (error) {
             logger.error('Error in async processing:', {
                 error: error.message,
