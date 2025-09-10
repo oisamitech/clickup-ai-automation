@@ -47,5 +47,23 @@ export default class Ticket {
                 }
             } : null;
         })();
+        this.product = (() => {
+            let productField = Array.isArray(data.custom_fields) 
+                ? data.custom_fields.find(cf => cf.name === "Produto")
+                : null;
+
+            let productOption = productField?.type_config?.options?.[productField.value];
+
+            return productOption ? {
+                field_id: productField.id,
+                value: productField.value,
+                option: {
+                    id: productOption.id,
+                    name: productOption.name,
+                    color: productOption.color,
+                    orderindex: productOption.orderindex
+                }
+            } : null;
+        })();
     }
 }
