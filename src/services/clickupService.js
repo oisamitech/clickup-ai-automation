@@ -81,21 +81,21 @@ export default class ClickupService {
         }
     }
 
-    async getTickets(id) {
+    async getTickets(listId, startDate, endDate) {
         try {
-            let now = Date.now();
-            let threeMonthsAgo = now - (3 * 30 * 24 * 60 * 60 * 1000);
+            console.log('startDate', startDate);
+            console.log('endDate', endDate);
             let allTickets = [];
             let page = 0;
             let hasMore = true;
 
             while (hasMore) {
-                const res = await this.api.get(`list/${id}/task`, {
+                const res = await this.api.get(`list/${listId}/task`, {
                     params: {
                         archived: false,
                         include_closed: true,
-                        date_created_gt: threeMonthsAgo,
-                        date_created_lt: now,
+                        date_done_gt: startDate,
+                        date_done_lt: endDate,
                         limit: 100,
                         page: page
                     }

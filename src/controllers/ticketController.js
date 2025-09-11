@@ -162,10 +162,10 @@ export default class TicketController {
 
     async saveTickets(request, reply) {
         try {
-            const { id } = request.body;
+            const { listId, startDate, endDate } = request.body;
 
-            let tasks = await this.clickupService.getTickets(id);
-            let list = await this.clickupService.getList(id);
+            let tasks = await this.clickupService.getTickets(listId,new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime());
+            let list = await this.clickupService.getList(listId);
     
             let filename = createFilename(list.name, 'json');
             let uploadResult = await this.gcpStorageService.uploadFile(tasks, filename);
@@ -180,7 +180,7 @@ export default class TicketController {
                 message: 'File uploaded to GCP Storage successfully!',
                 data: {
                     list: {
-                        id: id,
+                        id: listId,
                         name: list?.name || 'Name not available',
                         totalTasks: totalTasks
                     },

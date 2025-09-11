@@ -27,9 +27,11 @@ export const categorizeTicketSchema = {
   export const saveTicketsSchema = {
     body: {
       type: 'object',
-      required: ['id'],
+      required: ['listId', 'startDate', 'endDate'],
       properties: {
-        id: { type: 'string' }
+        listId: { type: 'string' },
+        startDate: { type: 'string' },
+        endDate: { type: 'string' }
       }
     }
   };
