@@ -8,6 +8,13 @@ export default class Report {
         this.endDate = endDate;
         this.tickets = {
             total: tickets.length,
+            totalTime: (() => {
+                let time = 0;
+                tickets.map((ticket) => {
+                    time = time + ticket.leadTime;
+                });
+                return time;
+            })(),
             allTickets: tickets
         };
     }

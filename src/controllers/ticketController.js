@@ -254,13 +254,7 @@ export default class TicketController {
                     uploadResult: uploadResult
                 },
                 totalTickets: tickets.length,
-                timeMetrication: {
-                    totalTime: 12,
-                    averageTime: 36,
-                    medianTime: 85,
-                    minTime: 23,
-                    maxTime: 3,
-                }
+                totalTime: report.tickets.totalTime,
             });
         } catch (error) {
             logger.error(`Processing error:`, error.message);

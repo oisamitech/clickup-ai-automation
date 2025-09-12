@@ -58,13 +58,7 @@ export const categorizeTicketSchema = {
           }
         },
         totalTickets: { type: 'number' },
-        timeMetrication: { type: 'object', properties: {
-          totalTime: { type: 'number' },
-          averageTime: { type: 'number' },
-          medianTime: { type: 'number' },
-          minTime: { type: 'number' },
-          maxTime: { type: 'number' },
-        }}
+        totalTime: { type: 'number' }
       }
     }
   }
