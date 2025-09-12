@@ -1,6 +1,7 @@
 import axios from "axios";
 import Ticket from '../models/Ticket.js';
 import { logger } from "@oisamitech/sami-logger";
+import TicketInTime from "../models/TicketInTime.js";
 
 export default class ClickupService {
     constructor() {
@@ -83,8 +84,6 @@ export default class ClickupService {
 
     async getTickets(listId, startDate, endDate) {
         try {
-            console.log('startDate', startDate);
-            console.log('endDate', endDate);
             let allTickets = [];
             let page = 0;
             let hasMore = true;
@@ -132,7 +131,17 @@ export default class ClickupService {
             let response = await this.api.get(`/task/${id}`);
             return new Ticket(response.data);       
         } catch (error) {
-            logger.error('Error fetching task:', error.response?.data || error.message);
+            logger.error('Error fetching ticket:', error.response?.data || error.message);
+            throw error;
+        }
+    }
+
+    async getTicketTimeInStatus(ticket) {
+        try {
+            let response = await this.api.get(`task/${ticket.id}/time_in_status`);
+            return new TicketInTime(ticket.id, response.data.status_history, ticket.assignees);
+        } catch (error) {
+            logger.error('Error fetching ticket:', error.response?.data || error.message);
             throw error;
         }
     }

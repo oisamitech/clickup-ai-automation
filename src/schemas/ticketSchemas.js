@@ -36,6 +36,38 @@ export const categorizeTicketSchema = {
     }
   };
   
+  export const timeMetricationResponseSchema = {
+    200: {
+      type: 'object',
+      properties: {
+        list: {
+          type: 'object',
+          properties: {
+            listId: { type: 'string' },
+            listName: { type: 'string' },
+          }
+        },
+        file: {
+          type: 'object',
+          properties: {
+            filename: { type: 'string' },
+            bucket: { type: 'string' },
+            gcpPath: { type: 'string' },
+            size: { type: 'string' },
+            uploadResult: { type: 'object' }
+          }
+        },
+        totalTickets: { type: 'number' },
+        timeMetrication: { type: 'object', properties: {
+          totalTime: { type: 'number' },
+          averageTime: { type: 'number' },
+          medianTime: { type: 'number' },
+          minTime: { type: 'number' },
+          maxTime: { type: 'number' },
+        }}
+      }
+    }
+  }
   export const healthResponseSchema = {
     200: {
       type: 'object',

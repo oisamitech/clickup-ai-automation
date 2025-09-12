@@ -1,4 +1,5 @@
 import createFilename from "../helpers/createFilename.js";
+import Report from "../models/Report.js";
 import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";
 import GeminiService from "../services/geminiService.js";
@@ -220,5 +221,56 @@ export default class TicketController {
             uptime: Math.floor(uptime),
             timestamp: new Date().toISOString()
         });
+    }
+
+    async timeMetrication(request, reply) {
+        try {
+            const { listId, startDate, endDate } = request.body;
+
+            let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime());
+            let list = await this.clickupService.getList(listId);
+
+            let ticketsTime = [];
+
+            for (let i = 0; i < tickets.length; i++) {
+                let ticket = await this.clickupService.getTicketTimeInStatus(tickets[i]);
+                ticketsTime = [...ticketsTime, ticket];
+            }
+            
+            let filename = `${list.name}_${startDate}_to_${endDate}.json`;
+            let report = new Report(list.id, list.name, startDate, endDate, ticketsTime);
+            let uploadResult = await this.gcpStorageService.uploadFile(report, filename, process.env.GOOGLE_CLOUD_REPORTS_FOLDER);
+
+            return reply.code(200).send({
+                list: {
+                    listId: list.id,
+                    listName: list?.name || 'List name is not avaiable.',
+                },
+                file: {
+                    filename: filename,
+                    bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
+                    gcpPath: `${process.env.GOOGLE_CLOUD_REPORTS_FOLDER}/${filename}`,
+                    size: `${JSON.stringify(ticketsTime).length} bytes`,
+                    uploadResult: uploadResult
+                },
+                totalTickets: tickets.length,
+                timeMetrication: {
+                    totalTime: 12,
+                    averageTime: 36,
+                    medianTime: 85,
+                    minTime: 23,
+                    maxTime: 3,
+                }
+            });
+        } catch (error) {
+            logger.error(`Processing error:`, error.message);
+            
+            return reply.code(500).send({ 
+                success: false,
+                message: 'Error processing and saving tasks',
+                error: error.message,
+                timestamp: new Date().toISOString()
+            });
+        }
     }
 }
