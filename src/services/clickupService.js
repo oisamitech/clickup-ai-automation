@@ -112,9 +112,7 @@ export default class ClickupService {
             if (includeTimeLine) {
                 let tickets = await Promise.all(
                     allTickets.map(async (ticket) => {
-                        let response = await this.api.get(`task/${ticket.id}/time_in_status`);
-                        console.log(new ReportTicket(response.data, ticket));
-                        
+                        let response = await this.api.get(`task/${ticket.id}/time_in_status`);                        
                         return new ReportTicket(response.data, ticket);
                     })
                 );
