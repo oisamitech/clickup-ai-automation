@@ -28,5 +28,9 @@ export default class ReportTicket extends Ticket {
             let timiLineField = ticketData.custom_fields.find(cf => cf.name === "Data de Conclusão");
             return timiLineField.value;
         })();
+        this.origin = this.origin.option.name;
+        this.product = this.product.option.name;
+        this.squad = this.squad.option.name;
+        this.tags = this.tags[0].name;
     } 
 }

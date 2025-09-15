@@ -10,17 +10,13 @@ export default class GCPStorageService {
         this.bucket = this.storage.bucket(process.env.GOOGLE_CLOUD_BUCKET_NAME);
     }
 
-    async uploadFile(data, filename, folder = null) {
+    async uploadFile(data, filename, contentType, folder = null) {
         try {
             const file = this.bucket.file(folder ? `${folder}/${filename}` : filename);
             
-            const fileContent = typeof data === 'string' 
-                ? data 
-                : JSON.stringify(data, null, 2);
-            
-            await file.save(fileContent, {
+            await file.save(data, {
                 metadata: {
-                    contentType: 'application/json'
+                    contentType: contentType
                 }
             });
 
@@ -30,7 +26,7 @@ export default class GCPStorageService {
                 success: true,
                 bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
                 filename,
-                size: Buffer.byteLength(fileContent, 'utf8')
+                size: Buffer.isBuffer(data) ? data.length : Buffer.byteLength(data, 'utf8')
             };
 
         } catch (error) {

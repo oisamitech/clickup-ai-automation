@@ -1,5 +1,4 @@
 import axios from "axios";
-import Ticket from '../models/Ticket.js';
 import { logger } from "@oisamitech/sami-logger";
 import ReportTicket from "../models/ReportTicket.js";
 import HistoryTicket from "../models/HistoryTicket.js";

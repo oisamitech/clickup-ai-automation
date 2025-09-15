@@ -1,3 +1,4 @@
+import { createSheet } from "../helpers/cheateSheet.js";
 import createFilename from "../helpers/createFilename.js";
 import Report from "../models/Report.js";
 import ClickupService from "../services/clickupService.js";
@@ -169,7 +170,10 @@ export default class TicketController {
             let list = await this.clickupService.getList(listId);
     
             let filename = createFilename(list.name, 'json');
-            let uploadResult = await this.gcpStorageService.uploadFile(tasks, filename);
+            let data = typeof tasks === 'string' 
+            ? tasks 
+            : JSON.stringify(tasks, null, 2);
+            let uploadResult = await this.gcpStorageService.uploadFile(data, filename, 'application/json');
             
             // Calculate statistics
             const totalTasks = tasks.length;
@@ -230,9 +234,17 @@ export default class TicketController {
             let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
             let list = await this.clickupService.getList(listId);
 
-            let filename = `${list.name}_${startDate}_to_${endDate}.json`;
-            let report = new Report(list.id, list.name, startDate, endDate, tickets);
-            let uploadResult = await this.gcpStorageService.uploadFile(report, filename, process.env.GOOGLE_CLOUD_REPORTS_FOLDER);
+            let filename = `${list.name}_${startDate}_to_${endDate}`;
+
+            let spreadsheet = createSheet(tickets, list.name);
+
+            if (!spreadsheet) {
+                throw new Error("Failed to create spreadsheet");
+            }
+
+            let contentType = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+
+            let uploadResult = await this.gcpStorageService.uploadFile(spreadsheet, filename, contentType, process.env.GOOGLE_CLOUD_REPORTS_FOLDER);
 
             return reply.code(200).send({
                 list: {
@@ -247,7 +259,7 @@ export default class TicketController {
                     uploadResult: uploadResult
                 },
                 totalTickets: tickets.length,
-                totalTime: report.tickets.totalTime,
+                totalTime: tickets.totalTime,
             });
         } catch (error) {
             logger.error(`Processing error:`, error.message);
