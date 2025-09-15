@@ -1,7 +1,7 @@
 import axios from "axios";
 import Ticket from '../models/Ticket.js';
 import { logger } from "@oisamitech/sami-logger";
-import TicketInTime from "../models/TicketInTime.js";
+import ReportTicket from "../models/ReportTicket.js";
 
 export default class ClickupService {
     constructor() {
@@ -67,7 +67,7 @@ export default class ClickupService {
         }
     }
 
-    async setAssignees(ticketId, assignees) {
+    async setAssignees(ticketId, assignees, ) {
         try {
             let response = await this.api.put(`/task/${ticketId}`, { assignees: {add: assignees} });
             
@@ -82,7 +82,7 @@ export default class ClickupService {
         }
     }
 
-    async getTickets(listId, startDate, endDate) {
+    async getTickets(listId, startDate, endDate, includeTimeLine = false) {
         try {
             let allTickets = [];
             let page = 0;
@@ -106,6 +106,17 @@ export default class ClickupService {
                 } else {
                     hasMore = false;
                 }
+            }
+
+            if (includeTimeLine) {
+                let tickets = await Promise.all(
+                    allTickets.map(async (ticket) => {
+                        let response = await this.api.get(`task/${ticket.id}/time_in_status`);
+                        return new ReportTicket(ticket.id, response.data, ticket.custom_fields.find(cf => cf.name === "Data de Conclusão"));
+                    })
+                )
+
+                return tickets;
             }
 
             let tickets = allTickets.map(t => new Ticket(t));

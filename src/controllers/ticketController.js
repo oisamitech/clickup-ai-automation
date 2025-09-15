@@ -227,18 +227,11 @@ export default class TicketController {
         try {
             const { listId, startDate, endDate } = request.body;
 
-            let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime());
+            let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
             let list = await this.clickupService.getList(listId);
 
-            let ticketsTime = [];
-
-            for (let i = 0; i < tickets.length; i++) {
-                let ticket = await this.clickupService.getTicketTimeInStatus(tickets[i]);
-                ticketsTime = [...ticketsTime, ticket];
-            }
-            
             let filename = `${list.name}_${startDate}_to_${endDate}.json`;
-            let report = new Report(list.id, list.name, startDate, endDate, ticketsTime);
+            let report = new Report(list.id, list.name, startDate, endDate, tickets);
             let uploadResult = await this.gcpStorageService.uploadFile(report, filename, process.env.GOOGLE_CLOUD_REPORTS_FOLDER);
 
             return reply.code(200).send({
@@ -250,7 +243,7 @@ export default class TicketController {
                     filename: filename,
                     bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
                     gcpPath: `${process.env.GOOGLE_CLOUD_REPORTS_FOLDER}/${filename}`,
-                    size: `${JSON.stringify(ticketsTime).length} bytes`,
+                    size: `${JSON.stringify(tickets).length} bytes`,
                     uploadResult: uploadResult
                 },
                 totalTickets: tickets.length,
