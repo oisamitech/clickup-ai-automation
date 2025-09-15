@@ -2,6 +2,7 @@ import axios from "axios";
 import Ticket from '../models/Ticket.js';
 import { logger } from "@oisamitech/sami-logger";
 import ReportTicket from "../models/ReportTicket.js";
+import HistoryTicket from "../models/HistoryTicket.js";
 
 export default class ClickupService {
     constructor() {
@@ -112,14 +113,16 @@ export default class ClickupService {
                 let tickets = await Promise.all(
                     allTickets.map(async (ticket) => {
                         let response = await this.api.get(`task/${ticket.id}/time_in_status`);
-                        return new ReportTicket(ticket.id, response.data, ticket.custom_fields.find(cf => cf.name === "Data de Conclusão"));
+                        console.log(new ReportTicket(response.data, ticket));
+                        
+                        return new ReportTicket(response.data, ticket);
                     })
-                )
+                );
 
                 return tickets;
             }
 
-            let tickets = allTickets.map(t => new Ticket(t));
+            let tickets = allTickets.map(t => new HistoryTicket(t));
             return tickets;
         } catch (error) {
             logger.error('Error fetching tickets:', error.response?.data || error.message);
@@ -140,7 +143,7 @@ export default class ClickupService {
     async getTicket(id) {
         try {
             let response = await this.api.get(`/task/${id}`);
-            return new Ticket(response.data);       
+            return new HistoryTicket(response.data);       
         } catch (error) {
             logger.error('Error fetching ticket:', error.response?.data || error.message);
             throw error;

@@ -1,6 +1,8 @@
-export default class ReportTicket {
-    constructor(id, data, custom_fields) {
-        this.ticketId = id;
+import Ticket from "./Ticket.js";
+
+export default class ReportTicket extends Ticket {
+    constructor(data, ticketData) {
+        super(ticketData);
         this.inProgressTime = (() => {
             let status = data.status_history?.find(sh => sh.status === "em andamento")
 
@@ -22,15 +24,9 @@ export default class ReportTicket {
             });
             return totalTime;
         })();
-        this.assignees = (data.assignees || []).map(a => {
-            return {
-                id: a.id,
-                username: a.username
-            }
-        });
-        this.timeLine = {
-            value: custom_fields.value,
-            valueRichText: custom_fields.value_richtext
-        };
+        this.timiLine = (() => {
+            let timiLineField = ticketData.custom_fields.find(cf => cf.name === "Data de Conclusão");
+            return timiLineField.value;
+        })();
     } 
 }
