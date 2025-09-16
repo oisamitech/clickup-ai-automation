@@ -5,6 +5,7 @@ import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";
 import GeminiService from "../services/geminiService.js";
 import { logger } from "@oisamitech/sami-logger";
+import GoogleSheetsService from "../services/googleSheetsService.js";
 
 export default class TicketController {
     constructor(fastify) {
@@ -12,6 +13,7 @@ export default class TicketController {
         this.clickupService = new ClickupService();
         this.geminiService = new GeminiService();
         this.gcpStorageService = new GCPStorageService();
+        this.googleSheetsService = new GoogleSheetsService();
     }
 
     async categorizeTicket(request, reply) {
@@ -236,15 +238,7 @@ export default class TicketController {
 
             let filename = `${list.name}_${startDate}_to_${endDate}`;
 
-            let spreadsheet = createSheet(tickets, list.name);
-
-            if (!spreadsheet) {
-                throw new Error("Failed to create spreadsheet");
-            }
-
-            let contentType = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-
-            let uploadResult = await this.gcpStorageService.uploadFile(spreadsheet, filename, contentType, process.env.GOOGLE_CLOUD_REPORTS_FOLDER);
+            let result = await this.googleSheetsService.createSpreadsheet(filename, tickets, ['matheus.santos@samisaude.com']);
 
             return reply.code(200).send({
                 list: {
@@ -256,7 +250,7 @@ export default class TicketController {
                     bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
                     gcpPath: `${process.env.GOOGLE_CLOUD_REPORTS_FOLDER}/${filename}`,
                     size: `${JSON.stringify(tickets).length} bytes`,
-                    uploadResult: uploadResult
+                    uploadResult: {}
                 },
                 totalTickets: tickets.length,
                 totalTime: tickets.totalTime,
