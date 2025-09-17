@@ -18,7 +18,7 @@ export default class ReportTicket extends Ticket {
 
             data.status_history?.map((sh) => {
                 if (sh.type != "closed") {
-                    let time = sh.total_time?.by_minute || 0;  // ✅ Proteção contra null
+                    let time = sh.total_time?.by_minute || 0;  
                     totalTime = totalTime + time;
                 }
             });
@@ -26,11 +26,12 @@ export default class ReportTicket extends Ticket {
         })();
         this.timiLine = (() => {
             let timiLineField = ticketData.custom_fields?.find(cf => cf.name === "Data de Conclusão");
-            return timiLineField?.value || null;  // ✅ Proteção contra undefined
+            return timiLineField?.value || null; 
         })();
-        this.origin = this.origin?.option?.name || null;  // ✅ Proteção dupla
-        this.product = this.product?.option?.name || null;  // ✅ Proteção dupla
-        this.squad = this.squad?.option?.name || null;  // ✅ Proteção contra null
-        this.tags = this.tags?.[0]?.name || null;  // ✅ Proteção contra array vazio
+        this.origin = this.origin?.option?.name || null;
+        this.product = this.product?.option?.name || null; 
+        this.squad = this.squad?.option?.name || null; 
+        this.tags = this.tags?.[0]?.name || null;
+        this.assignees = this.assignees.map(assignee => assignee.username).join(", ");
     } 
 }

@@ -55,7 +55,7 @@ export default class Ticket {
                 }
             } : null;
         })();
-        this.priority = data.priority.priority;
+        this.priority = data?.priority.priority;
         this.tags = data.tags || [];
         this.assignees = (data.assignees || []).map(a => {
             return {

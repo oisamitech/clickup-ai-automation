@@ -1,11 +1,9 @@
 import { createSheet } from "../helpers/cheateSheet.js";
 import createFilename from "../helpers/createFilename.js";
-import Report from "../models/Report.js";
 import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";
 import GeminiService from "../services/geminiService.js";
 import { logger } from "@oisamitech/sami-logger";
-import GoogleSheetsService from "../services/googleSheetsService.js";
 
 export default class TicketController {
     constructor(fastify) {
@@ -13,7 +11,6 @@ export default class TicketController {
         this.clickupService = new ClickupService();
         this.geminiService = new GeminiService();
         this.gcpStorageService = new GCPStorageService();
-        this.googleSheetsService = new GoogleSheetsService();
     }
 
     async categorizeTicket(request, reply) {
@@ -231,29 +228,29 @@ export default class TicketController {
 
     async timeMetrication(request, reply) {
         try {
-            const { listId, startDate, endDate } = request.body;
+            const { listId, startDate, endDate, path } = request.body;
 
             let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
-            let list = await this.clickupService.getList(listId);
+            let spreadsheet = createSheet(tickets);
 
+            let list = await this.clickupService.getList(listId);
             let filename = `${list.name}_${startDate}_to_${endDate}`;
 
-            let result = await this.googleSheetsService.createSpreadsheet(filename, tickets, ['matheus.santos@samisaude.com']);
+            await this.gcpStorageService.uploadFile(spreadsheet, filename, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', path);
 
             return reply.code(200).send({
-                list: {
-                    listId: list.id,
-                    listName: list?.name || 'List name is not avaiable.',
-                },
                 file: {
-                    filename: filename,
-                    bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
-                    gcpPath: `${process.env.GOOGLE_CLOUD_REPORTS_FOLDER}/${filename}`,
-                    size: `${JSON.stringify(tickets).length} bytes`,
-                    uploadResult: {}
+                    name: filename,
+                    path: path ? `${path}/${filename}` : filename,
+                    size: `${spreadsheet.length} bytes`,
+                    bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME
                 },
-                totalTickets: tickets.length,
-                totalTime: tickets.totalTime,
+                report: {
+                    listName: list?.name || 'List name not available',
+                    startDate: startDate,
+                    endDate: endDate,
+                    totalTickets: tickets.length
+                }
             });
         } catch (error) {
             logger.error(`Processing error:`, error.message);

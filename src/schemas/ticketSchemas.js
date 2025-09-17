@@ -31,37 +31,37 @@ export const categorizeTicketSchema = {
       properties: {
         listId: { type: 'string' },
         startDate: { type: 'string' },
-        endDate: { type: 'string' }
+        endDate: { type: 'string' },
+        path: { type: 'string' }
       }
     }
   };
   
-  export const timeMetricationResponseSchema = {
-    200: {
-      type: 'object',
-      properties: {
-        list: {
-          type: 'object',
-          properties: {
-            listId: { type: 'string' },
-            listName: { type: 'string' },
-          }
-        },
-        file: {
-          type: 'object',
-          properties: {
-            filename: { type: 'string' },
-            bucket: { type: 'string' },
-            gcpPath: { type: 'string' },
-            size: { type: 'string' },
-            uploadResult: { type: 'object' }
-          }
-        },
-        totalTickets: { type: 'number' },
-        totalTime: { type: 'number' }
+export const timeMetricationResponseSchema = {
+  200: {
+    type: 'object',
+    properties: {
+      file: {
+        type: 'object',
+        properties: {
+          name: { type: 'string' },
+          path: { type: 'string' },
+          size: { type: 'string' },
+          bucket: { type: 'string' }
+        }
+      },
+      report: {
+        type: 'object',
+        properties: {
+          listName: { type: 'string' },
+          startDate: { type: 'string' },
+          endDate: { type: 'string' },
+          totalTickets: { type: 'number' }
+        }
       }
     }
   }
+}
   export const healthResponseSchema = {
     200: {
       type: 'object',

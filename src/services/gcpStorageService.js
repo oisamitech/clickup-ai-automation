@@ -10,15 +10,11 @@ export default class GCPStorageService {
         this.bucket = this.storage.bucket(process.env.GOOGLE_CLOUD_BUCKET_NAME);
     }
 
-    async uploadFile(data, filename, contentType, folder = null) {
+    async uploadFile(data, filename, contentType, path = null) {
         try {
-            const file = this.bucket.file(folder ? `${folder}/${filename}` : filename);
+            const file = this.bucket.file(path ? `${path}/${filename}` : filename);
             
-            await file.save(data, {
-                metadata: {
-                    contentType: contentType
-                }
-            });
+            await file.save(data, { metadata: { contentType: contentType } });
 
             logger.info(`📤 File uploaded to GCP: ${filename}`);
             
