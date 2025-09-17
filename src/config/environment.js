@@ -8,8 +8,7 @@ export const envSchema = {
         'GEMINI_MODEL',
         'GOOGLE_CLOUD_PROJECT_ID',
         'GOOGLE_CLOUD_BUCKET_NAME',
-        'GOOGLE_SERVICE_ACCOUNT_KEY',
-        'GOOGLE_CLOUD_REPORTS_FOLDER'
+        'GOOGLE_SERVICE_ACCOUNT_KEY'
     ],
     properties: {
         NODE_ENV: {
@@ -34,7 +33,6 @@ export const envSchema = {
         GOOGLE_CLOUD_PROJECT_ID: { type: 'string' },
         GOOGLE_CLOUD_BUCKET_NAME: { type: 'string' },
         GOOGLE_SERVICE_ACCOUNT_KEY: { type: 'string' },
-        GOOGLE_CLOUD_REPORTS_FOLDER: { type: 'string' },
         GOOGLE_DRIVE_FOLDER_ID: { type: 'string' },
         REDIS_HOST: {
         type: 'string',
