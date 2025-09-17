@@ -1,4 +1,4 @@
-import { createSheet } from "../helpers/cheateSheet.js";
+import { createSheet } from "../helpers/createSheet.js";
 import createFilename from "../helpers/createFilename.js";
 import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";

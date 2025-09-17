@@ -14,14 +14,10 @@ export default class ReportTicket extends Ticket {
             return status?.total_time?.by_minute;
         })();
         this.leadTime = (() => {
-            let totalTime = 0;
+            let totalTime = data.status_history
+                ?.filter(sh => sh.type !== "closed")
+                .reduce((total, sh) => total + (sh.total_time?.by_minute || 0), 0);
 
-            data.status_history?.map((sh) => {
-                if (sh.type != "closed") {
-                    let time = sh.total_time?.by_minute || 0;  
-                    totalTime = totalTime + time;
-                }
-            });
             return totalTime;
         })();
         this.timiLine = (() => {

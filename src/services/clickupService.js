@@ -146,14 +146,4 @@ export default class ClickupService {
             throw error;
         }
     }
-
-    async getTicketTimeInStatus(ticket) {
-        try {
-            let response = await this.api.get(`task/${ticket.id}/time_in_status`);
-            return new TicketInTime(ticket.id, response.data.status_history, ticket.assignees);
-        } catch (error) {
-            logger.error('Error fetching ticket:', error.response?.data || error.message);
-            throw error;
-        }
-    }
 }
