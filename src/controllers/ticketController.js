@@ -1,3 +1,4 @@
+import { createSheet } from "../helpers/createSheet.js";
 import createFilename from "../helpers/createFilename.js";
 import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";
@@ -162,13 +163,16 @@ export default class TicketController {
 
     async saveTickets(request, reply) {
         try {
-            const { id } = request.body;
+            const { listId, startDate, endDate } = request.body;
 
-            let tasks = await this.clickupService.getTickets(id);
-            let list = await this.clickupService.getList(id);
+            let tasks = await this.clickupService.getTickets(listId,new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime());
+            let list = await this.clickupService.getList(listId);
     
             let filename = createFilename(list.name, 'json');
-            let uploadResult = await this.gcpStorageService.uploadFile(tasks, filename);
+            let data = typeof tasks === 'string' 
+            ? tasks 
+            : JSON.stringify(tasks, null, 2);
+            let uploadResult = await this.gcpStorageService.uploadFile(data, filename, 'application/json');
             
             // Calculate statistics
             const totalTasks = tasks.length;
@@ -180,7 +184,7 @@ export default class TicketController {
                 message: 'File uploaded to GCP Storage successfully!',
                 data: {
                     list: {
-                        id: id,
+                        id: listId,
                         name: list?.name || 'Name not available',
                         totalTasks: totalTasks
                     },
@@ -220,5 +224,43 @@ export default class TicketController {
             uptime: Math.floor(uptime),
             timestamp: new Date().toISOString()
         });
+    }
+
+    async timeMetrication(request, reply) {
+        try {
+            const { listId, startDate, endDate, path } = request.body;
+
+            let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
+            let spreadsheet = createSheet(tickets);
+
+            let list = await this.clickupService.getList(listId);
+            let filename = `${list.name}_${startDate}_to_${endDate}`;
+
+            await this.gcpStorageService.uploadFile(spreadsheet, filename, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', path);
+
+            return reply.code(200).send({
+                file: {
+                    name: filename,
+                    path: path ? `${path}/${filename}` : filename,
+                    size: `${spreadsheet.length} bytes`,
+                    bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME
+                },
+                report: {
+                    listName: list?.name || 'List name not available',
+                    startDate: startDate,
+                    endDate: endDate,
+                    totalTickets: tickets.length
+                }
+            });
+        } catch (error) {
+            logger.error(`Processing error:`, error.message);
+            
+            return reply.code(500).send({ 
+                success: false,
+                message: 'Error processing and saving tasks',
+                error: error.message,
+                timestamp: new Date().toISOString()
+            });
+        }
     }
 }

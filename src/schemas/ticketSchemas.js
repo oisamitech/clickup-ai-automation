@@ -27,13 +27,41 @@ export const categorizeTicketSchema = {
   export const saveTicketsSchema = {
     body: {
       type: 'object',
-      required: ['id'],
+      required: ['listId', 'startDate', 'endDate'],
       properties: {
-        id: { type: 'string' }
+        listId: { type: 'string' },
+        startDate: { type: 'string' },
+        endDate: { type: 'string' },
+        path: { type: 'string' }
       }
     }
   };
   
+export const timeMetricationResponseSchema = {
+  200: {
+    type: 'object',
+    properties: {
+      file: {
+        type: 'object',
+        properties: {
+          name: { type: 'string' },
+          path: { type: 'string' },
+          size: { type: 'string' },
+          bucket: { type: 'string' }
+        }
+      },
+      report: {
+        type: 'object',
+        properties: {
+          listName: { type: 'string' },
+          startDate: { type: 'string' },
+          endDate: { type: 'string' },
+          totalTickets: { type: 'number' }
+        }
+      }
+    }
+  }
+}
   export const healthResponseSchema = {
     200: {
       type: 'object',

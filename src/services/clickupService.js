@@ -1,6 +1,7 @@
 import axios from "axios";
-import Ticket from '../models/Ticket.js';
 import { logger } from "@oisamitech/sami-logger";
+import ReportTicket from "../models/ReportTicket.js";
+import HistoryTicket from "../models/HistoryTicket.js";
 
 export default class ClickupService {
     constructor() {
@@ -66,7 +67,7 @@ export default class ClickupService {
         }
     }
 
-    async setAssignees(ticketId, assignees) {
+    async setAssignees(ticketId, assignees, ) {
         try {
             let response = await this.api.put(`/task/${ticketId}`, { assignees: {add: assignees} });
             
@@ -81,21 +82,19 @@ export default class ClickupService {
         }
     }
 
-    async getTickets(id) {
+    async getTickets(listId, startDate, endDate, includeTimeLine = false) {
         try {
-            let now = Date.now();
-            let threeMonthsAgo = now - (3 * 30 * 24 * 60 * 60 * 1000);
             let allTickets = [];
             let page = 0;
             let hasMore = true;
 
             while (hasMore) {
-                const res = await this.api.get(`list/${id}/task`, {
+                const res = await this.api.get(`list/${listId}/task`, {
                     params: {
                         archived: false,
                         include_closed: true,
-                        date_created_gt: threeMonthsAgo,
-                        date_created_lt: now,
+                        date_done_gt: startDate,
+                        date_done_lt: endDate,
                         limit: 100,
                         page: page
                     }
@@ -109,7 +108,18 @@ export default class ClickupService {
                 }
             }
 
-            let tickets = allTickets.map(t => new Ticket(t));
+            if (includeTimeLine) {
+                let tickets = await Promise.all(
+                    allTickets.map(async (ticket) => {
+                        let response = await this.api.get(`task/${ticket.id}/time_in_status`);                        
+                        return new ReportTicket(response.data, ticket);
+                    })
+                );
+
+                return tickets;
+            }
+
+            let tickets = allTickets.map(t => new HistoryTicket(t));
             return tickets;
         } catch (error) {
             logger.error('Error fetching tickets:', error.response?.data || error.message);
@@ -130,9 +140,9 @@ export default class ClickupService {
     async getTicket(id) {
         try {
             let response = await this.api.get(`/task/${id}`);
-            return new Ticket(response.data);       
+            return new HistoryTicket(response.data);       
         } catch (error) {
-            logger.error('Error fetching task:', error.response?.data || error.message);
+            logger.error('Error fetching ticket:', error.response?.data || error.message);
             throw error;
         }
     }

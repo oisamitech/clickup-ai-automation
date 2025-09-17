@@ -4,7 +4,8 @@ import {
     saveTicketsSchema, 
     healthResponseSchema,
     categorizeSuccessSchema,
-    saveTicketsSuccessSchema
+    saveTicketsSuccessSchema,
+    timeMetricationResponseSchema
 } from '../schemas/ticketSchemas.js';
 
 export default async function ticketRoutes(fastify) {
@@ -26,6 +27,14 @@ export default async function ticketRoutes(fastify) {
             response: saveTicketsSuccessSchema
         },
         handler: (request, reply) => controller.saveTickets(request, reply)
+    });
+
+    fastify.post('/time-metrication', {
+        schema: {
+            body: saveTicketsSchema.body,
+            response: timeMetricationResponseSchema
+        },
+        handler: (request, reply) => controller.timeMetrication(request, reply)
     });
 
     // Healthcheck

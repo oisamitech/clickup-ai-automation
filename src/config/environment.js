@@ -33,6 +33,7 @@ export const envSchema = {
         GOOGLE_CLOUD_PROJECT_ID: { type: 'string' },
         GOOGLE_CLOUD_BUCKET_NAME: { type: 'string' },
         GOOGLE_SERVICE_ACCOUNT_KEY: { type: 'string' },
+        GOOGLE_DRIVE_FOLDER_ID: { type: 'string' },
         REDIS_HOST: {
         type: 'string',
         default: 'localhost'
