@@ -1,11 +1,14 @@
 import * as XLSX from "xlsx";
 import { logger } from "@oisamitech/sami-logger";
 
-export function createSheet(data) {
+export function createSheet(lists) {
     try {
-        let worksheet = XLSX.utils.json_to_sheet(data);
         let workbook = XLSX.utils.book_new();
-        XLSX.utils.book_append_sheet(workbook, worksheet, 'report');
+
+        for (const list of lists) {
+            let worksheet = XLSX.utils.json_to_sheet(list.tickets);
+            XLSX.utils.book_append_sheet(workbook, worksheet, list.listName);
+        }
 
         let xlsxBuffer = XLSX.write(workbook, {
             bookType: "xlsx",

@@ -263,4 +263,49 @@ export default class TicketController {
             });
         }
     }
+
+    async createReport(request, reply) {
+        try {
+            const { folderId, startDate, endDate, path, exceptForLists } = request.body;
+            let lists = await this.clickupService.getLists(folderId, exceptForLists);
+            let tickets = [];
+
+            for (const list of lists) {
+                let ticketsFromCurrentList = await this.clickupService.getTickets(list.id, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
+                tickets = [...tickets, { listName: list.name, tickets: ticketsFromCurrentList }];
+            }
+
+            let spreadsheet = createSheet(tickets);
+            let filename = `${folderId}_${startDate}_to_${endDate}`;
+            await this.gcpStorageService.uploadFile(spreadsheet, filename, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', path);
+
+
+            return reply.code(200).send(
+                { 
+                    success: true,
+                    message: 'Report created successfully',
+                    file: {
+                        name: filename,
+                        path: path ? `${path}/${filename}` : filename,
+                        size: `${spreadsheet.length} bytes`,
+                        bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME
+                    },
+                    report: {
+                        folderId: folderId,
+                        startDate: startDate,
+                        endDate: endDate
+                    }
+            });
+
+        } catch (error) {
+            logger.error(`Processing error:`, error.message);
+
+            return reply.code(500).send({ 
+                success: false,
+                message: 'Error creating report',
+                error: error.message,
+                timestamp: new Date().toISOString()
+            });
+        }
+    }
 }

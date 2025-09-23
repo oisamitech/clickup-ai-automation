@@ -1,4 +1,4 @@
-# ClickUp Webhook Automation API
+# ClickUp AI Automation API
 
 ## 🚀 Propósito do Projeto
 
@@ -19,11 +19,14 @@ Sistema de automação profissional para ClickUp com Fastify, Redis, Google Gemi
 - **Logs estruturados** - Rastreamento detalhado com Pino
 - **Docker** - Containerização para fácil implantação
 - **Healthcheck** - Monitoramento automático da aplicação
+- **Rate Limiting** - Sistema inteligente para evitar erros 429 da API do ClickUp
+- **CORS** - Configuração de Cross-Origin Resource Sharing
+- **Relatórios Excel** - Geração de planilhas com métricas de tempo
 
 ## Estrutura do Projeto
 
 ```
-api/
+clickup-ai-automation/
 ├── src/
 │   ├── config/           # Configuração da aplicação
 │   │   └── environment.js # Validação de variáveis de ambiente
@@ -32,8 +35,13 @@ api/
 │   ├── helpers/          # Funções auxiliares
 │   │   ├── cleanGeminiResponse.js
 │   │   ├── createFilename.js
+│   │   ├── createSheet.js
 │   │   └── parseGeminiResponse.js
 │   ├── models/           # Modelos de dados
+│   │   ├── HistoryTicket.js
+│   │   ├── List.js
+│   │   ├── Report.js
+│   │   ├── ReportTicket.js
 │   │   └── Ticket.js
 │   ├── plugins/          # Plugins Fastify
 │   │   ├── cors.js       # Configuração CORS
@@ -49,7 +57,7 @@ api/
 │   │   └── redisService.js
 │   └── server.js         # Ponto de entrada da aplicação
 ├── .env                  # Variáveis de ambiente
-├── .env.example          # Exemplo de variáveis de ambiente
+├── .npmrc                # Configuração do NPM para pacotes privados
 ├── docker-compose.yml    # Configuração do Docker Compose
 ├── Dockerfile            # Configuração do Docker
 └── package.json          # Dependências do projeto
@@ -73,7 +81,7 @@ api/
 
 ```bash
 git clone <url-do-repositorio>
-cd api
+cd clickup-ai-automation
 ```
 
 2. Instale as dependências:
@@ -162,11 +170,11 @@ Processa automaticamente novos tickets do ClickUp:
 }
 ```
 
-#### POST `/tickets/save-tickets`
+#### POST `/tickets/export-tickets`
 **Exporta tickets de uma lista para GCP Storage**
 
 Salva todos os tickets de uma lista específica:
-- Busca tickets dos últimos 4 meses
+- Busca tickets em um período específico
 - Gera arquivo JSON com timestamp
 - Upload para Google Cloud Storage
 - Retorna estatísticas de processamento
@@ -174,32 +182,49 @@ Salva todos os tickets de uma lista específica:
 **Payload esperado:**
 ```json
 {
-  "id": "lista_id_do_clickup"
+  "listId": "string",
+  "startDate": "YYYY-MM-DD",
+  "endDate": "YYYY-MM-DD",
+  "path": "string (optional)"
 }
 ```
 
-**Resposta:**
+#### POST `/tickets/generate-timesheet`
+**Gera planilha Excel com métricas de tempo**
+
+Cria relatório detalhado de tempo dos tickets:
+- Métricas de tempo por status
+- Planilha Excel (.xlsx) com dados organizados
+- Filtra por período específico
+- Upload automático para GCP Storage
+
+**Payload esperado:**
 ```json
 {
-  "success": true,
-  "message": "File uploaded to GCP Storage successfully!",
-  "data": {
-    "list": {
-      "id": "lista_id",
-      "name": "Nome da Lista",
-      "totalTasks": 150
-    },
-    "file": {
-      "filename": "2024-01-15T10:30:00.000Z_Lista_Exemplo.json",
-      "bucket": "clickup-bucket",
-      "size": "45000 bytes"
-    },
-    "statistics": {
-      "totalTasks": 150,
-      "tasksWithTags": 120,
-      "tasksWithoutTags": 30
-    }
-  }
+  "listId": "string",
+  "startDate": "YYYY-MM-DD",
+  "endDate": "YYYY-MM-DD",
+  "path": "string (optional)"
+}
+```
+
+#### POST `/tickets/generate-folder-report`
+**Gera relatório consolidado de múltiplas listas**
+
+Cria relatório de todas as listas de um folder:
+- Consolida dados de múltiplas listas
+- Filtra por período específico
+- Exclui listas específicas (opcional)
+- Gera planilha Excel com dados organizados por lista
+
+**Payload esperado:**
+```json
+{
+  "folderId": "string",
+  "startDate": "YYYY-MM-DD",
+  "endDate": "YYYY-MM-DD",
+  "path": "string",
+  "exceptForLists": ["array de IDs (optional)"]
 }
 ```
 
@@ -224,7 +249,7 @@ Retorna status da aplicação:
 2. **Validação**: Verifica se o evento é válido e não duplicado
 3. **Análise do Ticket**: Extrai informações do ticket (título, descrição, etc.)
 4. **Consulta ao Histórico**: Busca tickets similares no GCP Storage
-5. **Categorização IA**: Google Gemini analiza e categoriza baseado no histórico
+5. **Categorização IA**: Google Gemini analisa e categoriza baseado no histórico
 6. **Atualização Automática**: Aplica prioridade, tags, squad, origem e responsáveis
 
 ### Critérios de Categorização
@@ -250,6 +275,22 @@ Descrição: "Usuário não consegue acessar a plataforma"
 - Origem: "health-declaration-api"
 - Responsáveis: ["Aline Farias de Sobral"]
 
+## Rate Limiting
+
+O sistema implementa um sistema inteligente de rate limiting para evitar erros 429 da API do ClickUp:
+
+### Funcionalidades
+- **Retry automático** com backoff exponencial
+- **Monitoramento** de headers de rate limit
+- **Delays** entre requisições para respeitar limites
+- **Processamento em lotes** para operações massivas
+
+### Configuração
+- **Máximo de tentativas**: 3 retries
+- **Delay base**: 1 segundo
+- **Delay máximo**: 30 segundos
+- **Delay entre requisições**: 100ms mínimo
+
 ## Configuração de Webhook no ClickUp
 
 1. Acesse as configurações do espaço no ClickUp
@@ -267,7 +308,7 @@ A aplicação inclui healthcheck configurado no Docker Compose:
 
 ```yaml
 healthcheck:
-  test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/tickets/health"]
+  test: ["CMD", "curl", "-f", "http://localhost:3000/tickets/health"]
   interval: 30s
   timeout: 10s
   retries: 3
@@ -322,7 +363,7 @@ O sistema usa Pino (via Fastify) para logs estruturados e de alta performance:
 ### Componentes Principais
 
 1. **TicketController**: Orquestra o processamento de webhooks
-2. **ClickupService**: Integração com API do ClickUp
+2. **ClickupService**: Integração com API do ClickUp (com rate limiting)
 3. **GeminiService**: Processamento de IA para categorização
 4. **GCPStorageService**: Armazenamento de histórico
 5. **RedisService**: Cache para prevenção de duplicatas
@@ -358,6 +399,12 @@ RedisService (cache)
 ```
 **Solução**: Verifique se o `GEMINI_API_KEY` está válido
 
+#### Erro 429 Rate Limit
+```
+❌ Rate limit exceeded
+```
+**Solução**: O sistema já implementa retry automático, mas verifique se não há muitas requisições simultâneas
+
 ### Comandos de Debug
 
 ```bash
@@ -387,6 +434,7 @@ curl http://localhost:3000/tickets/health
 - **Error Handling**: Try/catch em todas as operações
 - **Logging**: Logs estruturados com emojis para fácil identificação
 - **Naming**: Nomes descritivos em inglês
+- **Rate Limiting**: Implementado em todas as chamadas da API do ClickUp
 
 ## Licença
 

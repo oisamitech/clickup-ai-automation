@@ -74,6 +74,44 @@ export const timeMetricationResponseSchema = {
     }
   };
   
+  export const createReportSchema = {
+
+    type: 'object',
+    required: ['folderId', 'startDate', 'endDate', 'path'],
+    properties: {
+      folderId: { type: 'string' },
+      startDate: { type: 'string' },
+      endDate: { type: 'string' },
+      path: { type: 'string' },
+      exceptForLists: { type: 'array', items: { type: 'string' } }
+    }
+  };
+
+  export const createReportSuccessSchema = {
+    200: {
+      type: 'object',
+      properties: {
+        file: {
+          type: 'object',
+          properties: {
+            name: { type: 'string' },
+            path: { type: 'string' },
+            size: { type: 'string' },
+            bucket: { type: 'string' }
+          }
+        },
+        report: {
+          type: 'object',
+          properties: {
+            folderId: { type: 'string' },
+            startDate: { type: 'string' },
+            endDate: { type: 'string' },
+          }
+        }
+      }
+    }
+  };
+
   export const categorizeSuccessSchema = {
     202: {
       type: 'object',
