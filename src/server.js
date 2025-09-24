@@ -8,6 +8,7 @@ import redisPlugin from './plugins/redis.js';
 
 // Routes
 import ticketRoutes from './routes/tickets.js';
+import reportRoutes from './routes/report.js';
 
 async function build() {
     const fastify = Fastify({
@@ -24,6 +25,7 @@ async function build() {
         
         // Registrar rotas
         await fastify.register(ticketRoutes, { prefix: '/tickets' });
+        await fastify.register(reportRoutes, { prefix: '/reports' });
         
         // Hook de erro global
         fastify.setErrorHandler(async (error, request, reply) => {

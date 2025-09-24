@@ -1,5 +1,3 @@
-import { createSheet } from "../helpers/createSheet.js";
-import createFilename from "../helpers/createFilename.js";
 import ClickupService from "../services/clickupService.js";
 import GCPStorageService from "../services/gcpStorageService.js";
 import GeminiService from "../services/geminiService.js";
@@ -161,61 +159,6 @@ export default class TicketController {
         }
     }
 
-    async saveTickets(request, reply) {
-        try {
-            const { listId, startDate, endDate } = request.body;
-
-            let tasks = await this.clickupService.getTickets(listId,new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime());
-            let list = await this.clickupService.getList(listId);
-    
-            let filename = createFilename(list.name, 'json');
-            let data = typeof tasks === 'string' 
-            ? tasks 
-            : JSON.stringify(tasks, null, 2);
-            let uploadResult = await this.gcpStorageService.uploadFile(data, filename, 'application/json');
-            
-            // Calculate statistics
-            const totalTasks = tasks.length;
-            const tasksWithTags = tasks.filter(task => task.tags && task.tags.length > 0).length;
-            const tasksWithoutTags = totalTasks - tasksWithTags;
-            
-            return reply.code(200).send({
-                success: true,
-                message: 'File uploaded to GCP Storage successfully!',
-                data: {
-                    list: {
-                        id: listId,
-                        name: list?.name || 'Name not available',
-                        totalTasks: totalTasks
-                    },
-                    file: {
-                        filename: filename,
-                        bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME,
-                        gcpPath: `${filename}`,
-                        size: `${JSON.stringify(tasks).length} bytes`,
-                        uploadResult: uploadResult
-                    },
-                    statistics: {
-                        totalTasks: totalTasks,
-                        tasksWithTags: tasksWithTags,
-                        tasksWithoutTags: tasksWithoutTags
-                    },
-                    processingTime: new Date().toISOString()
-                }
-            });
-
-        } catch (error) {
-            logger.error(`Processing error:`, error.message);
-            
-            return reply.code(500).send({ 
-                success: false,
-                message: 'Error processing and saving tasks',
-                error: error.message,
-                timestamp: new Date().toISOString()
-            });
-        }
-    }
-
     async health(request, reply) {
         const uptime = process.uptime();
         return reply.code(200).send({ 
@@ -226,86 +169,5 @@ export default class TicketController {
         });
     }
 
-    async timeMetrication(request, reply) {
-        try {
-            const { listId, startDate, endDate, path } = request.body;
 
-            let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
-            let spreadsheet = createSheet(tickets);
-
-            let list = await this.clickupService.getList(listId);
-            let filename = `${list.name}_${startDate}_to_${endDate}`;
-
-            await this.gcpStorageService.uploadFile(spreadsheet, filename, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', path);
-
-            return reply.code(200).send({
-                file: {
-                    name: filename,
-                    path: path ? `${path}/${filename}` : filename,
-                    size: `${spreadsheet.length} bytes`,
-                    bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME
-                },
-                report: {
-                    listName: list?.name || 'List name not available',
-                    startDate: startDate,
-                    endDate: endDate,
-                    totalTickets: tickets.length
-                }
-            });
-        } catch (error) {
-            logger.error(`Processing error:`, error.message);
-            
-            return reply.code(500).send({ 
-                success: false,
-                message: 'Error processing and saving tasks',
-                error: error.message,
-                timestamp: new Date().toISOString()
-            });
-        }
-    }
-
-    async createReport(request, reply) {
-        try {
-            const { folderId, startDate, endDate, path, exceptForLists } = request.body;
-            let lists = await this.clickupService.getLists(folderId, exceptForLists);
-            let tickets = [];
-
-            for (const list of lists) {
-                let ticketsFromCurrentList = await this.clickupService.getTickets(list.id, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
-                tickets = [...tickets, { listName: list.name, tickets: ticketsFromCurrentList }];
-            }
-
-            let spreadsheet = createSheet(tickets);
-            let filename = `${folderId}_${startDate}_to_${endDate}`;
-            await this.gcpStorageService.uploadFile(spreadsheet, filename, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', path);
-
-
-            return reply.code(200).send(
-                { 
-                    success: true,
-                    message: 'Report created successfully',
-                    file: {
-                        name: filename,
-                        path: path ? `${path}/${filename}` : filename,
-                        size: `${spreadsheet.length} bytes`,
-                        bucket: process.env.GOOGLE_CLOUD_BUCKET_NAME
-                    },
-                    report: {
-                        folderId: folderId,
-                        startDate: startDate,
-                        endDate: endDate
-                    }
-            });
-
-        } catch (error) {
-            logger.error(`Processing error:`, error.message);
-
-            return reply.code(500).send({ 
-                success: false,
-                message: 'Error creating report',
-                error: error.message,
-                timestamp: new Date().toISOString()
-            });
-        }
-    }
 }

@@ -136,7 +136,7 @@ export const timeMetricationResponseSchema = {
               properties: {
                 id: { type: 'string' },
                 name: { type: 'string' },
-                totalTasks: { type: 'number' }
+                totalTickets: { type: 'number' }
               }
             },
             file: {
@@ -152,9 +152,9 @@ export const timeMetricationResponseSchema = {
             statistics: {
               type: 'object',
               properties: {
-                totalTasks: { type: 'number' },
-                tasksWithTags: { type: 'number' },
-                tasksWithoutTags: { type: 'number' }
+                totalTickets: { type: 'number' },
+                ticketsWithTags: { type: 'number' },
+                ticketWithoutTags: { type: 'number' }
               }
             },
             processingTime: { type: 'string' }
