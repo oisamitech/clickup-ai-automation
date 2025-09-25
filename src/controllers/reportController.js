@@ -111,8 +111,20 @@ export default class ReportController {
             let tickets = [];
 
             for (const list of lists) {
-                let ticketsFromCurrentList = await this.clickupService.getTickets(list.id, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
-                tickets = [...tickets, { listName: list.name, tickets: ticketsFromCurrentList }];
+                logger.info(`Processando os chamados da lista ${list.name}`);
+                let currentTickets = await this.clickupService.getTickets(list.id, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
+
+                if (currentTickets.length === 0) {
+                    continue;
+                }
+
+                tickets = [
+                    ...tickets, 
+                    { 
+                        listName: list.name, 
+                        tickets: currentTickets 
+                    }
+                ];
             }
 
             let spreadsheet = createSheet(tickets);
@@ -134,7 +146,8 @@ export default class ReportController {
                         startDate: startDate,
                         endDate: endDate
                     }
-            });
+                }
+            );
 
         } catch (error) {
             logger.error(`Processing error:`, error.message);

@@ -18,6 +18,8 @@
     "@google/genai": "^1.10.0",
     "@oisamitech/sami-logger": "^1.0.9",
     "axios": "^1.10.0",
+    "bottleneck": "^2.19.5",
+    "bullmq": "^5.58.7",
     "fastify": "^4.24.3",
     "redis": "^5.7.0",
     "xlsx": "^0.18.5"
