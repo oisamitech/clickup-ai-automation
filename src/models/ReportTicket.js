@@ -4,17 +4,17 @@ export default class ReportTicket extends Ticket {
     constructor(data, ticketData) {
         super(ticketData);
         this.inProgressTime = (() => {
-            let status = data.status_history?.find(sh => sh.status === "em andamento")
+            let status = data?.status_history?.find(sh => sh.status === "em andamento")
 
             return status?.total_time?.by_minute;
         })();
         this.notStartedTime = (() => {
-            let status = data.status_history?.find(sh => sh.status === "backlog");
+            let status = data?.status_history?.find(sh => sh.status === "backlog");
             
             return status?.total_time?.by_minute;
         })();
         this.leadTime = (() => {
-            let totalTime = data.status_history
+            let totalTime = data?.status_history
                 ?.filter(sh => sh.type !== "closed")
                 .reduce((total, sh) => total + (sh.total_time?.by_minute || 0), 0);
 
