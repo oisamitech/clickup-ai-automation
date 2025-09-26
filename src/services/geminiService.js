@@ -19,10 +19,8 @@ export default class GeminiService {
           - Você tem acesso ao histórico de chamados anteriores para basear suas decisões
           - **IMPORTANTE: Cada chamado deve receber APENAS UMA TAG**
           - **A TAG RETORNADA DEVE SER OBRIGATORIAMENTE UMA TAG QUE JÁ FOI USADA EM ALGUM DOS CHAMADOS DO HISTÓRICO**
-          - **SEMPRE PREENCHA O MÁXIMO DE CAMPOS POSSÍVEL**
-          - **NÃO RETORNE NULL PARA SQUAD OU ORIGIN SE EXISTIR QUALQUER PADRÃO OU INDÍCIO NO HISTÓRICO**. Somente retorne null nesses campos se for ABSOLUTAMENTE impossível inferir um valor com base em qualquer evidência.
-          - Para assignees, também evite null: se houver correspondência parcial ou padrão no histórico, use-o.
-          - Para product, também evite null: se houver correspondência parcial ou padrão no histórico, use-o.
+          - **OBRIGATÓRIO: SEMPRE CATEGORIZE O MÁXIMO POSSÍVEL - NUNCA DEIXE CAMPOS NULL SEM TENTAR ENCONTRAR CORRESPONDÊNCIA**
+          - **SEMPRE PREENCHA TODOS OS CAMPOS POSSÍVEIS - USE O HISTÓRICO COMO BASE PARA INFERIR VALORES**
 
           ## NOVO CHAMADO PARA CATEGORIZAR:
           ${JSON.stringify(ticket, null, 2)}
@@ -30,23 +28,28 @@ export default class GeminiService {
           ## HISTÓRICO DE CHAMADOS:
           ${JSON.stringify(historicalFiles.slice(0, 50), null, 2)}
           
-          ## INSTRUÇÕES:
-          1. **COMPREENDA PROFUNDAMENTE** o novo chamado - analise título, descrição, contexto, tipo de problema
-          2. **COMPARE A ESSÊNCIA DO PROBLEMA** com o histórico de chamados, não apenas palavras-chave superficiais
-          3. **SEMPRE PREENCHA TODOS OS CAMPOS POSSÍVEIS**:
-             - Se houver caso diretamente similar → use como base
-             - Se houver similaridade parcial → complete os campos correspondentes e **INFERA OS OUTROS CAMPOS (squad, origin, assignees) COM BASE NOS PADRÕES DO HISTÓRICO**
-             - Só use null se absolutamente não houver como deduzir
-          4. **Para squad, origin e assignees, use APENAS valores que já existam no histórico de chamados**. Nunca invente valores novos.
-          5. **DEFINIÇÃO DE URGÊNCIA (prioridade 1):**
-             - Qualquer caso que **impeça o usuário de acessar o aplicativo**
-             - Qualquer caso que **impeça o usuário de acessar o aplicativo**
-             - Qualquer caso que **impeça o membro de estar no MV*
-             - Qualquer caso que **envolva não refletiu**
-             - Qualquer caso que **impeça o usuário de utilizar um serviço essencial**
-             - Esses casos devem SEMPRE ser classificados como prioridade 1 (urgente)
+          ## INSTRUÇÕES CRÍTICAS:
+          1. **ANALISE O PROBLEMA REAL**: Não se limite a palavras-chave - entenda a ESSÊNCIA do problema descrito
+          2. **BUSQUE CASOS SIMILARES**: Procure no histórico por problemas do MESMO TIPO, mesmo que descritos de forma diferente
+          3. **CATEGORIZE SEMPRE**: 
+             - Se encontrar caso IDÊNTICO → use como base completa
+             - Se encontrar caso SIMILAR → use como base e INFIRA os campos restantes
+             - Se encontrar caso PARCIALMENTE SIMILAR → use os campos correspondentes e INFIRA os outros
+             - Se encontrar PADRÃO no histórico → use o padrão identificado
+             - **SÓ RETORNE NULL SE REALMENTE NÃO HOUVER NENHUM CASO SIMILAR NO HISTÓRICO**
+          4. **INFIRA COM BASE NO HISTÓRICO**:
+             - Squad: Se casos similares têm squad X, use squad X
+             - Origin: Se casos similares têm origin Y, use origin Y  
+             - Assignees: Se casos similares têm responsável Z, use responsável Z
+             - Product: Se casos similares têm produto W, use produto W
+          5. **DEFINIÇÃO DE PRIORIDADES (SEMPRE UM NÚMERO DE 1 A 4):**
+             - **PRIORIDADE 1 (URGENTE)**: Qualquer caso que **impeça o usuário de acessar o aplicativo**
+             - **PRIORIDADE 1 (URGENTE)**: Qualquer caso que **impeça o membro de estar no MV*
+             - **PRIORIDADE 1 (URGENTE)**: Qualquer caso que **envolva não refletiu**
+             - **PRIORIDADE 1 (URGENTE)**: Qualquer caso que **impeça o usuário de utilizar um serviço essencial (Slack, ClickUp, GCP e bancos de dados não entram nesse escopo)**
+             - **IMPORTANTE: A PRIORIDADE DEVE SER SEMPRE UM NÚMERO (1, 2, 3 ou 4) - NUNCA TEXTO**
           6. **Selecione APENAS UMA TAG** que melhor represente o tipo do chamado, e que já tenha sido usada em algum chamado do histórico
-          7. Para assignees, selecione os mesmos responsáveis do caso similar ou do padrão identificado no histórico
+          7. **USE O HISTÓRICO COMO REFERÊNCIA**: Para assignees, squad, origin e product, use APENAS valores que já existam no histórico de chamados
           
           ## FORMATO DE RESPOSTA OBRIGATÓRIO:
           Você DEVE responder APENAS com um JSON válido, sem nenhum texto adicional, markdown ou explicações.
@@ -102,14 +105,17 @@ export default class GeminiService {
             "confidence": 0.1-1.0
           }
           
-          ## REGRAS IMPORTANTES:
-          - **NUNCA deixe squad ou origin como null se houver qualquer evidência no histórico que permita inferir o valor.**
-          - **Preencha todos os campos possíveis**. Use null apenas quando não existir absolutamente nenhuma base no histórico.
+          ## REGRAS CRÍTICAS:
+          - **OBRIGATÓRIO: SEMPRE TENTE CATEGORIZAR - NUNCA DEIXE CAMPOS NULL SEM TENTAR ENCONTRAR CORRESPONDÊNCIA NO HISTÓRICO**
+          - **ANALISE A ESSÊNCIA DO PROBLEMA**: Mesmo que descrito diferente, se for o mesmo tipo de problema, use casos similares como base
+          - **INFIRA SEMPRE**: Se houver qualquer evidência no histórico que permita inferir squad, origin, assignees ou product, INFIRA baseado nos padrões
+          - **BUSQUE SIMILARIDADES**: Problemas iguais podem ser descritos de formas diferentes - encontre a similaridade e use como base
+          - **PREFIRA INFERIR A RETORNAR NULL**: É melhor arriscar uma categorização baseada no histórico do que retornar null
           - **Qualquer caso que impeça o acesso ao app, pagamento ou uso de serviço essencial → prioridade 1**
           - **Use APENAS UMA TAG no array "tags"**
           - O JSON deve ser válido e bem formatado
           - Responda APENAS com o JSON ou "null", nada mais
-          - **Prefira arriscar uma inferência baseada no histórico a retornar null em squad/origin**
+          - **SÓ RETORNE NULL SE REALMENTE NÃO HOUVER NENHUM CASO SIMILAR NO HISTÓRICO COMPLETO**
           `;     
                        
             const response = await this.googleGenAi.models.generateContent({

@@ -72,7 +72,7 @@ export default class ReportController {
 
             let tickets = await this.clickupService.getTickets(listId, new Date(startDate + 'T00:00:00Z').getTime(), new Date(endDate + 'T23:59:59Z').getTime(), true);
             let list = await this.clickupService.getList(listId);
-            let spreadsheet = createSheet([{listName: list.name, tickets: tickets }]);
+            let spreadsheet = createSheet({listName: list.name, tickets: tickets });
 
             let filename = `${list.name}_${startDate}_to_${endDate}`;
 
