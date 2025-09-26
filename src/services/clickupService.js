@@ -30,7 +30,8 @@ export default class ClickupService {
                 data: response.data
             };
         } catch (error) {
-            logger.error('Error updating ticket priority:', error.response?.data || error.message);
+            logger.error(`Error updating ticket priority to ${priority}:`);
+            logger.error(`Error updating ticket priority:`, error.response?.data || error.message);
             throw error;
         }
     }
